@@ -1,0 +1,105 @@
+/**
+ * $GRID
+ * ==========================================================================
+ */
+
+.container {
+    box-sizing: content-box;
+	max-width: $container-width;
+	margin: 0 auto;
+    padding: 0 $spacing-unit-grid;
+
+    @include media-query(portable){
+        width: $palm-start;
+    }
+    @include media-query(palm){
+        width: 100%;
+    }
+}
+
+.grid {
+    display: block;
+    margin: 0 auto;
+    font-size: 0;
+    margin-left: -$spacing-unit-grid;
+
+    .grid {
+    	padding: 0;
+    }
+
+    &.grid--gutterless {
+        padding-left: 10px;
+        margin-left: 0;
+
+        .grid__item {
+            padding: 0;
+        }
+    }
+}
+    .grid__item {
+        display: inline-block;
+        font-size: 1rem;
+        margin: 0;
+        padding-left: $spacing-unit-grid;
+        text-align: left;
+        vertical-align: top;
+    }
+    
+    .grid--block {
+        margin-bottom: $spacing-unit-grid;
+    }
+
+
+
+/* UNBROKEN GRID EXTENDS - J.KIPKER */
+
+.container{
+    padding: 0;
+
+    /*temporary*/
+    height: 900px;
+}
+
+.nav-pillar{
+    float: left;
+    vertical-align: top;
+    width: 330px;
+    height: 100%;
+    min-height: 100%;
+
+    /*temporary*/
+    background-image: url('../img/comps/nav-comp.jpg'); 
+    background-repeat: no-repeat;
+}
+
+.content-pillar{
+    float: left;
+    vertical-align: top;
+    background-color: #ccc;
+    width: 100%;
+    height: 100%;
+
+    .column{
+        float: left;
+        width: 33%;
+        background-color: #000;
+        height: 100%;
+        // max-width: 420px;
+        background-size: 100%;
+
+        background-repeat: no-repeat;
+
+    }
+}
+
+.clear-fix{
+    clear: both;
+}
+
+
+
+
+
+
+
+
