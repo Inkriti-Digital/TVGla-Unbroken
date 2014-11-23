@@ -58,6 +58,10 @@
 
     /*temporary*/
     height: 900px;
+
+    @include media-query(portable){
+        width: 100%;
+    }
 }
 
 .nav-pillar{
@@ -65,7 +69,8 @@
     vertical-align: top;
     width: 330px;
     height: 100%;
-    min-height: 100%;
+    min-height: 900px;
+    overflow: hidden;
 
     /*temporary*/
     // background-image: url('../img/comps/nav-comp.jpg'); 
@@ -83,7 +88,7 @@
         width: 33%;
         height: 100%;
         // max-width: 420px;
-        background-size: 100%;
+        // background-size: 100%;
     }
 }
 

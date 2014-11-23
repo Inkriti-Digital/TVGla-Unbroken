@@ -599,7 +599,7 @@ html {
 
 body {
   width: 100%;
-  background: url("../img/nav-site-bg.jpg") repeat;
+  background: url("../img/nav-site-bg.jpg") repeat #eae7da;
 }
 
 div {
@@ -1473,13 +1473,19 @@ td {
   /*temporary*/
   height: 900px;
 }
+@media only screen and (max-width: 1024px) {
+  .container {
+    width: 100%;
+  }
+}
 
 .nav-pillar {
   float: left;
   vertical-align: top;
   width: 330px;
   height: 100%;
-  min-height: 100%;
+  min-height: 900px;
+  overflow: hidden;
   /*temporary*/
   background-repeat: no-repeat;
 }
@@ -1494,7 +1500,6 @@ td {
   float: left;
   width: 33%;
   height: 100%;
-  background-size: 100%;
 }
 
 .clear-fix {
@@ -1778,14 +1783,64 @@ td {
   padding: 8px 0px;
   border-bottom: 1px #bfbfbf solid;
 }
+.nav-pillar .nav-box li:last-child {
+  border: none;
+}
 .nav-pillar .nav-box a {
   color: black;
   font-size: 16px;
   font-weight: bold;
   letter-spacing: 0.2em;
 }
+.nav-pillar .nav-box a:hover {
+  text-decoration: underline;
+}
 .nav-pillar .nav-slider {
-  margin-top: 20px;
+  margin: 20px auto;
+}
+.nav-pillar .nav-slider .slide p {
+  text-transform: uppercase;
+  font-size: 14px;
+  margin: 2px 0;
+  font-weight: bold;
+  line-height: 18px;
+}
+.nav-pillar hr {
+  border-bottom: 1px #bfbfbf solid;
+  width: 80%;
+  margin: 0px auto;
+}
+.nav-pillar .social-all {
+  text-align: center;
+  width: 100%;
+  margin-top: 25px;
+}
+.nav-pillar .social-all span {
+  display: inline-block;
+  width: 40px;
+  text-align: center;
+}
+.nav-pillar .legal {
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.25);
+  width: 100%;
+  text-align: center;
+  min-height: 300px;
+  position: absolute;
+  bottom: -400px;
+  padding-top: 10px;
+  transition: all 0.75s ease;
+  cursor: pointer;
+  height: 450px;
+}
+.nav-pillar .legal .legal-copy {
+  font-size: 10px;
+  font-family: Arial, sans-serif;
+  width: 100%;
+  padding: 10px;
+  text-align: left;
+  background-color: #eae7da;
+  height: 100%;
 }
 
 /**
@@ -1801,18 +1856,43 @@ td {
 /**
  * $LANDING
  * ==========================================================================
- * This is a placeholder and example for a view.
  */
+.column {
+  overflow: hidden;
+  cursor: pointer;
+}
+.column .overlay {
+  width: 100%;
+  height: 19%;
+  position: absolute;
+  bottom: -140px;
+  background-color: #eae7da;
+  background-color: rgba(234, 231, 218, 0.5);
+  z-index: 5;
+  transition: all 0.75s ease;
+}
+.column .overlay .badge, .column .overlay .quote {
+  text-align: center;
+  margin-top: -80px;
+}
+.column .overlay .quote {
+  margin-top: 20px;
+}
+.column .overlay .quote img {
+  width: 90%;
+  max-width: 255px;
+}
+
 .resilience {
-  background-image: url("../img/comps/resilience-comp.jpg");
+  background: url("../img/col-bg-resilience.jpg") no-repeat center top;
 }
 
 .survival {
-  background-image: url("../img/comps/survival-comp.jpg");
+  background: url("../img/col-bg-survival.jpg") no-repeat center top;
 }
 
 .redemption {
-  background-image: url("../img/comps/redemption-comp.jpg");
+  background: url("../img/col-bg-redemption.jpg") no-repeat center top;
 }
 
 /*# sourceMappingURL=styles.css.map */

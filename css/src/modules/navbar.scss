@@ -44,6 +44,7 @@
  		background-color: rgb(136, 136, 136);
  		background-color: rgba(136, 136, 136, 0.2);
 
+
  		ul, li{
  			list-style-type: none;
  			margin: 0;
@@ -58,7 +59,10 @@
  		li{
  			padding: 8px 0px;
  			border-bottom: 1px $border-gray solid;
- 			
+ 		}
+
+ 		li:last-child{
+ 			border: none;
  		}
 
  		a{
@@ -67,9 +71,66 @@
  			font-weight: bold;
  			letter-spacing: 0.2em;
  		}
+
+ 		a:hover{
+ 			text-decoration: underline;
+ 		}
  	}
 
  	.nav-slider{
- 		margin-top: 20px;
+ 		margin: 20px auto;
+
+ 		.slide{
+ 			p{ 
+ 				text-transform: uppercase;
+ 				font-size: 14px;
+ 				margin: 2px 0;
+ 				font-weight: bold;
+ 				line-height: 18px;
+ 			}
+ 		}
  	}
+
+ 	hr{
+		border-bottom: 1px $border-gray solid;
+		width: 80%;
+		margin: 0px auto;
+	}
+
+	.social-all{
+		text-align: center;
+		width: 100%;
+		margin-top: 25px;
+		
+		span{
+			display: inline-block;
+			width: 40px;
+			text-align: center;
+		}
+	}
+
+	.legal{
+		background-color: rgb(0, 0, 0);
+ 		background-color: rgba(0, 0, 0, 0.25);
+ 		width: 100%;
+		text-align: center;
+		min-height: 300px;
+		position: absolute;
+		bottom: -400px;
+		padding-top: 10px;
+		transition: all 0.75s ease;
+		cursor: pointer;
+		height: 450px;
+
+		.legal-copy{
+			font-size: 10px;
+			font-family: Arial, sans-serif;
+			width: 100%;
+			padding: 10px;
+			text-align: left;
+			background-color: $bg-color;
+			height: 100%;
+		}
+	}
+
  }
