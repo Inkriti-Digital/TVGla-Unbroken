@@ -3,4 +3,73 @@
  * ==========================================================================
  * This is the main navbar shown at the top of the page.
  */
- .navbar {}
+ .nav-pillar {
+
+ 	.social-audio{
+ 		margin-top: 14px;
+ 		height: 28px;
+
+ 		div{ 
+ 			display: inline-block; 
+ 			vertical-align: top; 
+ 		}
+
+ 		.twitter{
+ 			margin-left: 20px;
+ 			margin-right: 5px;
+ 		}
+
+ 		.fb{
+ 			margin-top: -4px;
+ 		}
+ 		.audio-ctrl{
+ 			float: right;
+ 			margin-right: 20px;
+ 		}
+ 	}
+
+ 	.logo-lockup{
+ 		position: relative;
+		display: inline-block;
+		margin-top: 40px;
+		text-align: center;
+		width: 100%;
+ 	}
+
+ 	.nav-box{
+ 		border-top: 2px $border-gray solid;
+ 		border-bottom: 2px $border-gray solid;
+ 		width: 100%;
+ 		margin-top: 20px;
+ 		background-color: rgb(136, 136, 136);
+ 		background-color: rgba(136, 136, 136, 0.2);
+
+ 		ul, li{
+ 			list-style-type: none;
+ 			margin: 0;
+ 			padding: 0;
+ 			text-align: center;
+ 		}
+
+ 		ul{
+ 			padding: 20px 30px;
+ 		}
+
+ 		li{
+ 			padding: 8px 0px;
+ 			border-bottom: 1px $border-gray solid;
+ 			
+ 		}
+
+ 		a{
+ 			color: black;
+ 			font-size: 16px;
+ 			font-weight: bold;
+ 			letter-spacing: 0.2em;
+ 		}
+ 	}
+
+ 	.nav-slider{
+ 		margin-top: 20px;
+ 	}
+ }

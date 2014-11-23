@@ -34,7 +34,7 @@ $position-relative-global:	true;
 $font-size-base: 			16px; /* 1 */
 $line-height-base: 			24px; /* 2 */
 $line-height-ratio: 		$line-height-base / $font-size-base;
-$font-family-base: 			sans-serif;
+$font-family-base: 			Times, serif;
 
 /**
  * Utility font sizes
@@ -99,3 +99,5 @@ $portable-start:         	1024px;
  * to your modifier classes.
  */
 $ui-color: 					#B4D455;
+$border-gray:				#bfbfbf;
+

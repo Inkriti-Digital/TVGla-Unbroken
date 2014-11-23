@@ -9,13 +9,56 @@
 		<link rel="stylesheet" href="css/styles.css">
 	</head>
 	<body>
+		<!--FACEBOOK MASTER SHARE SCRIPT-->
+			<div id="fb-root"></div>
+			<script>(function(d, s, id) {
+			  var js, fjs = d.getElementsByTagName(s)[0];
+			  if (d.getElementById(id)) return;
+			  js = d.createElement(s); js.id = id;
+			  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=582191465151643&version=v2.0";
+			  fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));</script>
+		<!--END FACEBOOK MASTER SHARE SCRIPT-->
 
 		<!-- Content -->
 			<div class="container">
+
 				<!--Main Sidebar Navigation-->
 				<div class="nav-pillar">
+					<div class="social-audio">
+						<div class="twitter">
+							<a href="https://twitter.com/share" class="twitter-share-button" data-count="none">Tweet</a>
+							<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+						</div>
+						<div class="fb">
+							<div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button"></div>
+						</div>
 
+						<div class="audio-ctrl">
+							<a href="#"><img src="img/btn-soundon.png" alt="sound off"/>
+						</div>
+					</div>
+
+					<div class="logo-lockup">
+						<a href="/"><img src="img/unbroken-logo-lockup.png" alt="the unbelievable true story. Unbroken. Survival. Resilience. Redemption. Christmas."/>
+						</a>
+					</div>
+
+					<div class="nav-box">
+						<ul>
+							<li><a href="#">VIEW TRAILER</a></li>
+							<li><a href="#">ABOUT</a></li>
+							<li><a href="#">PRODUCITON</a></li>
+							<li><a href="#">THE INSPIRATION</a></li>
+						</ul>
+					</div>
+
+					<div class="logo-lockup nav-slider">
+						<img src="img/accademy-award.png"/>
+					</div>
 				</div>
+				<!--End Main Sidebar Navigation-->
+
 				<div class="content-pillar">
 					<div class="column resilience"></div>
 					<div class="column survival"></div>

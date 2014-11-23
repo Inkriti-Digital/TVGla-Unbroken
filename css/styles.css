@@ -592,13 +592,14 @@ fieldset {
  * that here as well.
  */
 html {
-  font: 1em/1.5 sans-serif;
+  font: 1em/1.5 Times, serif;
   overflow-y: scroll;
   min-height: 100%;
 }
 
 body {
   width: 100%;
+  background: url("../img/nav-site-bg.jpg") repeat;
 }
 
 div {
@@ -1480,24 +1481,20 @@ td {
   height: 100%;
   min-height: 100%;
   /*temporary*/
-  background-image: url("../img/comps/nav-comp.jpg");
   background-repeat: no-repeat;
 }
 
 .content-pillar {
   float: left;
   vertical-align: top;
-  background-color: #ccc;
   width: 100%;
   height: 100%;
 }
 .content-pillar .column {
   float: left;
   width: 33%;
-  background-color: #000;
   height: 100%;
   background-size: 100%;
-  background-repeat: no-repeat;
 }
 
 .clear-fix {
@@ -1734,6 +1731,63 @@ td {
  * ==========================================================================
  * This is the main navbar shown at the top of the page.
  */
+.nav-pillar .social-audio {
+  margin-top: 14px;
+  height: 28px;
+}
+.nav-pillar .social-audio div {
+  display: inline-block;
+  vertical-align: top;
+}
+.nav-pillar .social-audio .twitter {
+  margin-left: 20px;
+  margin-right: 5px;
+}
+.nav-pillar .social-audio .fb {
+  margin-top: -4px;
+}
+.nav-pillar .social-audio .audio-ctrl {
+  float: right;
+  margin-right: 20px;
+}
+.nav-pillar .logo-lockup {
+  position: relative;
+  display: inline-block;
+  margin-top: 40px;
+  text-align: center;
+  width: 100%;
+}
+.nav-pillar .nav-box {
+  border-top: 2px #bfbfbf solid;
+  border-bottom: 2px #bfbfbf solid;
+  width: 100%;
+  margin-top: 20px;
+  background-color: #888888;
+  background-color: rgba(136, 136, 136, 0.2);
+}
+.nav-pillar .nav-box ul, .nav-pillar .nav-box li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.nav-pillar .nav-box ul {
+  padding: 20px 30px;
+}
+.nav-pillar .nav-box li {
+  padding: 8px 0px;
+  border-bottom: 1px #bfbfbf solid;
+}
+.nav-pillar .nav-box a {
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+}
+.nav-pillar .nav-slider {
+  margin-top: 20px;
+}
+
 /**
  * $INTERLUDE
  * ==========================================================================
