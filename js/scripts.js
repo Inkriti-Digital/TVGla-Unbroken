@@ -37,15 +37,16 @@ $(function() {
 		//Youtube Close / Open Ctrls
 
 		//close vid
-		$(".close-vid").click(function() {
-		 $('#vidFrame').attr('src', '');
-		 $('.trailer').hide();
+		$(".close-vid").click(function(event) {
+			event.preventDefault();
+			$('#vidFrame').attr('src', '');
+			$('.trailer').hide();
 		});
 
 
 		//open vid
 		$(".view-trailer").click(function() {
-			$('#vidFrame').attr('src', '//www.youtube.com/embed/kk1M_HwmFMM?list=PLmGmHG5_e8rLz01goWr7J5c-UrOSczdW3?autoplay=1');
+			$('#vidFrame').attr('src', '//www.youtube.com/embed/kk1M_HwmFMM?list=PLmGmHG5_e8rLz01goWr7J5c-UrOSczdW3?rel=0&amp;autoplay=1');
 		 $('.trailer').show();
 
 		});
