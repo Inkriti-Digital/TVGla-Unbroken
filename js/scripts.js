@@ -34,6 +34,22 @@ $(function() {
 		);
 
 
+		//Youtube Close / Open Ctrls
+
+		//close vid
+		$(".close-vid").click(function() {
+		 $('#vidFrame').attr('src', '');
+		 $('.trailer').hide();
+		});
+
+
+		//open vid
+		$(".view-trailer").click(function() {
+			$('#vidFrame').attr('src', '//www.youtube.com/embed/kk1M_HwmFMM?list=PLmGmHG5_e8rLz01goWr7J5c-UrOSczdW3?autoplay=1');
+		 $('.trailer').show();
+
+		});
+
 
 	    resizeElements();
 });
