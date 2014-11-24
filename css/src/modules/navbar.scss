@@ -87,6 +87,10 @@
  				margin: 2px 0;
  				font-weight: bold;
  				line-height: 18px;
+
+ 				.sans-bold{
+ 					font-family: 'G-Bold';
+ 				}
  			}
  		}
  	}
@@ -121,6 +125,7 @@
 		transition: all 0.75s ease;
 		cursor: pointer;
 		height: 450px;
+		font-family: 'G-Bold';
 
 		.legal-copy{
 			font-size: 10px;

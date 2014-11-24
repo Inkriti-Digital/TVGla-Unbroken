@@ -59,6 +59,32 @@ $font-size-h5:           	16px;
 $font-size-h6:           	14px;
 
 
+/**Font Families**/
+@font-face {
+	font-family: 'G-Bold';
+	src: url('fonts/g-bold/Gotham-Bold.eot');
+	src: local('☺'), url('fonts/g-bold/Gotham-Bold.woff') format('woff'), url('fonts/g-bold/Gotham-Bold.ttf') format('truetype'), url('fonts/g-bold/Gotham-Bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'G-Book';
+	src: url('fonts/g-book/Gotham-Book.eot');
+	src: local('☺'), url('fonts/g-book/Gotham-Book.woff') format('woff'), url('fonts/g-book/Gotham-Book.ttf') format('truetype'), url('fonts/g-book/Gotham-Book.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'G-Med';
+	src: url('fonts/g-med/Gotham-Medium.eot');
+	src: local('☺'), url('fonts/g-med/Gotham-Medium.woff') format('woff'), url('fonts/g-med/Gotham-Medium.ttf') format('truetype'), url('fonts/g-med/Gotham-Medium.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
 /**
  * Base spacing units
  * --------------------------------------------------------------------------
