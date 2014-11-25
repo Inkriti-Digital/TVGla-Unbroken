@@ -13,7 +13,7 @@ $(function() {
 			$('.content-pillar').css( "width", contentWidth );
 	    }
 
-	    /**BUTTON & HOVER FUNTIONS**/
+	    /**NAV & HOVER FUNTIONS**/
 
 	    //Landing Page Column hover
 	    $(".content-pillar .column").hover(
@@ -33,6 +33,25 @@ $(function() {
 		  }
 		);
 
+		//sub nav hover
+		 $(".nav-about").hover(
+		  function() {
+		  	console.log("hover");
+		    expandSubNav();
+		  }, function() {
+		    closeSubNav();
+		  }
+		);
+
+		 //Main navigation
+		 function expandSubNav(){
+		 	$(".sub-nav").css( "left", "330px" );
+		 }
+
+		 function closeSubNav(){
+		 	$(".sub-nav").css( "left", "0px" );
+		 }
+
 
 		//Youtube Close / Open Ctrls
 
@@ -45,7 +64,7 @@ $(function() {
 
 
 		//open vid
-		$(".view-trailer").click(function() {
+		$(".nav-videos").click(function() {
 			$('#vidFrame').attr('src', '//www.youtube.com/embed/kk1M_HwmFMM?list=PLmGmHG5_e8rLz01goWr7J5c-UrOSczdW3?rel=0&amp;autoplay=1');
 		 $('.trailer').show();
 
