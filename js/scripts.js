@@ -1,6 +1,9 @@
 /* UNBROKEN CUSTOM SCRIPTS - J. KIPKER */
 
 $(function() {
+
+	//Global Vars
+	var locksubNav = false;
 	
 		//dynamic events to call on browser resize
     	$(window).resize(function() {
@@ -20,7 +23,7 @@ $(function() {
 		  function() {
 		    $(".overlay", this).css( "bottom", "0px" );
 		  }, function() {
-		    $(".overlay", this).css( "bottom", "-140px" );
+		    $(".overlay", this).css( "bottom", "-120px" );
 		  }
 		);
 
@@ -34,12 +37,24 @@ $(function() {
 		);
 
 		//sub nav hover
-		 $(".nav-about").hover(
-		  function() {
-		  	console.log("hover");
+		 $(".nav-about").hover(function() {
+		  	locksubNav = true;
 		    expandSubNav();
 		  }, function() {
-		    closeSubNav();
+		  	locksubNav = false;
+		  	setTimeout(function() {
+		      closeSubNav();
+		     }, 2000);			    
+		  }
+		);
+
+		 $(".sub-nav").hover(function() {
+		  	locksubNav = true;
+		  }, function() {
+		  	locksubNav = false;
+		  	setTimeout(function() {
+		      closeSubNav();
+		     }, 2000);	
 		  }
 		);
 
@@ -49,7 +64,9 @@ $(function() {
 		 }
 
 		 function closeSubNav(){
-		 	$(".sub-nav").css( "left", "0px" );
+		 	if(locksubNav ==false){
+		 		$(".sub-nav").css( "left", "0px" );
+		 	}
 		 }
 
 
