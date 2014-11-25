@@ -1881,7 +1881,7 @@ td {
 }
 .nav-pillar .sub-nav {
   position: absolute;
-  left: 330px;
+  left: 0px;
   width: 230px;
   height: 100%;
   top: 0px;

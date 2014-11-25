@@ -36,7 +36,7 @@ $(function() {
 		  }
 		);
 
-		//sub nav hover
+		//sub nav hover control
 		 $(".nav-about").hover(function() {
 		  	locksubNav = true;
 		    expandSubNav();
@@ -44,7 +44,7 @@ $(function() {
 		  	locksubNav = false;
 		  	setTimeout(function() {
 		      closeSubNav();
-		     }, 2000);			    
+		     }, 1500);			    
 		  }
 		);
 
@@ -54,9 +54,10 @@ $(function() {
 		  	locksubNav = false;
 		  	setTimeout(function() {
 		      closeSubNav();
-		     }, 2000);	
+		     }, 1500);	
 		  }
 		);
+
 
 		 //Main navigation
 		 function expandSubNav(){
@@ -86,7 +87,6 @@ $(function() {
 		 $('.trailer').show();
 
 		});
-
 
 	    resizeElements();
 });
