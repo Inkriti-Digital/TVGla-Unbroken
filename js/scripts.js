@@ -4,6 +4,7 @@ $(function() {
 
 	//Global Vars
 	var locksubNav = false;
+	var subSectionOut = false;
 	
 		//dynamic events to call on browser resize
     	$(window).resize(function() {
@@ -65,13 +66,13 @@ $(function() {
 		 }
 
 		 function closeSubNav(){
-		 	if(locksubNav ==false){
+		 	if(locksubNav ==false && subSectionOut==false){
 		 		$(".sub-nav").css( "left", "0px" );
 		 	}
 		 }
 
 
-		//Youtube Close / Open Ctrls
+		//Section Close / Open Ctrls
 
 		//close vid
 		$(".close-vid").click(function(event) {
@@ -86,6 +87,21 @@ $(function() {
 			$('#vidFrame').attr('src', '//www.youtube.com/embed/kk1M_HwmFMM?list=PLmGmHG5_e8rLz01goWr7J5c-UrOSczdW3?rel=0&amp;autoplay=1');
 		 $('.trailer').show();
 
+		});
+
+		//open about
+		$(".btn-about").click(function(event) {
+			event.preventDefault();
+			subSectionOut = true;
+			$('.section-about').fadeIn();
+		});
+
+		//close about
+		$(".close-about").click(function(event) {
+			event.preventDefault();
+			subSectionOut = false;
+			$('.section-about').fadeOut();
+			closeSubNav();
 		});
 
 	    resizeElements();

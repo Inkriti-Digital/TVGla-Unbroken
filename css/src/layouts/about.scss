@@ -1,0 +1,19 @@
+/**
+ * $ABOUT / SYNOPSIS
+ * ==========================================================================
+ */
+
+ .section-about{
+ 	position: absolute;
+ 	z-index: 10;
+ 	width: 100%;
+ 	height: 100%;
+ 	background: url('../img/sectionbg-cast.jpg') no-repeat 100%;
+ 	display: none;
+
+ 	.close-about{
+ 		position: absolute;
+		right: 10px;
+		padding: 30px;
+ 	}
+ }
