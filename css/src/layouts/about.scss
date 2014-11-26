@@ -8,7 +8,8 @@
  	z-index: 10;
  	width: 100%;
  	height: 100%;
- 	background: url('../img/sectionbg-cast.jpg') no-repeat 100%;
+ 	background: url('../img/sectionbg-synopsis.jpg') no-repeat $bg-color;
+ 	background-size: 100%;
  	display: none;
 
  	.close-about{
@@ -19,20 +20,33 @@
 
  	.synopsis{
  		font-family: 'G-Book', Arial, sans-serif;
- 		color: white;
- 		width: 55%;
- 		height: 350px;
+ 		color: $copy-dark;
+ 		// width: 55%;
+ 		background-color: rgba(255, 255, 255, 0.5);
+ 		height: 330px;
  		position: absolute;
- 		bottom: 50px;
- 		left: 30%;
+ 		bottom: 0px;
+ 		left: 230px;
+ 	}
+
+ 	.inner-title{
+ 		display: inline-block;
+		vertical-align: top;
+		width: 30%;
+		max-width: 350px;
+ 		img{ width: 100%; }
  	}
 
  	.inner-copy{
- 		width: 100%;
- 		height: 80%;
- 		overflow-y: scroll;
- 		overflow-x: hidden;
- 		padding: 0 15px;
+ 		display: inline-block;
+		width: 65%;
+		vertical-align: top;
+		margin-left: 10px;
+		margin-top: 30px;
+		height: 80%;
+		overflow-y: scroll;
+		overflow-x: hidden;
+		padding: 0 15px;
  	}
  }
 
@@ -48,9 +62,11 @@
 {
 	width: 10px;
 	background-color: #7f7f7f;
+	cursor: pointer;
 }
 
 #style-8::-webkit-scrollbar-thumb
 {
 	background-color: #111111;	
+	cursor: pointer;
 }

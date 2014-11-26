@@ -1760,6 +1760,9 @@ td {
 .nav-pillar {
   z-index: 50;
 }
+.nav-pillar a, .nav-pillar a:hover {
+  transition: all 0.3s ease;
+}
 .nav-pillar .main-nav, .nav-pillar .sub-nav {
   width: 100%;
   height: 100%;
@@ -1769,6 +1772,7 @@ td {
   position: relative;
   z-index: 50;
   background: url("../img/nav-site-bg.jpg") repeat #eae7da;
+  border-right: 1px #bfbfbf solid;
 }
 .nav-pillar .social-audio {
   margin-top: 14px;
@@ -1816,17 +1820,30 @@ td {
   padding: 8px 0px;
   border-bottom: 1px #bfbfbf solid;
 }
+.nav-pillar .nav-box li .nav-highlight {
+  display: none;
+  width: 8px;
+  height: 40px;
+  position: absolute;
+  left: -30px;
+  background-color: #a17b20;
+  padding: 0;
+  margin: 0;
+  margin-top: -10px;
+}
 .nav-pillar .nav-box li:last-child {
   border: none;
 }
 .nav-pillar .nav-box a {
-  color: black;
-  font-size: 16px;
+  color: #202020;
+  display: block;
+  width: 100%;
+  font-size: 17px;
   font-weight: bold;
   letter-spacing: 0.2em;
 }
 .nav-pillar .nav-box a:hover {
-  text-decoration: underline;
+  color: #a17b20;
 }
 .nav-pillar .nav-slider {
   margin: 20px auto;
@@ -1876,7 +1893,7 @@ td {
   width: 100%;
   padding: 10px;
   text-align: left;
-  background-color: #eae7da;
+  background-color: #fffcee;
   height: 100%;
 }
 .nav-pillar .sub-nav {
@@ -1888,32 +1905,32 @@ td {
   z-index: 10;
   transition: all 0.75s ease;
   z-index: 5;
+  border-right: 1px #bfbfbf solid;
 }
 .nav-pillar .sub-nav .nav-box {
   position: absolute;
-  background-image: none;
-  background-color: transparent;
-  top: 180px;
+  top: 242px;
   z-index: 5;
-  border: none;
 }
 .nav-pillar .sub-nav .nav-box ul, .nav-pillar .sub-nav .nav-box li, .nav-pillar .sub-nav .nav-box a {
-  font-weight: normal;
   text-align: left;
 }
 .nav-pillar .sub-nav .nav-box li {
-  border-top: 1px black solid;
+  border-top: 1px #838383 solid;
+}
+.nav-pillar .sub-nav .nav-box li:first-child {
+  border: none;
 }
 .nav-pillar .sub-nav .nav-box a:hover {
   font-weight: bold;
   text-decoration: none;
+  color: #a17b20;
 }
 .nav-pillar .sub-nav .sub-nav-bg {
   height: 100%;
   width: 100%;
-  background-color: #eae7da;
-  background-image: url("../img/nav-site-bg.jpg");
-  background-repeat: no-repeat;
+  background-color: #fffcee;
+  background-image: url("../img/nav-bg-dark.jpg");
   opacity: 0.8;
 }
 
@@ -1959,7 +1976,7 @@ td {
   height: 19%;
   position: absolute;
   bottom: -120px;
-  background-color: #eae7da;
+  background-color: #fffcee;
   background-color: rgba(234, 231, 218, 0.5);
   z-index: 5;
   transition: all 0.75s ease;
@@ -1997,7 +2014,8 @@ td {
   z-index: 10;
   width: 100%;
   height: 100%;
-  background: url("../img/sectionbg-cast.jpg") no-repeat 100%;
+  background: url("../img/sectionbg-synopsis.jpg") no-repeat #fffcee;
+  background-size: 100%;
   display: none;
 }
 .section-about .close-about {
@@ -2007,15 +2025,28 @@ td {
 }
 .section-about .synopsis {
   font-family: 'G-Book', Arial, sans-serif;
-  color: white;
-  width: 55%;
-  height: 350px;
+  color: #202020;
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 330px;
   position: absolute;
-  bottom: 50px;
-  left: 30%;
+  bottom: 0px;
+  left: 230px;
+}
+.section-about .inner-title {
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+  max-width: 350px;
+}
+.section-about .inner-title img {
+  width: 100%;
 }
 .section-about .inner-copy {
-  width: 100%;
+  display: inline-block;
+  width: 65%;
+  vertical-align: top;
+  margin-left: 10px;
+  margin-top: 30px;
   height: 80%;
   overflow-y: scroll;
   overflow-x: hidden;
@@ -2030,10 +2061,12 @@ td {
 #style-8::-webkit-scrollbar {
   width: 10px;
   background-color: #7f7f7f;
+  cursor: pointer;
 }
 
 #style-8::-webkit-scrollbar-thumb {
   background-color: #111111;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=styles.css.map */
