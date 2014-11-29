@@ -1493,7 +1493,7 @@ td {
 .container {
   padding: 0;
   /*temporary*/
-  height: 900px;
+  height: auto;
 }
 @media only screen and (max-width: 1024px) {
   .container {
@@ -1520,7 +1520,7 @@ td {
 .content-pillar .column {
   float: left;
   width: 33%;
-  height: 100%;
+  height: 900px;
 }
 
 .clear-fix {
@@ -1759,6 +1759,7 @@ td {
  */
 .nav-pillar {
   z-index: 50;
+  height: 900px;
 }
 .nav-pillar a, .nav-pillar a:hover {
   transition: all 0.3s ease;
@@ -2067,6 +2068,95 @@ td {
 #style-8::-webkit-scrollbar-thumb {
   background-color: #111111;
   cursor: pointer;
+}
+
+/**
+ * $SECTION PAGE
+ * ==========================================================================
+ */
+.section-page {
+  position: absolute;
+  z-index: 8;
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+}
+.section-page .close-section {
+  position: absolute;
+  right: 10px;
+  padding: 30px;
+  z-index: 9;
+}
+.section-page .page-head {
+  width: 100%;
+  height: 135px;
+  background: url("../img/section-header-bg.jpg") no-repeat center center #333333;
+  text-align: center;
+}
+.section-page .page-head img {
+  margin-top: 30px;
+}
+.section-page .vid-box {
+  position: relative;
+  z-index: 10;
+  width: 740px;
+  height: 450px;
+  margin-left: 45px;
+  margin-top: 35px;
+}
+.section-page .vid-box .vid-copy {
+  color: #424242;
+  font-family: 'G-Med', Arial, sans-serif;
+  font-size: 14px;
+  width: 640px;
+}
+.section-page .vid-box .vid-copy h2 {
+  font-size: 20px;
+  margin: 0;
+}
+.section-page .headquote {
+  position: absolute;
+  top: 130px;
+  right: 50px;
+}
+.section-page .upperbg {
+  position: absolute;
+  margin-top: 70px;
+}
+.section-page .thumb-quad {
+  position: relative;
+  left: 365px;
+  width: 900px;
+  text-align: right;
+  margin-top: 140px;
+}
+.section-page .thumb-duo {
+  margin-left: 40px;
+}
+.section-page .thumb {
+  display: inline-block;
+  margin-right: 30px;
+  margin-bottom: 20px;
+  vertical-align: middle;
+  padding: 0;
+  line-height: 0;
+  border: 1px #bc8b2c solid;
+}
+.section-page .tn-quote {
+  border: none;
+}
+.section-page .birdman {
+  display: block;
+  position: relative;
+  z-index: 9;
+  margin-top: -430px;
+  margin-left: -50px;
+  text-align: center;
+}
+
+.page-resilience {
+  height: 1980px;
+  background: url("../img/nav-site-bg.jpg") repeat #eae7da;
 }
 
 /*# sourceMappingURL=styles.css.map */

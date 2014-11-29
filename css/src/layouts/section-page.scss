@@ -1,0 +1,101 @@
+/**
+ * $SECTION PAGE
+ * ==========================================================================
+ */
+
+ .section-page{
+ 	position: absolute;
+ 	z-index: 8;
+ 	width: 100%;
+ 	height: 100%;
+ 	background-size: 100%;
+
+ 	.close-section{
+ 		position: absolute;
+		right: 10px;
+		padding: 30px;
+		z-index: 9;
+ 	}
+
+ 	.page-head{
+ 	  	width: 100%;
+ 	 	height: 135px;
+ 	 	background: url('../img/section-header-bg.jpg') no-repeat center center #333;
+ 	 	text-align: center;
+
+ 	 	img{ margin-top: 30px; }
+ 	}
+
+ 	.vid-box{
+ 		position: relative;
+ 		z-index: 10;
+ 		width: 740px;
+ 		height: 450px;
+ 		margin-left: 45px;
+		margin-top: 35px;
+
+ 		#pageVidFrame{}
+
+ 		.vid-copy{
+ 			color: $page-copy; 
+ 			font-family: 'G-Med', Arial, sans-serif;
+ 			font-size: 14px;
+ 			width: 640px;
+
+ 			h2{ 
+ 				font-size: 20px;
+ 				margin: 0;
+ 			}
+ 		}
+ 	}
+
+ 	.headquote{
+ 		position: absolute;
+		top: 130px;
+		right: 50px;	
+ 	}
+
+ 	.upperbg{
+ 		position: absolute;
+ 		margin-top: 70px;
+ 	}
+
+ 	.thumb-quad{
+ 		position: relative;
+		left: 365px;
+		width: 900px;
+		text-align: right;
+		margin-top: 140px;
+ 	}
+ 	.thumb-duo{
+ 		margin-left: 40px;
+ 	}
+
+ 	.thumb{
+ 			display: inline-block;
+ 			margin-right: 30px;
+			margin-bottom: 20px;
+			vertical-align: middle;
+			padding: 0;
+			line-height: 0;
+			border: 1px $border-gold solid;
+ 	}
+
+ 	.tn-quote{ border: none; }
+
+ 	.birdman{
+ 		display: block;
+		position: relative;
+		z-index: 9;
+		margin-top: -430px;
+		margin-left: -50px;
+		text-align: center;
+ 	}
+ }
+
+ .page-resilience{
+ 	height: 1980px;
+ 	// background: url('../img/resilience/resilience-tempalte.jpg') no-repeat $bg-color;
+ 	background: url('../img/nav-site-bg.jpg') repeat #eae7da;
+ }
+
