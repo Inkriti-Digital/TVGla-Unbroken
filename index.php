@@ -8,6 +8,12 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="css/styles.css">
 
+		<!-- LIGHTBOX -->
+			<!-- <link rel="stylesheet" href="css/screen.css"> -->
+			<link rel="stylesheet" href="css/lightbox.css">
+
+			
+
 		<!-- REMOVE BEFORE LAUNCH -->
 		<meta name="robots" content="noindex">
 		<!--  -->
@@ -60,6 +66,7 @@
 
 		<!-- Load Scripts -->
 		<script src="js/jquery-1.11.1.min.js"></script>
+		<script src="js/lightbox.min.js"></script>
 		<script src="js/vendors.js"></script>
 		<script src="js/scripts.js"></script>
 

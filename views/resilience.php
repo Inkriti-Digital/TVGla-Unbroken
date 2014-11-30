@@ -15,18 +15,36 @@
 		<img src="img/resilience/resilience-runnerbg.png"/>
 	</div>
 	<div class="thumb-quad">
-		<div class="thumb"><img src="img/resilience/resilience-tn1.png"/></div>
-		<div class="thumb"><img src="img/resilience/resilience-tn2.png"/></div>
-		<div class="thumb tn-quote"><img src="img/resilience/resilience-quote2.png"/></div>
-		<div class="thumb"><img src="img/resilience/resilience-tn3.png"/></div>		
+		<div class="thumb">
+			<a href="img/resilience/resilience-tn1.png" data-lightbox="resilience-set" data-title="">
+				<img src="img/resilience/resilience-tn1.png" alt=""/>
+			</a>
+		</div>
+		<div class="thumb">
+			<a href="img/resilience/resilience-tn2.png" data-lightbox="resilience-set" data-title="">
+				<img src="img/resilience/resilience-tn2.png" alt=""/>
+			</a>
+		</div>
+		<div class="thumb tn-quote">
+			<img src="img/resilience/resilience-quote2.png" alt=""/>
+		</div>
+		<div class="thumb">
+			<a href="img/resilience/resilience-tn3.png" data-lightbox="resilience-set" data-title="">
+				<img src="img/resilience/resilience-tn3.png" alt=""/>
+			</a>
+		</div>		
 	</div>
 
 	<div class="thumb-duo">
 		<div class="thumb">
-			<img src="img/resilience/resilience-tn4.png"/>
+			<a href="img/resilience/resilience-tn4.png" data-lightbox="resilience-set" data-title="">
+				<img src="img/resilience/resilience-tn4.png" alt=""/>
+			</a>			
 		</div>
 		<div class="thumb">
-			<img src="img/resilience/resilience-tn5.png"/>
+			<a href="img/resilience/resilience-tn5.png" data-lightbox="resilience-set" data-title="">
+				<img src="img/resilience/resilience-tn5.png" alt=""/>
+			</a>
 		</div>
 	</div>
 	<div class="birdman">

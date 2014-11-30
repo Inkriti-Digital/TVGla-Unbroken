@@ -93,6 +93,12 @@
  	}
  }
 
+ //** lightbox extends **//
+
+ .lb-data .lb-close{
+ 	display: block !important;
+ }
+
  .page-resilience{
  	height: 1980px;
  	// background: url('../img/resilience/resilience-tempalte.jpg') no-repeat $bg-color;

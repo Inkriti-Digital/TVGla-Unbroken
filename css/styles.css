@@ -2154,6 +2154,10 @@ td {
   text-align: center;
 }
 
+.lb-data .lb-close {
+  display: block !important;
+}
+
 .page-resilience {
   height: 1980px;
   background: url("../img/nav-site-bg.jpg") repeat #eae7da;
