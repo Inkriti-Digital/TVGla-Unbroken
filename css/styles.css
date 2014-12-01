@@ -1974,9 +1974,9 @@ td {
   cursor: pointer;
 }
 .column .overlay {
-  width: 100%;
-  height: 19%;
-  position: absolute;
+  width: 30%;
+  height: 170px;
+  position: fixed;
   bottom: -120px;
   background-color: #fffcee;
   background-color: rgba(234, 231, 218, 0.5);

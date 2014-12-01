@@ -18,6 +18,9 @@ $(function() {
 
 			var aboutWidth = $('.content-pillar').width()-230;
 			$('.synopsis').css( "width", aboutWidth );
+
+			var overlayWidth = $('.column').width();
+			$('.overlay').css( "width", overlayWidth );
 	    }
 
 	    /**NAV & HOVER FUNTIONS**/
