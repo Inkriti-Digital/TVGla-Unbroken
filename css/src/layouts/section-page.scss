@@ -24,16 +24,23 @@
  	 	height: 135px;
  	 	background: url('../img/section-header-bg.jpg') no-repeat center center #333;
  	 	text-align: center;
+ 	 	margin-bottom: 35px;
 
  	 	img{ margin-top: 30px; }
  	}
 
  	.vid-box{
  		position: relative;
+ 		display: inline-block;
  		z-index: 10;
  		width: 740px;
- 		margin-left: 45px;
-		margin-top: 35px;
+ 		margin-left: 45px;		
+
+		.page-vidframe{
+			border: 1px $border-gold solid;
+			width: 740px;
+			height: 450px;
+		}
 
  		.vid-copy{
  			color: $page-copy; 
@@ -50,14 +57,13 @@
 
  	.page-row{
  		margin-left: 45px;
-		// margin-top: 40px;
 		min-width: 1210px;
  	}
 
  	.headquote{
- 		position: absolute;
-		top: 130px;
-		right: 50px;	
+ 		position: relative;
+		vertical-align: top;
+		display: inline-block;
  	}
 
  	.upperbg{
@@ -98,28 +104,13 @@
  	}
  }
 
- //** lightbox extends **//
-
- .lb-data .lb-close{
- 	display: block !important;
- }
-
- .lb-number{
- 	display: none;
- }
-
  .page-resilience{
  	height: 1980px;
  	// background: url('../img/resilience/resilience-tempalte.jpg') no-repeat $bg-color;
  	background: url('../img/nav-site-bg.jpg') repeat #eae7da;
  }
 
-
-
-
-
- .page-survival{
- 	// display: block;
+ .page-survival{	
  	height: 1980px;
  	// background: url('../img/survival/survival-template.jpg') no-repeat $bg-color;
  	background: url('../img/nav-site-bg.jpg') repeat #eae7da;
@@ -139,22 +130,22 @@
  		border: none;
  	}
 
- 	.first-thumb{ margin-left: -18px; }
+ 	.first-thumb{ margin-left: -28px; }
 
  	.bottombg{ margin-top: -210px; }
+
+ 	.last-row{
+ 		margin-left: 40px;
+ 	}
 
  }
 
 
  .page-redemption{
- 	// display: block;
+ 	
  	height: 1980px;
  	background: url('../img/redemption/redemption-template.jpg') no-repeat $bg-color;
  	background: url('../img/nav-site-bg.jpg') repeat #eae7da;
-
- 	.headquote{
- 		top: 180px;
- 	}
 
  	.brothers{
  		border: none;
@@ -204,6 +195,20 @@
 		margin-left: -340px;
  	}
 
+ }
+
+
+
+
+
+ //** lightbox extends **//
+
+ .lb-data .lb-close{
+ 	display: block !important;
+ }
+
+ .lb-number{
+ 	display: none !important;
  }
 
 
