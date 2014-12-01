@@ -73,7 +73,7 @@
  		}
 
  		ul{
- 			padding: 20px 30px;
+ 			padding: 20px 20px;
  		}
 
  		li{
@@ -185,16 +185,12 @@
 
 		.nav-box{
 			position: absolute;
-			// background-image: none;
-			// background-color: transparent;
 			top: 242px;
 			z-index: 5;
-			// border: none;
-
 
 			ul, li, a{
-				// font-weight: normal;
 				text-align: left;
+				letter-spacing: 0.05em;
 			}
 
 			li{

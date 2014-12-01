@@ -1815,7 +1815,7 @@ td {
   text-align: center;
 }
 .nav-pillar .nav-box ul {
-  padding: 20px 30px;
+  padding: 20px 20px;
 }
 .nav-pillar .nav-box li {
   padding: 8px 0px;
@@ -1915,6 +1915,7 @@ td {
 }
 .nav-pillar .sub-nav .nav-box ul, .nav-pillar .sub-nav .nav-box li, .nav-pillar .sub-nav .nav-box a {
   text-align: left;
+  letter-spacing: 0.05em;
 }
 .nav-pillar .sub-nav .nav-box li {
   border-top: 1px #838383 solid;
@@ -2080,6 +2081,8 @@ td {
   width: 100%;
   height: 100%;
   background-size: 100%;
+  display: none;
+  min-width: 1200px;
 }
 .section-page .close-section {
   position: absolute;
@@ -2100,7 +2103,6 @@ td {
   position: relative;
   z-index: 10;
   width: 740px;
-  height: 450px;
   margin-left: 45px;
   margin-top: 35px;
 }
@@ -2114,6 +2116,10 @@ td {
   font-size: 20px;
   margin: 0;
 }
+.section-page .page-row {
+  margin-left: 45px;
+  min-width: 1210px;
+}
 .section-page .headquote {
   position: absolute;
   top: 130px;
@@ -2121,14 +2127,13 @@ td {
 }
 .section-page .upperbg {
   position: absolute;
-  margin-top: 70px;
 }
 .section-page .thumb-quad {
   position: relative;
   left: 365px;
   width: 900px;
   text-align: right;
-  margin-top: 140px;
+  margin-top: 50px;
 }
 .section-page .thumb-duo {
   margin-left: 40px;
@@ -2141,16 +2146,17 @@ td {
   padding: 0;
   line-height: 0;
   border: 1px #bc8b2c solid;
+  z-index: 1;
 }
 .section-page .tn-quote {
   border: none;
 }
-.section-page .birdman {
+.section-page .bottombg {
   display: block;
   position: relative;
   z-index: 9;
+  width: auto;
   margin-top: -430px;
-  margin-left: -50px;
   text-align: center;
 }
 
@@ -2158,9 +2164,39 @@ td {
   display: block !important;
 }
 
+.lb-number {
+  display: none;
+}
+
 .page-resilience {
   height: 1980px;
   background: url("../img/nav-site-bg.jpg") repeat #eae7da;
+}
+
+.page-survival {
+  height: 1980px;
+  background: url("../img/nav-site-bg.jpg") repeat #eae7da;
+}
+.page-survival .vid-box {
+  margin-bottom: 35px;
+}
+.page-survival .thumb {
+  margin-right: 22px;
+}
+.page-survival .up-quote {
+  border: none;
+  margin-top: 30px;
+}
+.page-survival .upperbg {
+  position: relative;
+  margin-left: -70px;
+  border: none;
+}
+.page-survival .first-thumb {
+  margin-left: -18px;
+}
+.page-survival .bottombg {
+  margin-top: -210px;
 }
 
 /*# sourceMappingURL=styles.css.map */

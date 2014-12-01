@@ -9,6 +9,8 @@
  	width: 100%;
  	height: 100%;
  	background-size: 100%;
+ 	display: none;
+ 	min-width: 1200px;
 
  	.close-section{
  		position: absolute;
@@ -30,11 +32,8 @@
  		position: relative;
  		z-index: 10;
  		width: 740px;
- 		height: 450px;
  		margin-left: 45px;
 		margin-top: 35px;
-
- 		#pageVidFrame{}
 
  		.vid-copy{
  			color: $page-copy; 
@@ -49,6 +48,12 @@
  		}
  	}
 
+ 	.page-row{
+ 		margin-left: 45px;
+		// margin-top: 40px;
+		min-width: 1210px;
+ 	}
+
  	.headquote{
  		position: absolute;
 		top: 130px;
@@ -57,7 +62,6 @@
 
  	.upperbg{
  		position: absolute;
- 		margin-top: 70px;
  	}
 
  	.thumb-quad{
@@ -65,30 +69,31 @@
 		left: 365px;
 		width: 900px;
 		text-align: right;
-		margin-top: 140px;
+		margin-top: 50px;
  	}
  	.thumb-duo{
  		margin-left: 40px;
  	}
 
  	.thumb{
- 			display: inline-block;
- 			margin-right: 30px;
-			margin-bottom: 20px;
-			vertical-align: middle;
-			padding: 0;
-			line-height: 0;
-			border: 1px $border-gold solid;
+		display: inline-block;
+		margin-right: 30px;
+		margin-bottom: 20px;
+		vertical-align: middle;
+		padding: 0;
+		line-height: 0;
+		border: 1px $border-gold solid;
+		z-index: 1;
  	}
 
  	.tn-quote{ border: none; }
 
- 	.birdman{
+ 	.bottombg{
  		display: block;
 		position: relative;
 		z-index: 9;
+		width: auto;
 		margin-top: -430px;
-		margin-left: -50px;
 		text-align: center;
  	}
  }
@@ -99,9 +104,46 @@
  	display: block !important;
  }
 
+ .lb-number{
+ 	display: none;
+ }
+
  .page-resilience{
  	height: 1980px;
  	// background: url('../img/resilience/resilience-tempalte.jpg') no-repeat $bg-color;
  	background: url('../img/nav-site-bg.jpg') repeat #eae7da;
  }
+
+
+
+
+
+ .page-survival{
+ 	// display: block;
+ 	height: 1980px;
+ 	// background: url('../img/survival/survival-template.jpg') no-repeat $bg-color;
+ 	background: url('../img/nav-site-bg.jpg') repeat #eae7da;
+
+ 	.vid-box{ margin-bottom: 35px; }
+
+ 	.thumb{ margin-right: 22px; }
+
+ 	.up-quote{
+ 		border: none;
+ 		margin-top: 30px;
+ 	}
+
+ 	.upperbg{
+ 		position: relative;
+ 		margin-left: -70px;
+ 		border: none;
+ 	}
+
+ 	.first-thumb{ margin-left: -18px; }
+
+ 	.bottombg{ margin-top: -210px; }
+
+ }
+
+
 

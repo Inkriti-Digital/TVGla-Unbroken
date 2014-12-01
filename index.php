@@ -12,7 +12,7 @@
 			<!-- <link rel="stylesheet" href="css/screen.css"> -->
 			<link rel="stylesheet" href="css/lightbox.css">
 
-			
+
 
 		<!-- REMOVE BEFORE LAUNCH -->
 		<meta name="robots" content="noindex">
@@ -56,6 +56,9 @@
 
 					<!-- TRAILER VIDEO PLAYER -->
 					<?php include 'views/resilience.php'; ?>
+
+					<!-- TRAILER VIDEO PLAYER -->
+					<?php include 'views/survival.php'; ?>
 
 					<!-- LANDING 3 COLUMN -->
 					<?php include 'views/3col-landing.php'; ?>					

@@ -157,5 +157,30 @@ $(function() {
 			closeSubNav();
 		});
 
+		//open resilience
+		$(".resilience").click(function(event) {
+			event.preventDefault();
+			$('.page-resilience').fadeIn();
+		});
+
+		//close resilience
+		$(".page-resilience .close-section").click(function(event) {
+			event.preventDefault();
+			$('.page-resilience').fadeOut();
+		});
+
+
+		//open survival
+		$(".survival").click(function(event) {
+			event.preventDefault();
+			$('.page-survival').fadeIn();
+		});
+
+		//close survival
+		$(".page-survival .close-section").click(function(event) {
+			event.preventDefault();
+			$('.page-survival').fadeOut();
+		});
+
 	    resizeElements();
 });

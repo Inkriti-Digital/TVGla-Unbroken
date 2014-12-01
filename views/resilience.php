@@ -16,12 +16,12 @@
 	</div>
 	<div class="thumb-quad">
 		<div class="thumb">
-			<a href="img/resilience/resilience-tn1.png" data-lightbox="resilience-set" data-title="">
+			<a href="img/resilience/resilience-lg1.jpg" data-lightbox="resilience-set" data-title="">
 				<img src="img/resilience/resilience-tn1.png" alt=""/>
 			</a>
 		</div>
 		<div class="thumb">
-			<a href="img/resilience/resilience-tn2.png" data-lightbox="resilience-set" data-title="">
+			<a href="img/resilience/resilience-lg2.jpg" data-lightbox="resilience-set" data-title="">
 				<img src="img/resilience/resilience-tn2.png" alt=""/>
 			</a>
 		</div>
@@ -29,7 +29,7 @@
 			<img src="img/resilience/resilience-quote2.png" alt=""/>
 		</div>
 		<div class="thumb">
-			<a href="img/resilience/resilience-tn3.png" data-lightbox="resilience-set" data-title="">
+			<a href="img/resilience/resilience-lg3.jpg" data-lightbox="resilience-set" data-title="">
 				<img src="img/resilience/resilience-tn3.png" alt=""/>
 			</a>
 		</div>		
@@ -37,17 +37,17 @@
 
 	<div class="thumb-duo">
 		<div class="thumb">
-			<a href="img/resilience/resilience-tn4.png" data-lightbox="resilience-set" data-title="">
+			<a href="img/resilience/resilience-lg4.jpg" data-lightbox="resilience-set" data-title="">
 				<img src="img/resilience/resilience-tn4.png" alt=""/>
 			</a>			
 		</div>
 		<div class="thumb">
-			<a href="img/resilience/resilience-tn5.png" data-lightbox="resilience-set" data-title="">
+			<a href="img/resilience/resilience-lg5.jpg" data-lightbox="resilience-set" data-title="">
 				<img src="img/resilience/resilience-tn5.png" alt=""/>
 			</a>
 		</div>
 	</div>
-	<div class="birdman">
+	<div class="bottombg">
 		<img src="img/resilience/resilience-birdman.png"/>
 	</div>
 </div>
