@@ -2,8 +2,8 @@
 	<div class="close-section"><a href="#"><img src="img/page-closex.png"/></a></div>
 	<div class="page-head"><img src="img/redemption/label-redemption.png"/></div>
 	<div class="vid-box">
-		<div class="page-vidframe"><iframe id="pageVidFrame" width="740" height="450" autoplay="0"  frameborder="0" allowfullscreen></iframe></div>
-		<!-- src="//www.youtube.com/embed/kk1M_HwmFMM?list=PLmGmHG5_e8rLz01goWr7J5c-UrOSczdW3?rel=0&amp;autoplay=0" -->
+		<div class="page-vidframe"><iframe id="pageVidFrame" src="//www.youtube.com/embed/kk1M_HwmFMM?list=PLmGmHG5_e8rLz01goWr7J5c-UrOSczdW3?rel=0&amp;autoplay=0&showinfo=0&controls=0" width="740" height="450" autoplay="0"  frameborder="0" allowfullscreen></iframe></div>
+		<!--  -->
 		<div class="vid-copy">
 			<h2>LOREM IPSUM</h2>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius hendrerit lacus, ac dapibus dia auctor a. Sed ornare augue purus, sit amet iaculis.</p>
@@ -35,17 +35,15 @@
 	<div class="page-row">
 		<div class="thumb thumb3">
 			
-			<a href="img/redemption/redemption-lg3.jpg" data-lightbox="redemption-set" data-title="">
-				<div class="hover-fx"><div class="expand-cta">EXPAND</div></div>
-				<img src="img/redemption/redemption-tn3.jpg"/>
-			</a>
+			<a href="img/redemption/redemption-lg3.jpg" data-lightbox="redemption-set" data-title=""></a>
+			<div class="hover-fx"><div class="expand-cta">EXPAND</div></div>
+			<img src="img/redemption/redemption-tn3.jpg"/>
 		</div>
 		<div class="thumb thumb4">
 			
-			<a href="img/redemption/redemption-lg4.jpg" data-lightbox="redemption-set" data-title="">
-				<div class="hover-fx"><div class="expand-cta">EXPAND</div></div>
+			<a class="uncover" href="img/redemption/redemption-lg4.jpg" data-lightbox="redemption-set" data-title=""></a>
+			<div class="hover-fx"><div class="expand-cta">EXPAND</div></div>
 				<img src="img/redemption/redemption-tn4.jpg" alt=""/>
-			</a>
 		</div>		
 	</div>
 
@@ -55,17 +53,15 @@
 		</div>		
 		<div class="thumb">
 			
-			<a href="img/redemption/redemption-lg5.jpg" data-lightbox="redemption-set" data-title="">
-				<div class="hover-fx"><div class="expand-cta">EXPAND</div></div>
-				<img src="img/redemption/redemption-tn5.jpg" alt=""/>
-			</a>			
+			<a class="uncover" href="img/redemption/redemption-lg5.jpg" data-lightbox="redemption-set" data-title=""></a>	
+			<div class="hover-fx"><div class="expand-cta">EXPAND</div></div>
+			<img src="img/redemption/redemption-tn5.jpg" alt=""/>		
 		</div>
 		<div class="thumb">
 			
-			<a href="img/redemption/redemption-lg6.jpg" data-lightbox="redemption-set" data-title="">
-				<div class="hover-fx"><div class="expand-cta">EXPAND</div></div>
-				<img src="img/redemption/redemption-tn6.jpg" alt=""/>
-			</a>
+			<a class="uncover" href="img/redemption/redemption-lg6.jpg" data-lightbox="redemption-set" data-title=""></a>
+			<div class="hover-fx"><div class="expand-cta">EXPAND</div></div>
+			<img src="img/redemption/redemption-tn6.jpg" alt=""/>
 		</div>
 	</div>
 

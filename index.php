@@ -49,7 +49,7 @@
 				<div class="content-pillar">
 
 					<!-- TRAILER VIDEO PLAYER -->
-					<!--?php include 'views/trailer.php'; ?-->
+					<?php include 'views/trailer.php'; ?>
 
 					<!-- TRAILER VIDEO PLAYER -->
 					<?php include 'views/about.php'; ?>

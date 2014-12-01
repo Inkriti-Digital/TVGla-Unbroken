@@ -32,9 +32,9 @@ $(function() {
 
 		//gallery Hover 
 	     $(".thumb a").hover(function() {
-		  	$(".hover-fx", this).fadeIn();
+		  	$(this).closest(".thumb").find(".hover-fx").fadeIn();
 		  }, function() {
-		  	$(".hover-fx", this).fadeOut();		    
+		  	$(this).closest(".thumb").find(".hover-fx").fadeOut();    
 		  }
 		);     
 

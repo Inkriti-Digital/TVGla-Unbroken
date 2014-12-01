@@ -2,7 +2,7 @@
 	<div class="close-section"><a href="#"><img src="img/page-closex.png"/></a></div>
 	<div class="page-head"><img src="img/resilience/label-resilience.png"/></div>
 	<div class="vid-box">
-		<div><iframe id="pageVidFrame" width="740" height="450" autoplay="0" src="//www.youtube.com/embed/kk1M_HwmFMM?list=PLmGmHG5_e8rLz01goWr7J5c-UrOSczdW3?rel=0&amp;autoplay=0" frameborder="0" allowfullscreen></iframe></div>
+		<div><iframe id="pageVidFrame" width="740" height="450" autoplay="0" src="//www.youtube.com/embed/kk1M_HwmFMM?list=PLmGmHG5_e8rLz01goWr7J5c-UrOSczdW3?rel=0&amp;autoplay=0&showinfo=0&controls=0" frameborder="0" allowfullscreen></iframe></div>
 		<div class="vid-copy">
 			<h2>LOREM IPSUM</h2>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius hendrerit lacus, ac dapibus dia auctor a. Sed ornare augue purus, sit amet iaculis.</p>
@@ -40,16 +40,14 @@
 
 	<div class="thumb-duo">
 		<div class="thumb">
-			<a href="img/resilience/resilience-lg4.jpg" data-lightbox="resilience-set" data-title="">
-				<div class="hover-fx"><div class="expand-cta">EXPAND</div></div>
-				<img src="img/resilience/resilience-tn4.png" alt=""/>
-			</a>			
+			<a class="uncover" href="img/resilience/resilience-lg4.jpg" data-lightbox="resilience-set" data-title=""></a>			
+			<div class="hover-fx"><div class="expand-cta">EXPAND</div></div>
+			<img src="img/resilience/resilience-tn4.png" alt=""/>
 		</div>
 		<div class="thumb">
-			<a href="img/resilience/resilience-lg5.jpg" data-lightbox="resilience-set" data-title="">
-				<div class="hover-fx"><div class="expand-cta">EXPAND</div></div>
-				<img src="img/resilience/resilience-tn5.png" alt=""/>
-			</a>
+			<a class="uncover" href="img/resilience/resilience-lg5.jpg" data-lightbox="resilience-set" data-title=""></a>
+			<div class="hover-fx"><div class="expand-cta">EXPAND</div></div>
+			<img src="img/resilience/resilience-tn5.png" alt=""/>
 		</div>
 	</div>
 	<div class="bottombg">
