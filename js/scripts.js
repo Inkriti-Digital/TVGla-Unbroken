@@ -30,9 +30,13 @@ $(function() {
 		  }
 		);
 
-	     
-
-	     
+		//gallery Hover 
+	     $(".thumb a").hover(function() {
+		  	$(".hover-fx", this).fadeIn();
+		  }, function() {
+		  	$(".hover-fx", this).fadeOut();		    
+		  }
+		);     
 
 	    //Landing Page Column hover
 	    $(".content-pillar .column").hover(

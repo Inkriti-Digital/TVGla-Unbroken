@@ -17,6 +17,7 @@
 	<div class="page-row">
 		<div class="thumb">
 			<a href="img/survival/survival-lg1.jpg" data-lightbox="survival-set" data-title="">
+				<div class="hover-fx"><div class="expand-cta">EXPAND</div></div>
 				<img src="img/survival/survival-tn1.png" alt=""/>
 			</a>
 		</div>
@@ -30,6 +31,7 @@
 		</div>
 		<div class="thumb first-thumb">
 			<a href="img/survival/survival-lg2.jpg" data-lightbox="survival-set" data-title="">
+				<div class="hover-fx"><div class="expand-cta">EXPAND</div></div>
 				<img src="img/survival/survival-tn2.png" alt=""/>
 			</a>
 		</div>		
@@ -38,16 +40,19 @@
 	<div class="page-row">
 		<div class="thumb">
 			<a href="img/survival/survival-lg3.jpg" data-lightbox="survival-set" data-title="">
+				<div class="hover-fx"><div class="expand-cta">EXPAND</div></div>
 				<img src="img/survival/survival-tn3.png" alt=""/>
 			</a>
 		</div>		
 		<div class="thumb">
 			<a href="img/survival/survival-lg4.jpg" data-lightbox="survival-set" data-title="">
+				<div class="hover-fx"><div class="expand-cta">EXPAND</div></div>
 				<img src="img/survival/survival-tn4.png" alt=""/>
 			</a>			
 		</div>
 		<div class="thumb">
 			<a href="img/survival/survival-lg5.jpg" data-lightbox="survival-set" data-title="">
+				<div class="hover-fx"><div class="expand-cta">EXPAND</div></div>
 				<img src="img/survival/survival-tn5.png" alt=""/>
 			</a>
 		</div>

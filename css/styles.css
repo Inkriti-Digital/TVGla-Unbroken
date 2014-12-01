@@ -1857,7 +1857,7 @@ td {
   line-height: 18px;
 }
 .nav-pillar .nav-slider .slide p .sans-bold {
-  font-family: 'G-Bold';
+  font-family: 'G-Bold', Arial, sans-serif;
 }
 .nav-pillar hr {
   border-bottom: 1px #bfbfbf solid;
@@ -2145,6 +2145,7 @@ td {
   margin-left: 40px;
 }
 .section-page .thumb {
+  position: relative;
   display: inline-block;
   margin-right: 30px;
   margin-bottom: 20px;
@@ -2153,6 +2154,33 @@ td {
   line-height: 0;
   border: 1px #bc8b2c solid;
   z-index: 1;
+}
+.section-page .thumb a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.section-page .thumb .hover-fx {
+  display: none;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  text-align: center;
+  cursor: pointer;
+}
+.section-page .thumb .hover-fx .expand-cta {
+  display: inline-block;
+  font-family: 'G-Med', Arial, sans-serif;
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+  line-height: 20px;
+  padding-bottom: 8px;
+  letter-spacing: 0.03em;
+  top: 40%;
+  border: 3px white solid;
 }
 .section-page .tn-quote {
   border: none;
@@ -2253,6 +2281,15 @@ td {
 
 .lb-number {
   display: none !important;
+}
+
+.lb-outerContainer {
+  background-color: transparent !important;
+  border: 1px #bc8b2c solid;
+}
+
+.lb-container {
+  padding: 0 !important;
 }
 
 /*# sourceMappingURL=styles.css.map */

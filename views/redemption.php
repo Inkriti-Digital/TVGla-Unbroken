@@ -18,6 +18,7 @@
 	<div class="page-row">
 		<div class="thumb">
 			<a href="img/redemption/redemption-lg1.jpg" data-lightbox="redemption-set" data-title="">
+				<div class="hover-fx"><div class="expand-cta">EXPAND</div></div>
 				<img src="img/redemption/redemption-tn1.jpg" alt=""/>
 			</a>
 		</div>
@@ -26,17 +27,23 @@
 		</div>
 		<div class="thumb thumb2">
 			<a href="img/redemption/redemption-lg2.jpg" data-lightbox="redemption-set" data-title="">
+				<div class="hover-fx"><div class="expand-cta">EXPAND</div></div>
 				<img src="img/redemption/redemption-tn2.jpg" alt=""/>
 			</a>
 		</div>
 	</div>
 	<div class="page-row">
 		<div class="thumb thumb3">
+			
 			<a href="img/redemption/redemption-lg3.jpg" data-lightbox="redemption-set" data-title="">
-			<img src="img/redemption/redemption-tn3.jpg"/>
+				<div class="hover-fx"><div class="expand-cta">EXPAND</div></div>
+				<img src="img/redemption/redemption-tn3.jpg"/>
+			</a>
 		</div>
 		<div class="thumb thumb4">
+			
 			<a href="img/redemption/redemption-lg4.jpg" data-lightbox="redemption-set" data-title="">
+				<div class="hover-fx"><div class="expand-cta">EXPAND</div></div>
 				<img src="img/redemption/redemption-tn4.jpg" alt=""/>
 			</a>
 		</div>		
@@ -47,12 +54,16 @@
 			<img src="img/redemption/redemption-quote2.png" alt=""/>
 		</div>		
 		<div class="thumb">
+			
 			<a href="img/redemption/redemption-lg5.jpg" data-lightbox="redemption-set" data-title="">
+				<div class="hover-fx"><div class="expand-cta">EXPAND</div></div>
 				<img src="img/redemption/redemption-tn5.jpg" alt=""/>
 			</a>			
 		</div>
 		<div class="thumb">
+			
 			<a href="img/redemption/redemption-lg6.jpg" data-lightbox="redemption-set" data-title="">
+				<div class="hover-fx"><div class="expand-cta">EXPAND</div></div>
 				<img src="img/redemption/redemption-tn6.jpg" alt=""/>
 			</a>
 		</div>
