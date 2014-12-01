@@ -146,4 +146,65 @@
  }
 
 
+ .page-redemption{
+ 	// display: block;
+ 	height: 1980px;
+ 	background: url('../img/redemption/redemption-template.jpg') no-repeat $bg-color;
+ 	background: url('../img/nav-site-bg.jpg') repeat #eae7da;
+
+ 	.headquote{
+ 		top: 180px;
+ 	}
+
+ 	.brothers{
+ 		border: none;
+ 		margin-left: -15px;
+		margin-top: 20px;
+ 	}
+
+ 	.vid-box{ margin-bottom: 35px; }
+
+ 	.thumb{ 
+ 		margin-right: 20px; 
+ 		vertical-align: top;
+ 	}
+
+ 	.thumb2{
+ 		margin-left: -30px;
+ 	}
+
+ 	.thumb3{
+ 		margin-top: -130px;
+ 	}
+
+ 	.thumb4{
+ 		margin-top: -5px;
+ 	}
+
+ 	.quote2{ 
+ 		border: none;
+ 		margin-right: 135px;
+ 	}
+
+ 	.up-quote{
+ 		border: none;
+ 		margin-top: 30px;
+ 	}
+
+ 	.upperbg{
+ 		position: relative;
+ 		margin-left: -70px;
+ 		border: none;
+ 	}
+
+ 	.first-thumb{ margin-left: -18px; }
+
+ 	.bottombg{
+ 		margin-top: -430px;
+		margin-left: -340px;
+ 	}
+
+ }
+
+
 

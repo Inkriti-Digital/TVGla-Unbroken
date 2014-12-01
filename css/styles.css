@@ -2199,4 +2199,54 @@ td {
   margin-top: -210px;
 }
 
+.page-redemption {
+  height: 1980px;
+  background: url("../img/redemption/redemption-template.jpg") no-repeat #fffcee;
+  background: url("../img/nav-site-bg.jpg") repeat #eae7da;
+}
+.page-redemption .headquote {
+  top: 180px;
+}
+.page-redemption .brothers {
+  border: none;
+  margin-left: -15px;
+  margin-top: 20px;
+}
+.page-redemption .vid-box {
+  margin-bottom: 35px;
+}
+.page-redemption .thumb {
+  margin-right: 20px;
+  vertical-align: top;
+}
+.page-redemption .thumb2 {
+  margin-left: -30px;
+}
+.page-redemption .thumb3 {
+  margin-top: -130px;
+}
+.page-redemption .thumb4 {
+  margin-top: -5px;
+}
+.page-redemption .quote2 {
+  border: none;
+  margin-right: 135px;
+}
+.page-redemption .up-quote {
+  border: none;
+  margin-top: 30px;
+}
+.page-redemption .upperbg {
+  position: relative;
+  margin-left: -70px;
+  border: none;
+}
+.page-redemption .first-thumb {
+  margin-left: -18px;
+}
+.page-redemption .bottombg {
+  margin-top: -430px;
+  margin-left: -340px;
+}
+
 /*# sourceMappingURL=styles.css.map */

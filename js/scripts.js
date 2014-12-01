@@ -182,5 +182,18 @@ $(function() {
 			$('.page-survival').fadeOut();
 		});
 
+
+		//open survival
+		$(".redemption").click(function(event) {
+			event.preventDefault();
+			$('.page-redemption').fadeIn();
+		});
+
+		//close survival
+		$(".page-redemption .close-section").click(function(event) {
+			event.preventDefault();
+			$('.page-redemption').fadeOut();
+		});
+
 	    resizeElements();
 });

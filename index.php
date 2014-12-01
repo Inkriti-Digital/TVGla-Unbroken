@@ -60,6 +60,9 @@
 					<!-- TRAILER VIDEO PLAYER -->
 					<?php include 'views/survival.php'; ?>
 
+					<!-- TRAILER VIDEO PLAYER -->
+					<?php include 'views/redemption.php'; ?>
+
 					<!-- LANDING 3 COLUMN -->
 					<?php include 'views/3col-landing.php'; ?>					
 
