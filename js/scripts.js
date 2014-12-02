@@ -44,18 +44,26 @@ $(function() {
 	    //Landing Page Column hover
 	    $(".content-pillar .column").hover(
 		  function() {
+		    $(".overlay", this).css( "bottom", "-30px" );
+		  }, function() {
+		    $(".overlay", this).css( "bottom", "-170px" );
+		  }
+		);
+
+		$(".content-pillar .redemption").hover(
+		  function() {
 		    $(".overlay", this).css( "bottom", "0px" );
 		  }, function() {
-		    $(".overlay", this).css( "bottom", "-120px" );
+		    $(".overlay", this).css( "bottom", "-170px" );
 		  }
 		);
 
 	    //legal hover over
 	    $(".nav-pillar .legal").hover(
 		  function() {
-		    $(this).css( "bottom", "0px" );
+		    $(this).css( "bottom", "-40px" );
 		  }, function() {
-		    $(this).css( "bottom", "-400px" );
+		    $(this).css( "bottom", "-410px" );
 		  }
 		);
 

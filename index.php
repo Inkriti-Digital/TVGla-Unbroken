@@ -3,14 +3,24 @@
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<title>Unbroken</title>
-		<meta name="description" content="">
+		<title>Unbroken – Trailers, Cast & Photos</title>
+		<meta name="description" content="Angelina Jolie directs and produces Unbroken, an epic drama that follows the life of an Olympian and war hero Louis Zamperini. Learn more about the movie Unbroken from the official movie site." />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="css/styles.css">
 
+		<!-- Favicon -->
+    	<link rel="shortcut icon" href="http://www.unbrokenfilm.com/img/misc/favicon.png" />
+
+    	<!-- Facebook OpenGraph description -->
+	    <meta property="og:title" content="Unbroken" />
+	    <meta property="og:description" content="Angelina Jolie directs and produces Unbroken, an epic drama that follows the life of an Olympian and war hero Louis Zamperini. Learn more about the movie Unbroken from the official movie site." />
+	    <meta property="og:image" content="http://www.unbrokenfilm.com/img/misc/facebookShare.jpg">
+		
+		
+		<!-- STYLES -->
+		<link rel="stylesheet" href="css/styles.css">
 		<!-- LIGHTBOX -->
-			<!-- <link rel="stylesheet" href="css/screen.css"> -->
-			<link rel="stylesheet" href="css/lightbox.css">
+		<!-- <link rel="stylesheet" href="css/screen.css"> -->
+		<link rel="stylesheet" href="css/lightbox.css">
 
 
 
@@ -26,7 +36,7 @@
 			  var js, fjs = d.getElementsByTagName(s)[0];
 			  if (d.getElementById(id)) return;
 			  js = d.createElement(s); js.id = id;
-			  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=582191465151643&version=v2.0";
+			  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=556047527751150&version=v2.0";
 			  fjs.parentNode.insertBefore(js, fjs);
 			}(document, 'script', 'facebook-jssdk'));</script>
 		<!--END FACEBOOK MASTER SHARE SCRIPT-->
@@ -49,7 +59,7 @@
 				<div class="content-pillar">
 
 					<!-- TRAILER VIDEO PLAYER -->
-					<!--?php include 'views/trailer.php'; ?-->
+					<?php include 'views/trailer.php'; ?>
 
 					<!-- TRAILER VIDEO PLAYER -->
 					<?php include 'views/about.php'; ?>

@@ -7,7 +7,7 @@
  	position: absolute;
  	z-index: 8;
  	width: 100%;
- 	height: 100%;
+ 	height: 2100px;
  	background-size: 100%;
  	display: none;
  	min-width: 1250px;
@@ -142,7 +142,6 @@
  }
 
  .page-resilience{
- 	height: 1980px;
  	// background: url('../img/resilience/resilience-tempalte.jpg') no-repeat $bg-color;
  	background: url('../img/nav-site-bg.jpg') repeat #eae7da;
  }
@@ -178,7 +177,6 @@
  }
 
  .page-redemption{
- 	height: 1980px;
  	background: url('../img/redemption/redemption-template.jpg') no-repeat $bg-color;
  	background: url('../img/nav-site-bg.jpg') repeat #eae7da;
 
