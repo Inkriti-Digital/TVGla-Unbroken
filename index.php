@@ -17,7 +17,7 @@
 		
 		
 		<!-- STYLES -->
-		<link rel="stylesheet" href="css/styles.css">
+		<link rel="stylesheet" href="css/styles.min.css">
 		<!-- LIGHTBOX -->
 		<!-- <link rel="stylesheet" href="css/screen.css"> -->
 		<link rel="stylesheet" href="css/lightbox.css">

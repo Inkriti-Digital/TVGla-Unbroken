@@ -214,7 +214,7 @@ $(function() {
 			var configAward = {
 			    random: true,
 			    transition: 'fade',
-			    interval: 3000 // 10 seconds
+			    interval: 3500 // 10 seconds
 			  };
 
 			  window.rotator = $('#rotator-award').rotator(configAward);
@@ -222,7 +222,7 @@ $(function() {
 			  var configCTA = {
 			    random: true,
 			    transition: 'fade',
-			    interval: 3000 // 10 seconds
+			    interval: 4000 // 10 seconds
 			  };
 
 			  window.rotator = $('#rotator-cta').rotator(configCTA);

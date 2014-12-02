@@ -1797,7 +1797,7 @@ td {
 .nav-pillar .logo-lockup {
   position: relative;
   display: inline-block;
-  margin-top: 40px;
+  margin-top: 20px;
   text-align: center;
   width: 100%;
 }
@@ -1847,8 +1847,8 @@ td {
   color: #a17b20;
 }
 .nav-pillar .nav-slider {
-  margin: 20px auto;
-  margin-bottom: 10px;
+  margin: 10px auto;
+  margin-bottom: 0px;
 }
 .nav-pillar .nav-slider .slide p {
   text-transform: uppercase;
@@ -1879,7 +1879,7 @@ td {
 .nav-pillar .social-all {
   text-align: center;
   width: 100%;
-  margin-top: 25px;
+  margin-top: 12px;
 }
 .nav-pillar .social-all span {
   display: inline-block;
@@ -1898,6 +1898,7 @@ td {
   cursor: pointer;
   height: 450px;
   font-family: 'G-Bold';
+  z-index: 9999;
 }
 .nav-pillar .legal .legal-copy {
   font-size: 10px;
