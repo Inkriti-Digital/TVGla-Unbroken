@@ -59,7 +59,7 @@
 				<div class="content-pillar">
 
 					<!-- TRAILER VIDEO PLAYER -->
-					<?php include 'views/trailer.php'; ?>
+					<!--?php include 'views/trailer.php'; ?-->
 
 					<!-- TRAILER VIDEO PLAYER -->
 					<?php include 'views/about.php'; ?>
@@ -83,7 +83,8 @@
 		<!-- Load Scripts -->
 		<script src="js/jquery-1.11.1.min.js"></script>
 		<script src="js/lightbox.min.js"></script>
-		<script src="js/vendors.js"></script>
+		<script src="js/rotator.js"></script>
+		<!--script src="js/vendors.js"></script-->
 		<script src="js/scripts.js"></script>
 
 	</body>

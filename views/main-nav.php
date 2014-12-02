@@ -48,17 +48,50 @@
 	</div>
 
 	<div class="logo-lockup nav-slider">
-		<img src="img/accademy-award.png"/>
+		<ul id="rotator-award" class="rotator loading">
+		  <li class="slide"><img src="img/accademy-award.png"/></li>
+		  <li class="slide"><img src="img/accademy-award.png"/></li>
+		  <li class="slide"><img src="img/accademy-award.png"/></li>
+		  <li class="slide"><img src="img/accademy-award.png"/></li>
+		  <li class="slide"><img src="img/accademy-award.png"/></li>
+		</ul>
 	</div>
 
 	<hr/>
 
 	<div class="logo-lockup nav-slider">
-		<div class="slide">
-			<p>Share Your STORY <br/>OF RESILIENCE &amp; STRENGTH on <br/><span class="sans-bold">IAmUnbroken.com</span></p>
-			<a href="#"><img class="share-story-img" src="img/slide1-iamunbroken.jpg"/></a>
+		<ul id="rotator-cta" class="rotator loading">
+		  <li class="slide">
+		  	<p>Share Your STORY <br/>OF RESILIENCE &amp; STRENGTH on <br/><span class="sans-bold">IAmUnbroken.com</span></p>
+		  	<img class="share-story-img" src="img/slide1-iamunbroken.jpg"/>
+		  	<a class="sans-bold hashtag" href="#">#IAmUnbroken</a>
+		  </li>
+		  <li class="slide">
+		  	<p>Share Your STORY <br/>OF RESILIENCE &amp; STRENGTH on <br/><span class="sans-bold">IAmUnbroken.com</span></p>
+		  	<img class="share-story-img" src="img/slide1-iamunbroken.jpg"/>
+		  	<a class="sans-bold hashtag" href="#">#IAmUnbroken</a>
+		  </li>
+		  <li class="slide">
+		  	<p>Share Your STORY <br/>OF RESILIENCE &amp; STRENGTH on <br/><span class="sans-bold">IAmUnbroken.com</span></p>
+		  	<img class="share-story-img" src="img/slide1-iamunbroken.jpg"/>
+		  	<a class="sans-bold hashtag" href="#">#IAmUnbroken</a>
+		  </li>
+		  <li class="slide">
+		  	<p>Share Your STORY <br/>OF RESILIENCE &amp; STRENGTH on <br/><span class="sans-bold">IAmUnbroken.com</span></p>
+		  	<img class="share-story-img" src="img/slide1-iamunbroken.jpg"/>
+		  	<a class="sans-bold hashtag" href="#">#IAmUnbroken</a>
+		  </li>
+		</ul>
+
+
+		<!--div class="slide">
+			
+			<a href="#">
+				<img class="share-story-img" src="img/slide1-iamunbroken.jpg"/>
+
+			</a>
 			<a class="sans-bold hashtag" href="#">#IAmUnbroken</a>
-		</div>
+		</div-->
 	</div>
 
 	<hr/>
