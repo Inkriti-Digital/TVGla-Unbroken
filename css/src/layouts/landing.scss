@@ -37,7 +37,7 @@
 		background-color: $bg-color;
 		background-color: rgba(234, 231, 218, 0.5);
 		z-index: 5;
-		transition: all 0.75s ease;
+		transition: bottom 0.75s ease;
 
 
 		.badge, .quote{
@@ -66,13 +66,16 @@
 
 .resilience{
 	background: url('../img/col-bg-resilience.jpg') no-repeat center top;
+	background-size: auto 100%;
 }
 
 .survival{
 	background: url('../img/col-bg-survival.jpg') no-repeat center top;
+	background-size: auto 100%;
 }
 
 .redemption{
 	background: url('../img/col-bg-redemption.jpg') no-repeat center top;
+	background-size: auto 100%;
 }
 

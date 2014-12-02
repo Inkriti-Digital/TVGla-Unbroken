@@ -21,6 +21,14 @@ $(function() {
 
 			var overlayWidth = $('.column').width();
 			$('.overlay').css( "width", overlayWidth );
+
+			var contentHeight = $(window).height();
+			$('.content-pillar .column').css( "height", contentHeight );
+			$('.nav-pillar').css( "height", contentHeight );
+
+			// console.log("conentHeight = "+contentHeight);
+
+
 	    }
 
 	    /**NAV & HOVER FUNTIONS**/

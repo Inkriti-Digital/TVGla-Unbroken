@@ -2,7 +2,7 @@
 	<div class="close-section"><a href="#"><img src="img/page-closex.png"/></a></div>
 	<div class="page-head"><img src="img/redemption/label-redemption.png"/></div>
 	<div class="vid-box">
-		<div class="page-vidframe"><iframe id="pageVidFrame" src="//www.youtube.com/embed/kk1M_HwmFMM?list=PLmGmHG5_e8rLz01goWr7J5c-UrOSczdW3?rel=0&amp;autoplay=0&showinfo=0&controls=0" width="740" height="450" autoplay="0"  frameborder="0" allowfullscreen></iframe></div>
+		<div class="page-vidframe"></div>
 		<!--  -->
 		<div class="vid-copy">
 			<h2>LOREM IPSUM</h2>

@@ -287,8 +287,34 @@
 
 
 #rotator-award{
-	width: 237px;
-	height: 85px;
+	width: 290px;
+	height: 95px;
+
+	p{
+		font-family: 'G-Book', Arial, sans-serif;
+		font-size: 12px;
+		letter-spacing:0.15em;
+		color: $copy-slider;
+		margin: 5px 0;
+		padding: 0;
+	}
+
+	.award{
+		display: block;
+		font-size: 32px;
+		color: #a1854b;
+		// background: -webkit-linear-gradient(top, #bda672, #8d6e30);
+  // 		-webkit-background-clip: text;
+ 	// 	-webkit-text-fill-color: transparent;
+
+ 	// 	background: -webkit-linear-gradient(top, #bda672, #8d6e30);
+		// background: linear-gradient(top, #bda672, #8d6e30);
+		// -webkit-background-clip: text;
+		// -webkit-text-fill-color: transparent;
+	}
+	.name{
+		font-size: 14px;
+	}
 }
 
 .rotator-nav .number a{	opacity: 0 !important; }

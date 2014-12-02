@@ -1,12 +1,12 @@
 <div class="main-nav">
 	<div class="social-audio">
-		<div class="twitter">
+		<!--div class="twitter">
 			<a href="https://twitter.com/UnbrokenFilm" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">Follow @unbroken</a>
             <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 		</div>
 		<div class="fb">
 			 <div class="fb-like" data-href="https://www.facebook.com/UnbrokenFilm" data-width="90" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
-		</div>
+		</div-->
 
 		<div class="audio-ctrl">
 			<a href="#"><img src="img/btn-soundon.png" alt="sound off"/>
@@ -49,11 +49,37 @@
 
 	<div class="logo-lockup nav-slider">
 		<ul id="rotator-award" class="rotator loading">
-		  <li class="slide"><img src="img/accademy-award.png"/></li>
-		  <li class="slide"><img src="img/accademy-award.png"/></li>
-		  <li class="slide"><img src="img/accademy-award.png"/></li>
-		  <li class="slide"><img src="img/accademy-award.png"/></li>
-		  <li class="slide"><img src="img/accademy-award.png"/></li>
+		  <li class="slide">
+		  	<p class="consideration">FOR YOUR CONSIDERATION</p>
+		  	<p class="award">BEST ACTOR</p>
+		  	<p class="name">JACK O&#8217;CONNELL</p>
+		  	<p><img src="img/logo-unbroken-sm.png" alt="Unbroken"/></p>
+		  </li>
+		  <li class="slide">
+		  	<p class="consideration">FOR YOUR CONSIDERATION</p>
+		  	<p class="award">BEST DIRECTOR</p>
+		  	<p class="name">ANGELINA JOLIE</p>
+		  	<p><img src="img/logo-unbroken-sm.png" alt="Unbroken"/></p>
+		  </li>
+		  <li class="slide">
+		  	<p class="consideration">FOR YOUR CONSIDERATION</p>
+		  	<p class="award">BEST ACTOR</p>
+		  	<p class="name">JACK O&#8217;CONNELL</p>
+		  	<p><img src="img/logo-unbroken-sm.png" alt="Unbroken"/></p>
+		  </li>
+		  <li class="slide">
+		  	<p class="consideration">FOR YOUR CONSIDERATION</p>
+		  	<p class="award">BEST ACTOR</p>
+		  	<p class="name">JACK O&#8217;CONNELL</p>
+		  	<p><img src="img/logo-unbroken-sm.png" alt="Unbroken"/></p>
+		  </li>
+		  <li class="slide">
+		  	<p class="consideration">FOR YOUR CONSIDERATION</p>
+		  	<p class="award">BEST ACTOR</p>
+		  	<p class="name">JACK O&#8217;CONNELL</p>
+		  	<p><img src="img/logo-unbroken-sm.png" alt="Unbroken"/></p>
+		  </li>
+
 		</ul>
 	</div>
 

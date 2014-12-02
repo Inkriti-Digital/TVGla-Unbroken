@@ -1506,7 +1506,7 @@ td {
   vertical-align: top;
   width: 330px;
   height: 100%;
-  min-height: 900px;
+  min-height: 880px;
   /*temporary*/
   background-repeat: no-repeat;
 }
@@ -1519,8 +1519,9 @@ td {
 }
 .content-pillar .column {
   float: left;
-  width: 33%;
-  height: 900px;
+  width: 33.33%;
+  height: 100%;
+  min-height: 880px;
 }
 
 .clear-fix {
@@ -2015,8 +2016,24 @@ td {
 }
 
 #rotator-award {
-  width: 237px;
-  height: 85px;
+  width: 290px;
+  height: 95px;
+}
+#rotator-award p {
+  font-family: 'G-Book', Arial, sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.15em;
+  color: #353535;
+  margin: 5px 0;
+  padding: 0;
+}
+#rotator-award .award {
+  display: block;
+  font-size: 32px;
+  color: #a1854b;
+}
+#rotator-award .name {
+  font-size: 14px;
 }
 
 .rotator-nav .number a {
@@ -2076,7 +2093,7 @@ td {
   background-color: #fffcee;
   background-color: rgba(234, 231, 218, 0.5);
   z-index: 5;
-  transition: all 0.75s ease;
+  transition: bottom 0.75s ease;
 }
 .column .overlay .badge, .column .overlay .quote {
   text-align: center;
@@ -2099,14 +2116,17 @@ td {
 
 .resilience {
   background: url("../img/col-bg-resilience.jpg") no-repeat center top;
+  background-size: auto 100%;
 }
 
 .survival {
   background: url("../img/col-bg-survival.jpg") no-repeat center top;
+  background-size: auto 100%;
 }
 
 .redemption {
   background: url("../img/col-bg-redemption.jpg") no-repeat center top;
+  background-size: auto 100%;
 }
 
 /**
@@ -2393,6 +2413,10 @@ td {
 
 .lb-container {
   padding: 0 !important;
+  box-sizing: padding-box;
+}
+.lb-container *, .lb-container :after, .lb-container :before {
+  box-sizing: padding-box;
 }
 
 /*# sourceMappingURL=styles.css.map */

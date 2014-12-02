@@ -61,16 +61,16 @@
 					<!-- TRAILER VIDEO PLAYER -->
 					<!--?php include 'views/trailer.php'; ?-->
 
-					<!-- TRAILER VIDEO PLAYER -->
+					<!-- SYNOPSIS SECTION -->
 					<?php include 'views/about.php'; ?>
 
-					<!-- TRAILER VIDEO PLAYER -->
+					<!-- PAGE RESILIENCE -->
 					<?php include 'views/resilience.php'; ?>
 
-					<!-- TRAILER VIDEO PLAYER -->
+					<!-- PAGE SURVIVAL -->
 					<?php include 'views/survival.php'; ?>
 
-					<!-- TRAILER VIDEO PLAYER -->
+					<!-- PAGE REDEMPTION -->
 					<?php include 'views/redemption.php'; ?>
 
 					<!-- LANDING 3 COLUMN -->

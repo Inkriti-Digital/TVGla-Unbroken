@@ -249,7 +249,12 @@
  	border: 1px $border-gold solid;
  }
 
- .lb-container{ padding: 0 !important; }
+ .lb-container{ padding: 0 !important; 
+ 	box-sizing: padding-box;
+ 	*, :after, :before{
+ 		box-sizing: padding-box;
+ 	}
+ }
 
 
 
