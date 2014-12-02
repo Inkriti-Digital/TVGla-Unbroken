@@ -10,7 +10,7 @@
  	height: 2100px;
  	background-size: 100%;
  	display: none;
- 	min-width: 1250px;
+ 	min-width: 1000px;
 
  	.close-section{
  		position: absolute;
@@ -33,13 +33,13 @@
  		position: relative;
  		display: inline-block;
  		z-index: 10;
- 		width: 740px;
- 		margin-left: 45px;		
+ 		width: 65%;
+ 		height: 450px;
 
 		.page-vidframe{
 			border: 1px $border-gold solid;
-			width: 740px;
-			height: 450px;
+			width: 100%;
+			height: 100%;
 		}
 
  		.vid-copy{
@@ -56,29 +56,49 @@
  	}
 
  	.page-row{
- 		margin-left: 45px;
-		min-width: 1210px;
+ 		margin-left: 20px;
+		// min-width: 1000px;
+		// width: 1060px;
+		// border: thin red dashed;
  	}
 
  	.headquote{
- 		position: relative;
+ 		position: absolute;
 		vertical-align: top;
 		display: inline-block;
+		width: 36.5%;
+		margin-left: -20px;
  	}
 
  	.upperbg{
  		position: absolute;
+ 		margin-left: -50px;
  	}
 
  	.thumb-quad{
  		position: relative;
-		left: 365px;
-		width: 900px;
-		text-align: right;
+		left: 320px;
+		width: 68%;
 		margin-top: 50px;
+
+		.thumb{
+			width: 45%;
+			max-width: 412px;
+		}
+
+		
  	}
  	.thumb-duo{
- 		margin-left: 40px;
+ 		width: 100%;
+
+ 		.thumb{
+ 			width: 34%;
+ 			max-width: 417px;
+ 		}
+ 		.thumb-end{
+ 			width: 59%;
+ 			max-width: 734px;
+ 		}
  	}
 
  	.thumb{
@@ -91,6 +111,8 @@
 		line-height: 0;
 		border: 1px $border-gold solid;
 		// z-index: 1;
+
+		img{ width: 100%; }
 
 		a{
 			display: block;
@@ -128,6 +150,10 @@
 			}
 		}
  	}
+
+ 	.thumb-end{
+			margin-right: 0;
+	}
 
  	.tn-quote{ border: none; }
 

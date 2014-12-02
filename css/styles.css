@@ -1895,7 +1895,7 @@ td {
   position: absolute;
   bottom: -410px;
   padding-top: 10px;
-  transition: all 0.75s ease;
+  transition: bottom 1s ease;
   cursor: pointer;
   height: 450px;
   font-family: 'G-Bold';
@@ -2016,7 +2016,7 @@ td {
 }
 
 #rotator-award {
-  width: 290px;
+  width: 320px;
   height: 95px;
 }
 #rotator-award p {
@@ -2031,6 +2031,7 @@ td {
   display: block;
   font-size: 32px;
   color: #a1854b;
+  letter-spacing: 0.03em;
 }
 #rotator-award .name {
   font-size: 14px;
@@ -2204,7 +2205,7 @@ td {
   height: 2100px;
   background-size: 100%;
   display: none;
-  min-width: 1250px;
+  min-width: 1000px;
 }
 .section-page .close-section {
   position: absolute;
@@ -2226,13 +2227,13 @@ td {
   position: relative;
   display: inline-block;
   z-index: 10;
-  width: 740px;
-  margin-left: 45px;
+  width: 65%;
+  height: 450px;
 }
 .section-page .vid-box .page-vidframe {
   border: 1px #bc8b2c solid;
-  width: 740px;
-  height: 450px;
+  width: 100%;
+  height: 100%;
 }
 .section-page .vid-box .vid-copy {
   color: #424242;
@@ -2245,26 +2246,39 @@ td {
   margin: 0;
 }
 .section-page .page-row {
-  margin-left: 45px;
-  min-width: 1210px;
+  margin-left: 20px;
 }
 .section-page .headquote {
-  position: relative;
+  position: absolute;
   vertical-align: top;
   display: inline-block;
+  width: 36.5%;
+  margin-left: -20px;
 }
 .section-page .upperbg {
   position: absolute;
+  margin-left: -50px;
 }
 .section-page .thumb-quad {
   position: relative;
-  left: 365px;
-  width: 900px;
-  text-align: right;
+  left: 320px;
+  width: 68%;
   margin-top: 50px;
 }
+.section-page .thumb-quad .thumb {
+  width: 45%;
+  max-width: 412px;
+}
 .section-page .thumb-duo {
-  margin-left: 40px;
+  width: 100%;
+}
+.section-page .thumb-duo .thumb {
+  width: 34%;
+  max-width: 417px;
+}
+.section-page .thumb-duo .thumb-end {
+  width: 59%;
+  max-width: 734px;
 }
 .section-page .thumb {
   position: relative;
@@ -2275,6 +2289,9 @@ td {
   padding: 0;
   line-height: 0;
   border: 1px #bc8b2c solid;
+}
+.section-page .thumb img {
+  width: 100%;
 }
 .section-page .thumb a {
   display: block;
@@ -2306,6 +2323,9 @@ td {
   letter-spacing: 0.03em;
   top: 42%;
   border: 2px white solid;
+}
+.section-page .thumb-end {
+  margin-right: 0;
 }
 .section-page .tn-quote {
   border: none;

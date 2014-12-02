@@ -220,7 +220,7 @@ $(function() {
 	    //ROTATOR SCRIPTS
 	    jQuery(function ($) {
 			var configAward = {
-			    random: true,
+			    random: false,
 			    transition: 'fade',
 			    interval: 3500 // 10 seconds
 			  };
@@ -228,7 +228,7 @@ $(function() {
 			  window.rotator = $('#rotator-award').rotator(configAward);
 
 			  var configCTA = {
-			    random: true,
+			    random: false,
 			    transition: 'fade',
 			    interval: 4000 // 10 seconds
 			  };

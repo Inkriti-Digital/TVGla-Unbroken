@@ -163,14 +163,13 @@
 
 	.legal{
 		background-color: $legal-bgcolor;
- 		// background-color: rgba(0, 0, 0, 0.25);
  		width: 100%;
 		text-align: center;
 		min-height: 300px;
 		position: absolute;
 		bottom: -410px;
 		padding-top: 10px;
-		transition: all 0.75s ease;
+		transition: bottom 1s ease;
 		cursor: pointer;
 		height: 450px;
 		font-family: 'G-Bold';
@@ -287,7 +286,7 @@
 
 
 #rotator-award{
-	width: 290px;
+	width: 320px;
 	height: 95px;
 
 	p{
@@ -311,6 +310,7 @@
 		// background: linear-gradient(top, #bda672, #8d6e30);
 		// -webkit-background-clip: text;
 		// -webkit-text-fill-color: transparent;
+		letter-spacing:0.03em;
 	}
 	.name{
 		font-size: 14px;

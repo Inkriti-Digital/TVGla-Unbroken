@@ -63,14 +63,14 @@
 		  </li>
 		  <li class="slide">
 		  	<p class="consideration">FOR YOUR CONSIDERATION</p>
-		  	<p class="award">BEST ACTOR</p>
-		  	<p class="name">JACK O&#8217;CONNELL</p>
+		  	<p class="award">BEST PICTURE</p>
+		  	<p class="name"> </p>
 		  	<p><img src="img/logo-unbroken-sm.png" alt="Unbroken"/></p>
 		  </li>
 		  <li class="slide">
 		  	<p class="consideration">FOR YOUR CONSIDERATION</p>
-		  	<p class="award">BEST ACTOR</p>
-		  	<p class="name">JACK O&#8217;CONNELL</p>
+		  	<p class="award">BEST ADAPTED <br/>SCREENPLAY</p>
+		  	<!-- <p class="name">JACK O&#8217;CONNELL</p> -->
 		  	<p><img src="img/logo-unbroken-sm.png" alt="Unbroken"/></p>
 		  </li>
 		  <li class="slide">
