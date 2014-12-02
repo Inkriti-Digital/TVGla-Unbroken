@@ -1848,6 +1848,7 @@ td {
 }
 .nav-pillar .nav-slider {
   margin: 20px auto;
+  margin-bottom: 10px;
 }
 .nav-pillar .nav-slider .slide p {
   text-transform: uppercase;
@@ -1992,22 +1993,20 @@ td {
 .rotator-nav li {
   display: block;
   float: left;
-  padding: 0px 2px;
+  padding: 1px;
 }
 
 .rotator-nav a {
-  border: solid 1px #aaa;
-  color: #aaa;
+  border: none;
+  color: rgba(255, 255, 255, 0);
   font: normal 12px Arial;
-  padding: 2px 3px;
+  padding: 2px;
   text-decoration: none;
-  -moz-border-radius: 2px;
   outline: none;
 }
 
 .rotator-nav a:hover, #rotator-nav .current a {
-  color: #0063B1;
-  border-color: #0063b1;
+  color: rgba(255, 255, 255, 0);
 }
 
 .rotator-nav .next, .rotator-nav .prev {
@@ -2017,6 +2016,18 @@ td {
 #rotator-award {
   width: 237px;
   height: 85px;
+}
+
+.rotator-nav .number a {
+  opacity: 0 !important;
+}
+
+.rotator-nav li {
+  background: url("../img/nav-rotator-indicator.png") no-repeat center center;
+}
+
+.rotator-nav .current {
+  background: url("../img/nav-rotator-indicator-on.png") no-repeat center center;
 }
 
 /**

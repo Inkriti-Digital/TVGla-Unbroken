@@ -228,4 +228,8 @@ $(function() {
 			  window.rotator = $('#rotator-cta').rotator(configCTA);
 			  
 		});
+
+	    // $(".rotator-nav .number #slide-1").text(' ');
+	    // $(".rotator-nav .number #slide-1").html(' ');
+
 });
