@@ -1,4 +1,4 @@
-<div class="column resilience">
+<div id="resilience" class="column resilience">
 	<div class="overlay">
 		<div class="badge">
 			<img src="img/badge-resilience.png"/>
@@ -11,7 +11,7 @@
 		</div>
 	</div>
 </div>
-<div class="column survival">
+<div id="survival" class="column survival">
 	<div class="overlay">
 		<div class="badge">
 			<img src="img/badge-survival.png"/>
@@ -24,7 +24,7 @@
 		</div>
 	</div>
 </div>
-<div class="column redemption">
+<div id="redemption" class="column redemption">
 	<div class="overlay">
 		<div class="badge">
 			<img src="img/badge-redemption.png"/>

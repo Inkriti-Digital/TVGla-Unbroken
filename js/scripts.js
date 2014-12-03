@@ -24,11 +24,13 @@ $(function() {
 
 			var contentHeight = $(window).height();
 			$('.content-pillar .column').css( "height", contentHeight );
-			$('.nav-pillar').css( "height", contentHeight );
+			
+			resizeNav();
+	    }
 
-			// console.log("conentHeight = "+contentHeight);
-
-
+	    function resizeNav(){
+	    	var fullHeight = $('.content-pillar').height();
+			$('.nav-pillar').css( "height", fullHeight );
 	    }
 
 	    /**NAV & HOVER FUNTIONS**/
@@ -165,7 +167,8 @@ $(function() {
 		$(".btn-about").click(function(event) {
 			event.preventDefault();
 			subSectionOut = true;
-			$('.section-about').fadeIn();
+			$('.section-about').delay(500).fadeIn();
+			$('.column').fadeToggle();
 		});
 
 		//close about
@@ -173,45 +176,27 @@ $(function() {
 			event.preventDefault();
 			subSectionOut = false;
 			$('.section-about').fadeOut();
+			$('.column').delay(500).fadeToggle();
 			closeSubNav();
 		});
 
-		//open resilience
-		$(".resilience").click(function(event) {
+		//open page section
+		$(".column").click(function(event) {
 			event.preventDefault();
-			$('.page-resilience').fadeIn();
+			var thisColumn = event.target.id;
+			$('.column').fadeToggle();
+			$(".page-"+thisColumn).delay(500).fadeIn("fast", function() {
+			   resizeNav();
+			});
 		});
 
-		//close resilience
-		$(".page-resilience .close-section").click(function(event) {
+		//close page section
+		$(".section-page .close-section").click(function(event) {
 			event.preventDefault();
-			$('.page-resilience').fadeOut();
-		});
-
-
-		//open survival
-		$(".survival").click(function(event) {
-			event.preventDefault();
-			$('.page-survival').fadeIn();
-		});
-
-		//close survival
-		$(".page-survival .close-section").click(function(event) {
-			event.preventDefault();
-			$('.page-survival').fadeOut();
-		});
-
-
-		//open survival
-		$(".redemption").click(function(event) {
-			event.preventDefault();
-			$('.page-redemption').fadeIn();
-		});
-
-		//close survival
-		$(".page-redemption .close-section").click(function(event) {
-			event.preventDefault();
-			$('.page-redemption').fadeOut();
+			$('.section-page').fadeOut();
+			$(".column").delay(500).fadeToggle("fast", function() {
+			   resizeNav();
+			});
 		});
 
 	    resizeElements();
