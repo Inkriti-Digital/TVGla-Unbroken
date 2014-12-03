@@ -2380,13 +2380,17 @@ td {
 }
 
 .page-redemption {
-  background: url("../img/redemption/redemption-template.jpg") no-repeat #fffcee;
   background: url("../img/nav-site-bg.jpg") repeat #eae7da;
+}
+.page-redemption .row-first {
+  margin-bottom: 20px;
 }
 .page-redemption .brothers {
   border: none;
   margin-left: -15px;
   margin-top: 20px;
+  width: 30%;
+  max-width: 317px;
 }
 .page-redemption .vid-box {
   margin-bottom: 35px;
@@ -2395,18 +2399,39 @@ td {
   margin-right: 20px;
   vertical-align: top;
 }
+.page-redemption .thumb1 {
+  width: 25%;
+  max-width: 280px;
+}
 .page-redemption .thumb2 {
   margin-left: -30px;
+  width: 42%;
+  max-width: 576px;
 }
 .page-redemption .thumb3 {
   margin-top: -130px;
+  width: 25%;
+  max-width: 280px;
 }
 .page-redemption .thumb4 {
   margin-top: -5px;
+  width: 70%;
+  max-width: 869px;
+  vertical-align: bottom;
+}
+.page-redemption .thumb5 {
+  width: 30.6%;
+  max-width: 367px;
+}
+.page-redemption .thumb6 {
+  width: 23.5%;
+  max-width: 283px;
 }
 .page-redemption .quote2 {
   border: none;
-  margin-right: 135px;
+  margin-right: 9.4%;
+  width: 31%;
+  max-width: 349px;
 }
 .page-redemption .up-quote {
   border: none;
@@ -2422,7 +2447,13 @@ td {
 }
 .page-redemption .bottombg {
   margin-top: -430px;
-  margin-left: -660px;
+  text-align: left;
+  margin-left: 12%;
+  width: 54%;
+}
+.page-redemption .bottombg img {
+  width: 100%;
+  max-width: 580px;
 }
 
 .lb-data .lb-close {

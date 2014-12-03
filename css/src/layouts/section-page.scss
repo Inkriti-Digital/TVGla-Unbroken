@@ -203,13 +203,20 @@
  }
 
  .page-redemption{
- 	background: url('../img/redemption/redemption-template.jpg') no-repeat $bg-color;
+ 	// display: block;
+ 	// background: url('../img/redemption/redemption-template.jpg') no-repeat $bg-color;
  	background: url('../img/nav-site-bg.jpg') repeat #eae7da;
+
+ 	.row-first{
+ 		margin-bottom: 20px;
+ 	}
 
  	.brothers{
  		border: none;
  		margin-left: -15px;
 		margin-top: 20px;
+		width: 30%;
+		max-width: 317px;
  	}
 
  	.vid-box{ margin-bottom: 35px; }
@@ -219,21 +226,45 @@
  		vertical-align: top;
  	}
 
+ 	.thumb1{
+ 		width: 25%;
+ 		max-width: 280px;
+ 	}
+
  	.thumb2{
  		margin-left: -30px;
+ 		width: 42%;
+ 		max-width: 576px;
  	}
 
  	.thumb3{
  		margin-top: -130px;
+ 		width: 25%;
+ 		max-width: 280px;
  	}
 
  	.thumb4{
  		margin-top: -5px;
+ 		width: 70%;
+ 		max-width: 869px;
+ 		vertical-align: bottom;
+ 	}
+
+ 	.thumb5{
+ 		width: 30.6%;
+ 		max-width: 367px;
+ 	}
+
+ 	.thumb6{
+ 		width: 23.5%;
+ 		max-width: 283px;
  	}
 
  	.quote2{ 
  		border: none;
- 		margin-right: 135px;
+ 		margin-right: 9.4%;
+ 		width: 31%;
+ 		max-width: 349px;
  	}
 
  	.up-quote{
@@ -251,7 +282,13 @@
 
  	.bottombg{
  		margin-top: -430px;
-		margin-left: -660px;
+		text-align: left;
+		margin-left: 12%;
+		width: 54%;
+		img{
+			width: 100%;
+			max-width: 580px;
+		}
  	}
 
  }
