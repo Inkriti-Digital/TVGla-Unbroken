@@ -22,8 +22,6 @@
 		<!-- <link rel="stylesheet" href="css/screen.css"> -->
 		<link rel="stylesheet" href="css/lightbox.css">
 
-
-
 		<!-- REMOVE BEFORE LAUNCH -->
 		<meta name="robots" content="noindex">
 		<!--  -->

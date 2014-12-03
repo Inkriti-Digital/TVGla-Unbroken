@@ -1,4 +1,5 @@
 <div id="resilience" class="column resilience">
+	<!-- <img id="resilience" class="vid-hover" src="img/vid-fx/resilience/unb_570x810_resilience_08.png"/> -->
 	<div class="overlay">
 		<div class="badge">
 			<img src="img/badge-resilience.png"/>

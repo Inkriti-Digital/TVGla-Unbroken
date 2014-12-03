@@ -3,12 +3,17 @@
 	<div class="page-head"><img src="img/redemption/label-redemption.png"/></div>
 	<div class="page-row row-first slide-row">
 		<div class="vid-box">
-			<div class="page-vidframe"></div>
-			<!--  -->
-			<div class="vid-copy">
-				<h2>LOREM IPSUM</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius hendrerit lacus, ac dapibus dia auctor a. Sed ornare augue purus, sit amet iaculis.</p>
-			</div>
+			<ul id="rotator-redemption" class="rotator loading page-rotator">
+				  <li class="slide">		  
+				  	<img src="img/redemption/slide-01.jpg"/>
+				  </li>
+				  <li class="slide">		  
+				  	<img src="img/redemption/slide-02.jpg"/>
+				  </li>
+				  <li class="slide">		  
+				  	<img src="img/redemption/slide-03.jpg"/>
+				  </li>
+			</ul>
 		</div>
 		<div class="headquote">
 			<img src="img/redemption/redemption-headquote.png"/>

@@ -3,11 +3,17 @@
 	<div class="page-head"><img src="img/resilience/label-resilience.png"/></div>
 	<div class="page-row slide-row">
 		<div class="vid-box">
-			<div class="page-vidframe"></div>
-			<div class="vid-copy">
-				<h2>LOREM IPSUM</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius hendrerit lacus, ac dapibus dia auctor a. Sed ornare augue purus, sit amet iaculis.</p>
-			</div>
+			<ul id="rotator-resilience" class="rotator loading page-rotator">
+				  <li class="slide">		  
+				  	<img src="img/resilience/slide-01.jpg"/>
+				  </li>
+				  <li class="slide">		  
+				  	<img src="img/resilience/slide-02.jpg"/>
+				  </li>
+				  <li class="slide">		  
+				  	<img src="img/resilience/slide-03.jpg"/>
+				  </li>
+			</ul>
 		</div>
 		<div class="headquote">
 			<img src="img/resilience/resilience-headquote.png"/>

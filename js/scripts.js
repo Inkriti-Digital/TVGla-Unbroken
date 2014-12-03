@@ -52,12 +52,36 @@ $(function() {
 		  }
 		);     
 
+
+	     var vidHoverFX;
 	    //Landing Page Column hover
 	    $(".content-pillar .column").hover(
 		  function() {
+		  	var frameCount = 1;
 		    $(".overlay", this).css( "bottom", "-30px" );
+		    
+		    //VIDEO HOVER ANIMATION
+		    // vidHoverFX = setInterval(vidHover, 60);
+
+		    function vidHover(){
+		    	frameCount++;
+		    	var imgPath="img/vid-fx/resilience/unb_570x810_resilience_0";
+		    	var nextImage=imgPath+frameCount+".png";
+		    	console.log(frameCount);
+
+		    	if(frameCount<=90){
+			   		$('.vid-hover').attr('src', nextImage);
+			   	} if(frameCount>90){
+			   		clearInterval(vidHoverFX);
+			   		$('.vid-hover').attr('src', 'img/vid-fx/resilience/unb_570x810_resilience_08.png');
+			   	}
+		    }
+
+
 		  }, function() {
 		    $(".overlay", this).css( "bottom", "-170px" );
+		    clearInterval(vidHoverFX);
+			$('.vid-hover').attr('src', 'img/vid-fx/resilience/unb_570x810_resilience_08.png');
 		  }
 		);
 
@@ -208,7 +232,7 @@ $(function() {
 			var configAward = {
 			    random: false,
 			    transition: 'fade',
-			    interval: 3500 // 10 seconds
+			    interval: 5000
 			  };
 
 			  window.rotator = $('#rotator-award').rotator(configAward);
@@ -216,14 +240,42 @@ $(function() {
 			  var configCTA = {
 			    random: false,
 			    transition: 'fade',
-			    interval: 4000 // 10 seconds
+			    interval: 4000
 			  };
 
 			  window.rotator = $('#rotator-cta').rotator(configCTA);
+
+			 
+
+			  var configResilience = {
+			    random: false,
+			    transition: 'fade',
+			    interval: 5000
+			  };
+
+			  window.rotator = $('#rotator-resilience').rotator(configResilience);
+
+
+			  var configSurvival = {
+			    random: false,
+			    transition: 'fade',
+			    interval: 5000
+			  };
+
+			  window.rotator = $('#rotator-survival').rotator(configSurvival);
+
+			  var configRedemption = {
+			    random: false,
+			    transition: 'fade',
+			    interval: 5000
+			  };
+
+			  window.rotator = $('#rotator-redemption').rotator(configRedemption);
+
+			  $('#rotator-redemption-nav').addClass('page-rotator-nav');
+			  $('#rotator-survival-nav').addClass('page-rotator-nav');
+			  $('#rotator-resilience-nav').addClass('page-rotator-nav');
 			  
 		});
-
-	    // $(".rotator-nav .number #slide-1").text(' ');
-	    // $(".rotator-nav .number #slide-1").html(' ');
 
 });

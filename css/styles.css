@@ -1506,8 +1506,7 @@ td {
   vertical-align: top;
   width: 330px;
   height: 100%;
-  min-height: 880px;
-  /*temporary*/
+  min-height: 870px;
   background-repeat: no-repeat;
 }
 
@@ -1521,7 +1520,7 @@ td {
   float: left;
   width: 33.33%;
   height: 100%;
-  min-height: 880px;
+  min-height: 870px;
 }
 
 .clear-fix {
@@ -1866,11 +1865,8 @@ td {
   font-size: 30px;
   letter-spacing: -0.07em;
   color: #202020;
-  margin-top: -10px;
+  margin-top: -20px;
   display: block;
-}
-.nav-pillar .nav-slider .slide .share-story-img {
-  border: 1px #bc8b2c solid;
 }
 .nav-pillar hr {
   border-bottom: 1px #bfbfbf solid;
@@ -1958,7 +1954,7 @@ td {
 .rotator {
   position: relative;
   width: 240px;
-  height: 200px;
+  height: 96px;
   overflow: hidden;
   margin: auto;
   padding: 0px;
@@ -2017,7 +2013,6 @@ td {
 
 #rotator-award {
   width: 320px;
-  height: 95px;
 }
 #rotator-award p {
   font-family: 'G-Book', Arial, sans-serif;
@@ -2093,6 +2088,12 @@ td {
 .column {
   overflow: hidden;
   cursor: pointer;
+}
+.column .vid-hover {
+  height: 100%;
+  width: auto;
+  margin-left: -30%;
+  max-width: none;
 }
 .column .overlay {
   width: 30%;
@@ -2213,6 +2214,7 @@ td {
   background-size: 100%;
   display: none;
   min-width: 1000px;
+  /*rotator extends*/
 }
 .section-page .close-section {
   position: fixed;
@@ -2241,11 +2243,9 @@ td {
   display: inline-block;
   z-index: 10;
   width: 65%;
-  height: 450px;
-  max-width: 780px;
+  max-width: 730px;
 }
 .section-page .vid-box .page-vidframe {
-  border: 1px #bc8b2c solid;
   width: 100%;
   height: 100%;
 }
@@ -2351,6 +2351,43 @@ td {
   width: auto;
   margin-top: -430px;
   text-align: center;
+}
+.section-page .page-rotator {
+  width: 100%;
+  height: 430px;
+}
+.section-page .page-rotator-nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.section-page .page-rotator-nav a {
+  width: 100%;
+  height: 100%;
+  display: block;
+  opacity: 0;
+}
+.section-page .page-rotator-nav .prev, .section-page .page-rotator-nav .next {
+  display: inline-block !important;
+  height: 100%;
+  width: 55px;
+  background-color: rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+}
+.section-page .page-rotator-nav .step {
+  display: none !important;
+}
+.section-page .page-rotator-nav .prev {
+  background: url("../img/page-prev.png") no-repeat center center rgba(255, 255, 255, 0.4);
+  float: left;
+}
+.section-page .page-rotator-nav .next {
+  background: url("../img/page-next.png") no-repeat center center rgba(255, 255, 255, 0.4);
+  float: right;
 }
 
 .page-resilience {
