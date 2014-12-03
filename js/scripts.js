@@ -15,6 +15,7 @@ $(function() {
 	    	//set width of content pillar
 	    	var contentWidth = contentWidth = $('.container').width()-330;
 			$('.content-pillar').css( "width", contentWidth );
+			$('.page-head').css( "width", contentWidth );
 
 			var aboutWidth = $('.content-pillar').width()-230;
 			$('.synopsis').css( "width", aboutWidth );

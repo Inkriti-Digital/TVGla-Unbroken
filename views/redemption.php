@@ -1,7 +1,7 @@
 <div class="section-page page-redemption">
 	<div class="close-section"><a href="#"><img src="img/page-closex.png"/></a></div>
 	<div class="page-head"><img src="img/redemption/label-redemption.png"/></div>
-	<div class="page-row row-first">
+	<div class="page-row row-first slide-row">
 		<div class="vid-box">
 			<div class="page-vidframe"></div>
 			<!--  -->
