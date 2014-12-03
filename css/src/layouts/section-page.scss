@@ -153,7 +153,7 @@
 				font-size: 18px;
 				line-height: 20px;
 				padding-bottom: 8px;
-				letter-spacing: 0.03em;
+				letter-spacing: 0.05em;
 				top: 42%;
 				border: 2px white solid;
 				
@@ -329,6 +329,19 @@
 
  //** lightbox extends **//
 
+ .lightbox{
+ 	margin-top: 25px !important;
+ }
+
+ .lb-dataContainer{
+ 	margin-top:-53% !important;
+ 	// border: thin white dashed !important;
+ }
+
+ .lightboxOverlay{
+ 	opacity: 0.9 !important;
+ }
+
  .lb-data .lb-close{
  	display: block !important;
  }
@@ -339,15 +352,46 @@
 
  .lb-outerContainer{
  	background-color: transparent !important;
- 	border: 1px $border-gold solid;
+ 	border: none;
  }
 
- .lb-container{ padding: 0 !important; 
- 	box-sizing: padding-box;
- 	*, :after, :before{
- 		box-sizing: padding-box;
- 	}
+ .lb-container{ 
+ 	padding: 0 !important;
+ 	img{border: 1px $border-gold solid !important;}
  }
+
+ .lb-social-container{
+ 	position: absolute;
+ 	bottom: -80px;
+	width: 100%;
+
+	span{
+		color: $copy-bright;
+		vertical-align: top;
+		margin: 0 12px;
+		font-family: 'G-Book', Arial, sans-serif;
+		font-size: 18px;
+		letter-spacing: 0.05em;
+		opacity: 0.75;
+	}
+
+	span:hover{
+		opacity: 1;
+	}
+
+	span:first-child{
+		padding-top: 25px;
+		display: inline-block;
+		opacity: 1;
+	}
+ }
+
+
+
+
+
+
+
 
 
 
