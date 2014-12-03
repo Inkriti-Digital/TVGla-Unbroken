@@ -2236,6 +2236,7 @@ td {
   z-index: 10;
   width: 65%;
   height: 450px;
+  max-width: 780px;
 }
 .section-page .vid-box .page-vidframe {
   border: 1px #bc8b2c solid;
@@ -2350,8 +2351,12 @@ td {
   background: url("../img/nav-site-bg.jpg") repeat #eae7da;
 }
 
+.column {
+  display: none;
+}
+
 .page-survival {
-  height: 1980px;
+  display: block;
   background: url("../img/nav-site-bg.jpg") repeat #eae7da;
 }
 .page-survival .vid-box {
@@ -2363,17 +2368,35 @@ td {
 .page-survival .up-quote {
   border: none;
   margin-top: 30px;
+  width: 30%;
+  max-width: 289px;
 }
 .page-survival .upperbg {
   position: relative;
-  margin-left: -70px;
+  margin-left: -60px;
   border: none;
+  width: 35%;
+  max-width: 488px;
 }
 .page-survival .first-thumb {
   margin-left: -28px;
+  width: 36.8%;
+  max-width: 444px;
+}
+.page-survival .thumb-sm {
+  width: 22%;
+  max-width: 280px;
+}
+.page-survival .thumb-lg {
+  width: 48%;
+  max-width: 577px;
 }
 .page-survival .bottombg {
-  margin-top: -210px;
+  margin-top: -15%;
+  margin-left: -8%;
+}
+.page-survival .bottombg img {
+  width: 50%;
 }
 .page-survival .last-row {
   margin-left: 40px;

@@ -1,18 +1,17 @@
 <div class="section-page page-survival">
 	<div class="close-section"><a href="#"><img src="img/page-closex.png"/></a></div>
 	<div class="page-head"><img src="img/survival/label-survival.png"/></div>
-	<div class="vid-box">
-		<div class="page-vidframe"></div>
-		<div class="vid-copy">
-			<h2>LOREM IPSUM</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius hendrerit lacus, ac dapibus dia auctor a. Sed ornare augue purus, sit amet iaculis.</p>
+	<div class="page-row slide-row">
+		<div class="vid-box">
+			<div class="page-vidframe"></div>
+			<div class="vid-copy">
+				<h2>LOREM IPSUM</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius hendrerit lacus, ac dapibus dia auctor a. Sed ornare augue purus, sit amet iaculis.</p>
+			</div>
 		</div>
-	</div>
-	<div class="headquote">
-		<img src="img/survival/survival-headquote.png"/>
-	</div>
-	<div class="upperbg">
-		<!-- <img src="img/survival/survival-runnerbg.png"/> -->
+		<div class="headquote">
+			<img src="img/survival/survival-headquote.png"/>
+		</div>
 	</div>
 	<div class="page-row">
 		<div class="thumb">
@@ -38,17 +37,17 @@
 	</div>
 
 	<div class="page-row">
-		<div class="thumb">
+		<div class="thumb thumb-sm">
 			<a class="uncover" href="img/survival/survival-lg3.jpg" data-lightbox="survival-set" data-title=""></a>
 			<div class="hover-fx"><div class="expand-cta">EXPAND</div></div>
 			<img src="img/survival/survival-tn3.png" alt=""/>
 		</div>		
-		<div class="thumb">
+		<div class="thumb thumb-sm">
 			<a class="uncover" href="img/survival/survival-lg4.jpg" data-lightbox="survival-set" data-title=""></a>			
 			<div class="hover-fx"><div class="expand-cta">EXPAND</div></div>
 			<img src="img/survival/survival-tn4.png" alt=""/>
 		</div>
-		<div class="thumb">
+		<div class="thumb thumb-lg">
 			<a class="uncover" href="img/survival/survival-lg5.jpg" data-lightbox="survival-set" data-title=""></a>
 			<div class="hover-fx"><div class="expand-cta">EXPAND</div></div>
 			<img src="img/survival/survival-tn5.png" alt=""/>
