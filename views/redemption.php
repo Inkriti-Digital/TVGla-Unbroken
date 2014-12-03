@@ -34,7 +34,7 @@
 	<div class="page-row">
 		<div class="thumb thumb3">
 			
-			<a href="img/redemption/redemption-lg3.jpg" data-lightbox="redemption-set" data-title=""></a>
+			<a class="uncover" href="img/redemption/redemption-lg3.jpg" data-lightbox="redemption-set" data-title=""></a>
 			<div class="hover-fx"><div class="expand-cta">EXPAND</div></div>
 			<img src="img/redemption/redemption-tn3.jpg"/>
 		</div>
