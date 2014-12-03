@@ -2233,7 +2233,14 @@ td {
   top: 0px;
 }
 .section-page .page-head img {
-  margin: 30px auto;
+  margin: 20px auto 0 auto;
+}
+.section-page .page-head h1 {
+  font-size: 16px;
+  color: #e8d4af;
+  font-family: 'G-Book', Arial, sans-serif;
+  margin: 5px auto;
+  text-transform: uppercase;
 }
 .section-page .slide-row {
   margin-top: 150px;

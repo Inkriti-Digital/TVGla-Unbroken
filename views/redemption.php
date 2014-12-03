@@ -1,6 +1,9 @@
 <div class="section-page page-redemption">
 	<div class="close-section"><a href="#"><img src="img/page-closex.png"/></a></div>
-	<div class="page-head"><img src="img/redemption/label-redemption.png"/></div>
+	<div class="page-head">
+		<div><img src="img/redemption/label-redemption.png" alt="REDEMPTION"/></div>
+		<h1>The one who forgives never brings up the past; true forgiveness is complete and total.</h1>
+	</div>
 	<div class="page-row row-first slide-row">
 		<div class="vid-box">
 			<ul id="rotator-redemption" class="rotator loading page-rotator">

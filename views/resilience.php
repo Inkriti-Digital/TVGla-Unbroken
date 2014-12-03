@@ -1,6 +1,9 @@
 <div class="section-page page-resilience">
 	<div class="close-section"><a href="#"><img src="img/page-closex.png"/></a></div>
-	<div class="page-head"><img src="img/resilience/label-resilience.png"/></div>
+	<div class="page-head">
+		<div><img src="img/resilience/label-resilience.png"/></div>
+		<h1>A lifetime of glory is worth a moment of pain.</h1>
+	</div>
 	<div class="page-row slide-row">
 		<div class="vid-box">
 			<ul id="rotator-resilience" class="rotator loading page-rotator">

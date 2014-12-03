@@ -29,7 +29,17 @@
  	 	z-index: 900;
  	 	top:0px;
 
- 	 	img{ margin: 30px auto; }
+ 	 	img{ 
+ 	 		margin: 20px auto 0 auto;
+ 	 	}
+
+ 	 	h1{
+ 	 		font-size: 16px;
+ 	 		color: $copy-bright;
+ 	 		font-family: 'G-Book', Arial, sans-serif;
+ 	 		margin: 5px auto;
+ 	 		text-transform: uppercase;
+ 	 	}
  	}
 
  	.slide-row{ 

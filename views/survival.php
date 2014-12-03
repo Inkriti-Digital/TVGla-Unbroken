@@ -1,6 +1,9 @@
 <div class="section-page page-survival">
 	<div class="close-section"><a href="#"><img src="img/page-closex.png"/></a></div>
-	<div class="page-head"><img src="img/survival/label-survival.png"/></div>
+	<div class="page-head">
+		<div><img src="img/survival/label-survival.png"/></div>
+		<h1>I'd made it this far and refused to give up because all my life I had always finished the race.</h1>
+	</div>
 	<div class="page-row slide-row">
 		<div class="vid-box">
 			<ul id="rotator-survival" class="rotator loading page-rotator">

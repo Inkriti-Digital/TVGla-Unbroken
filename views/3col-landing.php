@@ -32,7 +32,7 @@
 		</div>
 		<div class="quote">
 			<p>
-				A MINUTE OF <strong>PAIN.</strong><br/>
+				A MINUTE OF <strong>PAIN</strong><br/>
 				IS WORTH A <strong>LIFETIME</strong><br/>
 				<strong>OF GLORY.</strong>
 			</p>
