@@ -1461,6 +1461,9 @@ td {
     width: 768px;
   }
 }
+.container a {
+  color: #bc8b2c;
+}
 
 .grid {
   display: block;
@@ -1772,10 +1775,15 @@ td {
   z-index: 50;
   background: url("../img/nav-site-bg.jpg") repeat #eae7da;
   border-right: 1px #bfbfbf solid;
+  padding-top: 35px;
 }
 .nav-pillar .social-audio {
-  margin-top: 14px;
-  height: 28px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 30px;
+  z-index: 100;
+  margin-top: 5px;
 }
 .nav-pillar .social-audio div {
   display: inline-block;

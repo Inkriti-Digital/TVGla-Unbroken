@@ -1,5 +1,4 @@
-<div class="main-nav">
-	<div class="social-audio">
+<div class="social-audio">
 		<div class="twitter">
 			<a href="https://twitter.com/UnbrokenFilm" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">Follow @unbroken</a>
             <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
@@ -13,6 +12,7 @@
 		</div>
 	</div>
 
+<div class="main-nav">
 	<div class="logo-lockup">
 		<a href="javascript:history.go(0)">
 			<img class="desktop" src="img/unbroken-logo-lockup.png" alt="the unbelievable true story. Unbroken. Survival. Resilience. Redemption. Christmas."/>

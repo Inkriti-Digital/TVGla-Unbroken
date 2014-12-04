@@ -22,11 +22,16 @@
 		z-index: 50;
 		background: url('../img/nav-site-bg.jpg') repeat #eae7da;
 		border-right: 1px $border-gray solid;
+		padding-top: 35px;
 	}
 
  	.social-audio{
- 		margin-top: 14px;
- 		height: 28px;
+ 		position: absolute;
+		top: 0;
+		width: 100%;
+		height: 30px;
+		z-index: 100;
+		margin-top: 5px;
 
  		div{ 
  			display: inline-block; 
