@@ -14,7 +14,7 @@
 	</div>
 
 	<div class="logo-lockup">
-		<a href="/">
+		<a href="javascript:history.go(0)">
 			<img class="desktop" src="img/unbroken-logo-lockup.png" alt="the unbelievable true story. Unbroken. Survival. Resilience. Redemption. Christmas."/>
 			<img class="mobile" src="img/mobile/unbroken-lockup.png" alt="the unbelievable true story. Unbroken. Survival. Resilience. Redemption. Christmas."/>
 		</a>
@@ -55,40 +55,48 @@
 	<div class="logo-lockup nav-slider">
 		<ul id="rotator-award" class="rotator loading">
 		  <li class="slide">
-		  	<p class="consideration">FOR YOUR CONSIDERATION</p>
-		  	<p class="award">BEST ACTOR</p>
-		  	<p class="name">JACK O&#8217;CONNELL</p>
-		  	<p>
-		  		<img class="desktop" src="img/logo-unbroken-sm.png" alt="Unbroken"/>
-		  		<img class="mobile" src="img/mobile/m-logo-sm.png" alt="Unbroken"/>
-		  	</p>
+		  	<a href="http://www.universalpicturesawards.com/main/title/unbroken" target="_blank">
+			  	<p class="consideration">FOR YOUR CONSIDERATION</p>
+			  	<p class="award">BEST ACTOR</p>
+			  	<p class="name">JACK O&#8217;CONNELL</p>
+			  	<p>
+			  		<img class="desktop" src="img/logo-unbroken-sm.png" alt="Unbroken"/>
+			  		<img class="mobile" src="img/mobile/m-logo-sm.png" alt="Unbroken"/>
+			  	</p>
+			  </a>
 		  </li>
 		  <li class="slide">
-		  	<p class="consideration">FOR YOUR CONSIDERATION</p>
-		  	<p class="award">BEST DIRECTOR</p>
-		  	<p class="name">ANGELINA JOLIE</p>
-		  	<p>
-		  		<img class="desktop" src="img/logo-unbroken-sm.png" alt="Unbroken"/>
-		  		<img class="mobile" src="img/mobile/m-logo-sm.png" alt="Unbroken"/>
-		  	</p>
+		  	<a href="http://www.universalpicturesawards.com/main/title/unbroken" target="_blank">
+			  	<p class="consideration">FOR YOUR CONSIDERATION</p>
+			  	<p class="award">BEST DIRECTOR</p>
+			  	<p class="name">ANGELINA JOLIE</p>
+			  	<p>
+			  		<img class="desktop" src="img/logo-unbroken-sm.png" alt="Unbroken"/>
+			  		<img class="mobile" src="img/mobile/m-logo-sm.png" alt="Unbroken"/>
+			  	</p>
+		  </a>
 		  </li>
 		  <li class="slide">
-		  	<p class="consideration">FOR YOUR CONSIDERATION</p>
-		  	<p class="award">BEST PICTURE</p>
-		  	<p class="name"><br/> </p>
-		  	<p>
-		  		<img class="desktop" src="img/logo-unbroken-sm.png" alt="Unbroken"/>
-		  		<img class="mobile" src="img/mobile/m-logo-sm.png" alt="Unbroken"/>
-		  	</p>
+		  	<a href="http://www.universalpicturesawards.com/main/title/unbroken" target="_blank">
+			  	<p class="consideration">FOR YOUR CONSIDERATION</p>
+			  	<p class="award">BEST PICTURE</p>
+			  	<p class="name"><br/> </p>
+			  	<p>
+			  		<img class="desktop" src="img/logo-unbroken-sm.png" alt="Unbroken"/>
+			  		<img class="mobile" src="img/mobile/m-logo-sm.png" alt="Unbroken"/>
+			  	</p>
+			 </a>
 		  </li>
 		  <li class="slide">
-		  	<p class="consideration">FOR YOUR CONSIDERATION</p>
-		  	<p class="award">BEST ADAPTED</p>
-		  	<p class="name">SCREENPLAY</p>
-		  	<p>
-		  		<img class="desktop" src="img/logo-unbroken-sm.png" alt="Unbroken"/>
-		  		<img class="mobile" src="img/mobile/m-logo-sm.png" alt="Unbroken"/>
-		  	</p>
+		  	<a href="http://www.universalpicturesawards.com/main/title/unbroken" target="_blank">
+			  	<p class="consideration">FOR YOUR CONSIDERATION</p>
+			  	<p class="award">BEST ADAPTED</p>
+			  	<p class="name">SCREENPLAY</p>
+			  	<p>
+			  		<img class="desktop" src="img/logo-unbroken-sm.png" alt="Unbroken"/>
+			  		<img class="mobile" src="img/mobile/m-logo-sm.png" alt="Unbroken"/>
+			  	</p>
+			</a>
 		  </li>
 		</ul>
 	</div>
@@ -103,25 +111,25 @@
 			</div>
 			<ul id="rotator-cta" class="rotator loading">
 			  <li class="slide">		  
-			  	<img src="img/rotator-vid1.png"/>
+			  	<a href="http://www.iamunbroken.com/" target="_blank"><img src="img/rotator-vid1.png"/></a>
 			  </li>
 			  <li class="slide">
-			  	<img src="img/rotator-quote1.png"/>
+			  	<a href="http://www.iamunbroken.com/" target="_blank"><img src="img/rotator-quote1.png"/></a>
 			  </li>
 			  <li class="slide">		  	
-			  	<img src="img/rotator-vid2.png"/>
+			  	<a href="http://www.iamunbroken.com/" target="_blank"><img src="img/rotator-vid2.png"/></a>
 			  </li>
 			  <li class="slide">
-			  	<img src="img/rotator-quote2.png"/>
+			  	<a href="http://www.iamunbroken.com/" target="_blank"><img src="img/rotator-quote2.png"/></a>
 			  </li>
 			  <li class="slide">
-			  	<img src="img/rotator-vid3.png"/>
+			  	<a href="http://www.iamunbroken.com/" target="_blank"><img src="img/rotator-vid3.png"/></a>
 			  </li>
 			  <li class="slide">
-			  	<img src="img/rotator-quote3.png"/>
+			  	<a href="http://www.iamunbroken.com/" target="_blank"><img src="img/rotator-quote3.png"/></a>
 			  </li>
 			  <li class="slide">
-			  	<img src="img/rotator-vid4.png"/>
+			  	<a href="http://www.iamunbroken.com/" target="_blank"><img src="img/rotator-vid4.png"/></a>
 			  </li>
 			</ul>
 			<a class="sans-bold hashtag desktop" href="#">#IAmUnbroken</a>

@@ -207,7 +207,7 @@ $(function() {
 				event.preventDefault();
 				subSectionOut = true;
 				$('.section-about').delay(500).fadeIn();
-				$('.column').fadeToggle();
+				//$('.column').fadeOut();
 			});
 
 			//close about
@@ -215,7 +215,7 @@ $(function() {
 				event.preventDefault();
 				subSectionOut = false;
 				$('.section-about').fadeOut();
-				$('.column').delay(500).fadeToggle();
+				//$('.column').delay(500).fadeIn();
 				closeSubNav();
 			});
 

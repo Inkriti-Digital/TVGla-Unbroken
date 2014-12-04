@@ -8,7 +8,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<!-- Favicon -->
-    	<link rel="shortcut icon" href="http://www.unbrokenfilm.com/img/misc/favicon.png" />
+    	<link rel="shortcut icon" href="favicon.png" />
 
     	<!-- Facebook OpenGraph description -->
 	    <meta property="og:title" content="Unbroken" />

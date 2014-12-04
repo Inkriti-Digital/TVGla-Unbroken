@@ -1,5 +1,5 @@
 <div class="section-about">
-	<div class="close-about"><a href="#"><img src="img/white-closex.png"/></a></div>
+	<div class="close-about"><a href="#"><img src="img/black-closex.png"/></a></div>
 
 	<div class="synopsis">
 		<div class="inner-title"><img src="img/synopsis-quote.png"/></div>
