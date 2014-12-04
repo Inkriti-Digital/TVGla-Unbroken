@@ -4,8 +4,10 @@
  */
 @include media-query(palm){
 
+	/**NAV & HOME PAGE**/
+
 	//TURN OFF DESKTOP ONLY ELEMENTS
-	.social-audio, .nav-slider, .trailer, .desktop{ 
+	.social-audio, .trailer, .desktop, .nav-pillar .nav-slider .slide .hashtag{ 
 	    display: none; 
 	}
 
@@ -22,7 +24,7 @@
 	}
 
 	.nav-pillar{
-		min-height: 2450px;
+		min-height: 2250px;
 
 		.logo-lockup{
 			margin-bottom: 10px;
@@ -40,7 +42,7 @@
 		vertical-align: top;
 		position: absolute;
 		top: 190px;
-		height: 100%;
+		height: auto;
 		z-index: 50;
 	}
 
@@ -71,7 +73,6 @@
 		background-color: #b79524;
 		height: 75px;
 		
-
 		a{
 			display: block;
 			width: 100%;
@@ -86,7 +87,123 @@
 		}
 	}
 
+	.resilience{
+		background: url('../img/mobile/home-resilience.jpg') no-repeat center top;
+		background-size: auto 100%;
 
+		.overlay .badge{
+			position: absolute;
+			right: 35px;
+			margin-top: -35%
+		}
+	}
+
+	.survival{
+		background: url('../img/mobile/home-survival.jpg') no-repeat center top;
+		background-size: auto 100%;
+
+		.overlay .badge{
+			position: absolute;
+			left: 35px;
+			margin-top: -35%
+		}
+	}
+
+	.redemption{
+		background: url('../img/mobile/home-redemption.jpg') no-repeat center top;
+		background-size: 100% auto;
+
+		.overlay .badge{
+			position: absolute;
+			right: 35px;
+			margin-top: -35%
+		}
+	}	
+
+	.overlay .quote{
+			p{ 
+				margin-top: 12px; 
+				font-size: 22px;
+			}
+		}
+
+
+		//ROTATORS
+		#rotator-award{
+			width: 85%;
+			height: 165px;
+
+			p{
+				font-size: 23px;
+				line-height: 32px;
+				img{
+					margin-top: 10px;
+				}
+			}
+			.award{
+				font-size: 48px;
+				line-height: 46px;
+			}
+			.name{
+				font-size: 28px;
+			}
+		}
+
+
+		#rotator-cta, #rotator-cta-nav{
+			display: none !important;
+		}
+
+		.nav-pillar .nav-slider .slide p{
+			font-size: 26px;
+			line-height: 32px;
+		}
+
+		.visit-site{
+			display: block;
+			margin: auto;
+			font-family: 'G-Book', Arial, sans-serif;
+			width: 329px;
+			height: 90px;
+			border: 2px white solid;
+			background-color: black;
+			text-align: center;
+			color: white;
+			vertical-align: center;
+			font-size: 30px;
+			padding-top: 20px;
+			margin: 10px auto;
+		}
+
+		.social-all{
+			background-color: rgba(0,0,0,0.2);
+			position: absolute;
+			bottom: 100px;
+		}
+
+		.nav-pillar .social-all span{
+			width: 12%;
+			height: 60px;
+			padding: 17px 0;
+		}
+
+		.nav-pillar .legal{
+			background-color: black;
+			min-height: 100px;
+			height: 100px;
+			bottom: 0;
+
+			.legal-logos{
+				width: 99%;
+			}
+		}
+
+		.nav-pillar .legal .legal-copy{
+			border: none;
+			background-color: black;
+
+
+		}
 
 
 }

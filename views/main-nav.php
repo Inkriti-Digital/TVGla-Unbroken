@@ -58,25 +58,37 @@
 		  	<p class="consideration">FOR YOUR CONSIDERATION</p>
 		  	<p class="award">BEST ACTOR</p>
 		  	<p class="name">JACK O&#8217;CONNELL</p>
-		  	<p><img src="img/logo-unbroken-sm.png" alt="Unbroken"/></p>
+		  	<p>
+		  		<img class="desktop" src="img/logo-unbroken-sm.png" alt="Unbroken"/>
+		  		<img class="mobile" src="img/mobile/m-logo-sm.png" alt="Unbroken"/>
+		  	</p>
 		  </li>
 		  <li class="slide">
 		  	<p class="consideration">FOR YOUR CONSIDERATION</p>
 		  	<p class="award">BEST DIRECTOR</p>
 		  	<p class="name">ANGELINA JOLIE</p>
-		  	<p><img src="img/logo-unbroken-sm.png" alt="Unbroken"/></p>
+		  	<p>
+		  		<img class="desktop" src="img/logo-unbroken-sm.png" alt="Unbroken"/>
+		  		<img class="mobile" src="img/mobile/m-logo-sm.png" alt="Unbroken"/>
+		  	</p>
 		  </li>
 		  <li class="slide">
 		  	<p class="consideration">FOR YOUR CONSIDERATION</p>
 		  	<p class="award">BEST PICTURE</p>
 		  	<p class="name"><br/> </p>
-		  	<p><img src="img/logo-unbroken-sm.png" alt="Unbroken"/></p>
+		  	<p>
+		  		<img class="desktop" src="img/logo-unbroken-sm.png" alt="Unbroken"/>
+		  		<img class="mobile" src="img/mobile/m-logo-sm.png" alt="Unbroken"/>
+		  	</p>
 		  </li>
 		  <li class="slide">
 		  	<p class="consideration">FOR YOUR CONSIDERATION</p>
 		  	<p class="award">BEST ADAPTED</p>
 		  	<p class="name">SCREENPLAY</p>
-		  	<p><img src="img/logo-unbroken-sm.png" alt="Unbroken"/></p>
+		  	<p>
+		  		<img class="desktop" src="img/logo-unbroken-sm.png" alt="Unbroken"/>
+		  		<img class="mobile" src="img/mobile/m-logo-sm.png" alt="Unbroken"/>
+		  	</p>
 		  </li>
 		</ul>
 	</div>
@@ -86,6 +98,9 @@
 	<div class="logo-lockup nav-slider">
 		<div class="slide">
 			<p>Share Your STORY <br/>OF RESILIENCE &amp; STRENGTH on <br/><span class="sans-bold">IAmUnbroken.com</span></p>
+			<div class="mobile">
+				<img src="img/mobile/share-story-cta.jpg"/>
+			</div>
 			<ul id="rotator-cta" class="rotator loading">
 			  <li class="slide">		  
 			  	<img src="img/rotator-vid1.png"/>
@@ -109,40 +124,53 @@
 			  	<img src="img/rotator-vid4.png"/>
 			  </li>
 			</ul>
-			<a class="sans-bold hashtag" href="#">#IAmUnbroken</a>
+			<a class="sans-bold hashtag desktop" href="#">#IAmUnbroken</a>
+			<a href="#" class="mobile visit-site">VISIT SITE</a>
 		</div>
 	</div>
 
-	<hr/>
+	<hr class="desktop" />
 
 	<div class="social-all">
 		<span>
-			<a href="https://www.facebook.com/UnbrokenFilm"><img src="img/ico-fb.png" onMouseOver="this.src='img/ico-fb-on.png'" onMouseOut="this.src='img/ico-fb.png'" /></a>
-		</span>
-		<span>
-			<a href="http://unbrokenmovie.tumblr.com/" target="_blank"><img src="img/ico-tumblr.png" onMouseOver="this.src='img/ico-tumblr-on.png'" onMouseOut="this.src='img/ico-tumblr.png'" />
+			<a href="https://www.facebook.com/UnbrokenFilm">
+				<img class="desktop" src="img/ico-fb.png" onMouseOver="this.src='img/ico-fb-on.png'" onMouseOut="this.src='img/ico-fb.png'" />
+				<img class="mobile" src="img/mobile/m-social-fb.png"/>
 			</a>
 		</span>
 		<span>
-			<a href="https://twitter.com/unbrokenfilm" target="_blank"><img src="img/ico-twitter.png" onMouseOver="this.src='img/ico-twitter-on.png'" onMouseOut="this.src='img/ico-twitter.png'" />
+			<a href="http://unbrokenmovie.tumblr.com/" target="_blank">
+				<img class="desktop" src="img/ico-tumblr.png" onMouseOver="this.src='img/ico-tumblr-on.png'" onMouseOut="this.src='img/ico-tumblr.png'" />
+				<img class="mobile" src="img/mobile/m-social-tumblr.png"/>
 			</a>
 		</span>
 		<span>
-			<a href="https://plus.google.com/+unbrokenfilm/posts" target="_blank"><img src="img/ico-g+.png" onMouseOver="this.src='img/ico-g+-on.png'" onMouseOut="this.src='img/ico-g+.png'" />
+			<a href="https://twitter.com/unbrokenfilm" target="_blank">
+				<img class="desktop" src="img/ico-twitter.png" onMouseOver="this.src='img/ico-twitter-on.png'" onMouseOut="this.src='img/ico-twitter.png'" />
+				<img class="mobile" src="img/mobile/m-social-twitter.png"/>
 			</a>
 		</span>
 		<span>
-			<a href="https://www.youtube.com/channel/UCEJnVgWcGv-YK4cDf5vQ2Dw" target="_blank"><img src="img/ico-yt.png" onMouseOver="this.src='img/ico-yt-on.png'" onMouseOut="this.src='img/ico-yt.png'" />
+			<a href="https://plus.google.com/+unbrokenfilm/posts" target="_blank">
+				<img class="desktop" src="img/ico-g+.png" onMouseOver="this.src='img/ico-g+-on.png'" onMouseOut="this.src='img/ico-g+.png'" />
+				<img class="mobile" src="img/mobile/m-social-g+.png"/>
+			</a>
+		</span>
+		<span>
+			<a href="https://www.youtube.com/channel/UCEJnVgWcGv-YK4cDf5vQ2Dw" target="_blank">
+				<img class="desktop" src="img/ico-yt.png" onMouseOver="this.src='img/ico-yt-on.png'" onMouseOut="this.src='img/ico-yt.png'" />
+				<img class="mobile" src="img/mobile/m-social-yt.png"/>
 			</a>
 		</span>
 	</div>
 
 	<div class="legal">
-		<p>HOVER FOR LEGAL</p>
-		<p class="legal-copy">
+		<p class="desktop">HOVER FOR LEGAL</p>
+		<p class="legal-copy desktop">
 			<img src="img/legal-universal.png" alt="universal studios"/>	
 			<img src="img/legal-legendary.png" alt="legendary"/>	
 			<img src="img/legal-pg13.png" alt="pg-13"/>	
 		</p>
+		<img class="legal-logos mobile" src="img/mobile/legal-logos.jpg"/>
 	</div>
 </div>

@@ -6,7 +6,7 @@
 		</div>
 		<div class="quote">
 			<p>
-				<strong>FALL</strong> SEVEN TIMES<br/>
+				<strong>FALL</strong> SEVEN TIMES
 				<strong>STAND</strong> UP EIGHT
 			</p>
 		</div>
@@ -19,7 +19,7 @@
 		</div>
 		<div class="quote">
 			<p>
-				IF I CAN <strong>TAKE IT.</strong><br/>
+				IF I CAN <strong>TAKE IT.</strong>
 				I CAN <strong>MAKE IT.</strong>
 			</p>
 		</div>
@@ -32,8 +32,8 @@
 		</div>
 		<div class="quote">
 			<p>
-				A MINUTE OF <strong>PAIN</strong><br/>
-				IS WORTH A <strong>LIFETIME</strong><br/>
+				A MINUTE OF <strong>PAIN</strong>
+				IS WORTH A <strong>LIFETIME</strong>
 				<strong>OF GLORY.</strong>
 			</p>
 		</div>
