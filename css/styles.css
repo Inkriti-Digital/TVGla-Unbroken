@@ -2053,6 +2053,50 @@ td {
   background: url("../img/nav-rotator-indicator-on.png") no-repeat center center;
 }
 
+/*TICKETS*/
+#get-tickets {
+  background-color: #d0b761;
+  width: 100%;
+  text-align: center;
+  margin: 10px auto;
+  padding: 10px 0 20px 0;
+}
+#get-tickets div, #get-tickets button, #get-tickets input {
+  display: inline-block;
+  vertical-align: top;
+}
+#get-tickets .title {
+  color: black;
+  letter-spacing: 0.05em;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: black;
+  margin: 0;
+}
+#get-tickets .fandango-btn, #get-tickets .movietix-btn {
+  cursor: pointer;
+  width: 44px;
+  height: 44px;
+  background: url("../img/tix-fandango.png") no-repeat top left;
+  background-size: 100%;
+  border: none;
+}
+#get-tickets .movietix-btn {
+  background: url("../img/tix-movies.png") no-repeat top left;
+}
+#get-tickets #zipInput {
+  height: 42px;
+  font-family: arial;
+  background-color: #9c8948;
+  border: 1px #73632c solid;
+  width: 140px;
+  font-size: 14px;
+  color: #d5c695;
+  padding: 5px;
+  text-align: center;
+}
+
 /**
  * $INTERLUDE
  * ==========================================================================
