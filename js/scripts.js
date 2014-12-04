@@ -71,21 +71,25 @@ $(function() {
 			  function() {
 			  	var frameCount = 1;
 			    $(".overlay", this).css( "bottom", "-30px" );
+			    $('.vid-hover', this).fadeIn();
+			    var myId = $(this).attr('id');
+
 			    
 			    //VIDEO HOVER ANIMATION
-			    // vidHoverFX = setInterval(vidHover, 60);
+			    vidHoverFX = setInterval(vidHover, 130);
 
-			    function vidHover(){
+			  	function vidHover(){
 			    	frameCount++;
-			    	var imgPath="img/vid-fx/resilience/unb_570x810_resilience_0";
-			    	var nextImage=imgPath+frameCount+".png";
-			    	console.log(frameCount);
+			    	var imgPath="img/vid-fx/"+myId+"/frame-";
+			    	var nextImage=imgPath+frameCount+".jpg";
+			    	// console.log(frameCount);
 
-			    	if(frameCount<=90){
+			    	if(frameCount<=45){
 				   		$('.vid-hover').attr('src', nextImage);
-				   	} if(frameCount>90){
+				   	} if(frameCount>45){
 				   		clearInterval(vidHoverFX);
-				   		$('.vid-hover').attr('src', 'img/vid-fx/resilience/unb_570x810_resilience_08.png');
+				   		// $('.vid-hover').attr('src', 'img/vid-fx/resilience/res-frame-4.png');
+				   		$('.vid-hover').fadeOut();
 				   	}
 			    }
 
@@ -93,7 +97,8 @@ $(function() {
 			  }, function() {
 			    $(".overlay", this).css( "bottom", "-170px" );
 			    clearInterval(vidHoverFX);
-				$('.vid-hover').attr('src', 'img/vid-fx/resilience/unb_570x810_resilience_08.png');
+				// $('.vid-hover').attr('src', 'img/vid-fx/resilience/res-frame-4.png');
+				$('.vid-hover').fadeOut();
 			  }
 			);
 

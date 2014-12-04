@@ -1,4 +1,5 @@
 <div id="resilience" class="column resilience">
+	<img id="resilience" class="vid-hover" style="display: none;" src=" "/> 
 	<div id="resilience" class="overlay">
 		<div id="resilience" class="badge">
 			<img id="resilience" src="img/badge-resilience.png"/>
@@ -12,6 +13,7 @@
 	</div>
 </div>
 <div id="survival" class="column survival">
+	<img id="survival" class="vid-hover" style="display: none;" src=" "/>
 	<div id="survival" class="overlay">
 		<div id="survival" class="badge">
 			<img id="survival" src="img/badge-survival.png"/>
@@ -25,6 +27,7 @@
 	</div>
 </div>
 <div id="redemption" class="column redemption">
+	<img id="survival" class="vid-hover" style="display: none;" src=" "/>
 	<div id="redemption" class="overlay">
 		<div id="redemption" class="badge">
 			<img id="redemption" src="img/badge-redemption.png"/>
