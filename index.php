@@ -57,7 +57,7 @@
 				<div class="content-pillar">
 
 					<!-- TRAILER VIDEO PLAYER -->
-					<!--?php include 'views/trailer.php'; ?-->
+					<?php include 'views/trailer.php'; ?>
 
 					<!-- SYNOPSIS SECTION -->
 					<?php include 'views/about.php'; ?>

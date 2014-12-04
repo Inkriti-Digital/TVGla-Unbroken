@@ -14,12 +14,17 @@
 	</div>
 
 	<div class="logo-lockup">
-		<a href="/"><img src="img/unbroken-logo-lockup.png" alt="the unbelievable true story. Unbroken. Survival. Resilience. Redemption. Christmas."/>
+		<a href="/">
+			<img class="desktop" src="img/unbroken-logo-lockup.png" alt="the unbelievable true story. Unbroken. Survival. Resilience. Redemption. Christmas."/>
+			<img class="mobile" src="img/mobile/unbroken-lockup.png" alt="the unbelievable true story. Unbroken. Survival. Resilience. Redemption. Christmas."/>
 		</a>
+		<a class="mobile hamburger" href="#"><img src="img/mobile/hamburger-nav.png"/></a>
 	</div>
-
+	<div class="mobile m-view-trailer">
+		<a href="#">VIEW TRAILER</a>
+	</div>
 	<div class="nav-box">
-		<ul>
+		<ul class="m-nav">
 			<li>								
 				<a class="nav-link nav-videos" href="#">
 					<span class="nav-highlight"></span>

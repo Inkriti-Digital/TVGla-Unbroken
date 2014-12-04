@@ -1448,14 +1448,17 @@ td {
   margin: 0 auto;
   padding: 0 20px;
 }
+.container .mobile {
+  display: none;
+}
 @media only screen and (max-width: 1024px) {
   .container {
-    width: 768px;
+    width: 1024px;
   }
 }
 @media only screen and (max-width: 768px) {
   .container {
-    width: 100%;
+    width: 768px;
   }
 }
 
@@ -1494,11 +1497,6 @@ td {
   padding: 0;
   /*temporary*/
   height: auto;
-}
-@media only screen and (max-width: 1024px) {
-  .container {
-    width: 100%;
-  }
 }
 
 .nav-pillar {
@@ -1800,6 +1798,9 @@ td {
   margin-top: 20px;
   text-align: center;
   width: 100%;
+}
+.nav-pillar .logo-lockup img {
+  margin: auto;
 }
 .nav-pillar .nav-box {
   border-top: 2px #bfbfbf solid;
@@ -2577,6 +2578,87 @@ td {
   padding-top: 25px;
   display: inline-block;
   opacity: 1;
+}
+
+/**
+ * $RESPONSIVE
+ * ==========================================================================
+ */
+@media only screen and (max-width: 768px) {
+  .social-audio, .nav-slider, .trailer, .desktop {
+    display: none;
+  }
+
+  .container .mobile {
+    display: block;
+  }
+
+  .nav-pillar, .content-pillar, .column {
+    display: block;
+    float: none;
+    width: 100%;
+    min-width: 640px;
+  }
+
+  .nav-pillar {
+    min-height: 2450px;
+  }
+  .nav-pillar .logo-lockup {
+    margin-bottom: 10px;
+  }
+  .nav-pillar .hamburger, .nav-pillar .hamburgerOut {
+    padding: 15px;
+    float: left;
+    position: absolute;
+    top: -5px;
+  }
+
+  .content-pillar {
+    vertical-align: top;
+    position: absolute;
+    top: 190px;
+    height: 100%;
+    z-index: 50;
+  }
+
+  .content-pillar .column {
+    float: none;
+    min-height: 360px;
+    height: 360px;
+    background-size: 100% auto;
+  }
+  .content-pillar .column .overlay {
+    position: absolute;
+    width: 100%;
+    bottom: 0 !important;
+    height: 65px;
+  }
+
+  .nav-pillar .nav-box {
+    margin-bottom: 1080px;
+    margin-top: 0px;
+  }
+
+  .nav-pillar .nav-box .m-nav {
+    display: none;
+  }
+
+  .m-view-trailer {
+    background-color: #b79524;
+    height: 75px;
+  }
+  .m-view-trailer a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #202020;
+    font-size: 22px;
+    text-align: center;
+    padding-top: 20px;
+    vertical-align: middle;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -9,11 +9,15 @@
 	margin: 0 auto;
     padding: 0 $spacing-unit-grid;
 
+    .mobile{
+        display: none;
+    }
+
     @include media-query(portable){
-        width: $palm-start;
+        width: $portable-start;
     }
     @include media-query(palm){
-        width: 100%;
+        width: $palm-start;
     }
 }
 
@@ -60,7 +64,7 @@
     height: auto;
 
     @include media-query(portable){
-        width: 100%;
+        // width: 100%;
     }
 }
 
