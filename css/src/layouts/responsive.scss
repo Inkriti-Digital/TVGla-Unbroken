@@ -2,7 +2,7 @@
  * $RESPONSIVE
  * ==========================================================================
  */
-.m-nav-box, .m-section{
+.m-nav-box{
 	display: none;
 }
 
@@ -15,12 +15,14 @@
 	    display: none; 
 	}
 
+	
+
 	//TURN MOBILE ELEMENTS ON
 	.container .mobile{
 		display: block;
 	}
 
-	.nav-pillar, .content-pillar, .column{
+	.nav-pillar, .content-pillar, .column, .content-pillar .column{
 		display: block;
 		float: none;
 		width: 100%;
@@ -240,12 +242,12 @@
 		}
 
 		.m-nav-box{
-			position: fixed;
+			position: absolute;
 			z-index: 99999;
 			height: 100%;
 			top: 0px;
 			border: thin red solid;
-			width: 80%;
+			width: 95%;
 			background-color: #c7c5bb;
 			height: 100%;
 			display: none;
@@ -266,7 +268,7 @@
 			a{
 				color: black;
 				letter-spacing: 0.1em;
-				font-size: 40px;
+				font-size: 36px;
 				width: 100%;
 				display: block;
 				height: 100%;
@@ -286,9 +288,8 @@
 //MOBILE INNER PAGES
 
 	.m-about{
-		top: 152px;
-		position: absolute;
 		z-index: 100;
+		margin-top: 15px;
 	}
 		.m-title {
 			width: 100%;
@@ -301,7 +302,7 @@
 				font-weight: normal;
 				text-align: center;
 				letter-spacing: 0.15em;
-				padding-top: 20px;
+				padding-top: 12px;
 			}
 		}
 		.m-section{
@@ -313,6 +314,7 @@
 			font-size: 22px;
 			font-family: 'G-Book', Arial, sans-serif;
 			padding: 25px;
+			margin-bottom: 0;
 
 			b{
 				text-transform: uppercase;
@@ -323,6 +325,61 @@
 			}
 		}
 
+		.mobile-head-logo{
+			margin: auto;
+			padding-top: 20px;
+		}
+
+		.logo-lockup{
+			text-align:center;
+		}
+
+		.m-container .hamburger{
+			float: left;
+			position: absolute;
+			padding: 20px;
+			top: 0;
+		}
+
+
+		.m-legal{
+			background-color: black;
+			width: 100%;
+			text-align: center;
+			img{width: 100%;}
+		}
+
+		.m-social-all{
+			height: 100px;
+			width: 100%;
+			position: relative;
+			bottom: auto;
+			background-color: #232323;
+			padding-top: 30px;
+			text-align: center;
+
+			span{
+				margin: 0 30px;
+				vertical-align: middle;
+				display: inline-block;
+			}
+		}
+
+		.m-about-img{
+				width: 100%;
+			}
+
+			.m-vid-embed-wrap{
+				width: 100%;
+				height: 360px;
+				// padding: 10px 0;
+				// background-color: #232323;
+			}
+
+
+.m-container{
+		min-width: 640px;
+	}
 
 
 

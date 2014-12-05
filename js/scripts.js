@@ -108,7 +108,6 @@ $(function() {
 			    	frameCount++;
 			    	var imgPath="img/vid-fx/"+myId+"/frame-";
 			    	var nextImage=imgPath+frameCount+".jpg";
-			    	// console.log(frameCount);
 
 			    	if(frameCount<=45){
 				   		$('#'+myId+' .vid-hover').attr('src', nextImage);
@@ -217,23 +216,36 @@ $(function() {
 			//open vidS
 			$(".btn-trailer").click(function(event) {
 				event.preventDefault();
+				if(soundOn == true){
+					siteAudio.pause();
+				}
 				$('#vidFrame').attr('src', '//www.youtube.com/embed/kk1M_HwmFMM?list=PLmGmHG5_e8rLz01goWr7J5c-UrOSczdW3?rel=0&amp;autoplay=1');
 			 	$('.trailer').show();
+
 			});
 
 			$(".btn-trailer2").click(function(event) {
 				event.preventDefault();
+				if(soundOn == true){
+					siteAudio.pause();
+				}
 				$('#vidFrame').attr('src', '//www.youtube.com/embed/rGlsxVfCSyQ?list=PLmGmHG5_e8rLz01goWr7J5c-UrOSczdW3?rel=0&amp;autoplay=1');
 			 	$('.trailer').show();
 			});
 
 			$(".btn-spot").click(function(event) {
 				event.preventDefault();
+				if(soundOn == true){
+					siteAudio.pause();
+				}
 				$('#vidFrame').attr('src', '//www.youtube.com/embed/psmjfo_pKUk?rel=0&amp;autoplay=1');
 			 	$('.trailer').show();
 			});
 			$(".btn-cbs").click(function(event) {
 				event.preventDefault();
+				if(soundOn == true){
+					siteAudio.pause();
+				}
 				$('#vidFrame').attr('src', '//www.youtube.com/embed/M48tvsfpIew?rel=0&amp;autoplay=1');
 			 	$('.trailer').show();
 			});
@@ -440,5 +452,5 @@ $(function() {
 		}
 	});
 
-		
+
 });

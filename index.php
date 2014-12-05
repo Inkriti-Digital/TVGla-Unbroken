@@ -5,7 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<title>Unbroken – Trailers, Cast & Photos</title>
 		<meta name="description" content="Angelina Jolie directs and produces Unbroken, an epic drama that follows the life of an Olympian and war hero Louis Zamperini." />
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=640, maximum-scale=1">
 
 		<!-- Favicon -->
     	<link rel="shortcut icon" href="favicon.png" />
@@ -19,13 +19,7 @@
 		<!-- STYLES -->
 		<link rel="stylesheet" href="css/styles.min.css">
 		<!-- LIGHTBOX -->
-		<!-- <link rel="stylesheet" href="css/screen.css"> -->
 		<link rel="stylesheet" href="css/lightbox.css">
-
-		<!-- REMOVE BEFORE LAUNCH -->
-		<meta name="robots" content="noindex">
-		<!--  -->
-		<!--  -->
 	</head>
 	<body>
 		<!--FACEBOOK MASTER SHARE SCRIPT-->
