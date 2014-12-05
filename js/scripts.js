@@ -143,7 +143,7 @@ $(function() {
 		    //legal hover over
 		    $(".nav-pillar .legal").hover(
 			  function() {
-			    $(this).css( "bottom", "-40px" );
+			    $(this).css( "bottom", "0px" );
 			  }, function() {
 			    $(this).css( "bottom", "-410px" );
 			  }

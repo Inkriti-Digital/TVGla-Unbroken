@@ -1919,6 +1919,15 @@ td {
 .nav-pillar .legal .legal-copy img {
   margin: 20px 0;
 }
+.nav-pillar .legal .legal-copy .terms {
+  display: block;
+  margin-top: 8px;
+}
+.nav-pillar .legal .legal-copy .terms a {
+  color: black;
+  font-size: 10px;
+  font-family: arial, sans-serif;
+}
 .nav-pillar .sub-nav {
   position: absolute;
   left: 0px;

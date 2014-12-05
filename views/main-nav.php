@@ -201,7 +201,15 @@
 			<img src="img/legal-universal.png" alt="universal studios"/>	
 			<img src="img/legal-legendary.png" alt="legendary"/>	
 			<img src="img/legal-pg13.png" alt="pg-13"/>	
+			<span class="terms">
+				<a href="http://www.universalpictures.com/legal/land.html" target="_blank">POLICIES</a> | 
+				<a href="http://www.universalpictures.com/legal/index.html" target="_blank">TERMS &amp; CONDITIONS</a> | 
+				<a href="http://www.universalpictures.com/legal/privacy.html" target="_blank">PRIVACY POLICY</a> <br/> 
+				<a href="http://mpaa.org/" target="_blank">MPAA.ORG</a> | 
+				<a href="http://filmratings.com/" target="_blank">FILMRATINGS.COM</a>
+			</span>
 		</p>
+		
 		<img class="legal-logos mobile" src="img/mobile/legal-logos.jpg"/>
 	</div>
 </div>

@@ -171,6 +171,7 @@
 		min-height: 300px;
 		position: absolute;
 		bottom: -410px;
+		// bottom: 0;
 		padding-top: 10px;
 		transition: bottom 1s ease;
 		cursor: pointer;
@@ -192,8 +193,21 @@
 				margin: 20px 0;
 			}
 
+			.terms{
+				display: block;
+				margin-top: 8px;
+			}
+
+			.terms a{
+				color: black;
+				font-size: 10px;
+				font-family: arial, sans-serif;
+			}
+
 		}
 	}
+
+	
 
 	.sub-nav{
 		position: absolute;
@@ -373,7 +387,12 @@
 		padding: 5px;
 		text-align: center;
 	}
+
+
+
 }
+
+
 
 
 
