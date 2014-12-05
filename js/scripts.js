@@ -65,6 +65,7 @@ $(function() {
 				var contentHeight = $(window).height();
 				$('.content-pillar .column').css( "height", contentHeight );
 				$('.trailer').css( "height", contentHeight );
+				// $('.section-about').css( "height", contentHeight );
 
 				resizeNav();
 			}
@@ -265,17 +266,23 @@ $(function() {
 			//open about
 			$(".btn-about").click(function(event) {
 				event.preventDefault();
-				subSectionOut = true;
-				$('.section-about').delay(500).fadeIn();
+				$('.page-redemption').hide();
+				$('.page-resilience').hide();
+				$('.page-survival').hide();
 				resizeNav();
+				subSectionOut = true;
+				$('.section-about').delay(300).fadeIn();
+				// resizeNav();
 				//$('.column').fadeOut();
 			});
 
 			//close about
 			$(".close-about").click(function(event) {
 				event.preventDefault();
+
 				subSectionOut = false;
 				$('.section-about').fadeOut();
+				$('.column').delay(300).fadeIn();
 				closeSubNav();
 				resizeNav();
 			});

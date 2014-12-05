@@ -2215,6 +2215,7 @@ audio, canvas, progress {
   background: url("../img/sectionbg-synopsis.jpg") no-repeat #fffcee;
   background-size: 100%;
   display: none;
+  min-height: 980px;
 }
 .section-about .close-about {
   position: absolute;
