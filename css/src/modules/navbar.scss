@@ -328,7 +328,7 @@
 
 /*TICKETS*/
 #get-tickets {
-	background-color: #d0b761;
+	background-color: #dac684;
 	width: 100%;
 	text-align: center;
 	margin: 10px auto;
@@ -351,8 +351,8 @@
 
 	.fandango-btn, .movietix-btn{
 		cursor: pointer;
-		width: 44px;
-		height: 44px;
+		width: 45px;
+		height: 45px;
 		background: url('../img/tix-fandango.png') no-repeat top left;
 		background-size: 100%;
 		border: none;
@@ -363,10 +363,10 @@
 	}
 
 	#zipInput{
-		height: 42px;
+		height: 45px;
 		font-family: arial;
-		background-color: #9c8948;
-		border: 1px #73632c solid;
+		background-color: #80713c;
+		border: 1px #74673d solid;
 		width: 140px;
 		font-size: 14px;
 		color: #d5c695;
