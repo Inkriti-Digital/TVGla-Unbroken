@@ -2,7 +2,7 @@
  * $RESPONSIVE
  * ==========================================================================
  */
-.m-nav-box{
+.m-nav-box, .m-section{
 	display: none;
 }
 
@@ -28,7 +28,7 @@
 	}
 
 	.nav-pillar{
-		min-height: 2250px;
+		// min-height: 2250px;
 		height: 2427px;
 
 		.logo-lockup{
@@ -277,6 +277,49 @@
 				text-align: right;
 				padding-right: 25px;
 				padding-top: 20px;
+			}
+		}
+
+
+
+
+//MOBILE INNER PAGES
+
+	.m-about{
+		top: 152px;
+		position: absolute;
+		z-index: 100;
+	}
+		.m-title {
+			width: 100%;
+			background-color: #242424;
+			height: 70px;
+
+			h2{
+				color: $copy-bright;
+				font-size: 32px;
+				font-weight: normal;
+				text-align: center;
+				letter-spacing: 0.15em;
+				padding-top: 20px;
+			}
+		}
+		.m-section{
+			background-color: #e3e1d5;
+		}
+
+		.m-body-copy{
+			color: #202020;
+			font-size: 22px;
+			font-family: 'G-Book', Arial, sans-serif;
+			padding: 25px;
+
+			b{
+				text-transform: uppercase;
+			}
+
+			.m-about-img{
+				width: 100%;
 			}
 		}
 

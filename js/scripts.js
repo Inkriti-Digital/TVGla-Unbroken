@@ -411,19 +411,34 @@ $(function() {
 
 
 	//MOBILE FUNCTIONS
+	if(mobileSite == true){		
+		jQuery(function ($) {
+			// $('.nav-pillar').css('height', 1862);
+		});
+	}
+
 	var mobileNavClick = false;
-	$('.hamburger').click(function(event){		
-		$('.m-nav-box').show();
-
-		// if(mobileNavClick == false){
-		// 	mobileNavClick = true;
-		// } else if(mobileNavClick == true){
-		// 	mobileNavClick = false;
-		// }
-
+	$('.hamburger').click(function(event){
+		if(mobileSite == true){		
+			$('.m-nav-box').show();
+		}
 	});
 
-	$('.nav-close').click(function(event){		
-		$('.m-nav-box').hide();
+	$('.nav-close').click(function(event){
+		if(mobileSite == true){	
+			$('.m-nav-box').hide();
+		}
 	});
+
+	$('.nav-about').click(function(event){	
+		if(mobileSite == true){	
+			$('.m-nav-box').hide();
+			$('.m-about').show();
+			$('.nav-slider').hide();
+			$('.nav-pillar').css('height', 1862);
+			$('.nav-pillar .nav-slider').hide();
+		}
+	});
+
+		
 });
