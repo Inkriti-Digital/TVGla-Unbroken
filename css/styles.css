@@ -1824,7 +1824,7 @@ td {
   text-align: center;
 }
 .nav-pillar .nav-box ul {
-  padding: 20px 20px;
+  padding: 20px 15px;
 }
 .nav-pillar .nav-box li {
   padding: 8px 0px;
@@ -1937,7 +1937,7 @@ td {
 }
 .nav-pillar .sub-nav .nav-box ul, .nav-pillar .sub-nav .nav-box li, .nav-pillar .sub-nav .nav-box a {
   text-align: left;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.03em;
 }
 .nav-pillar .sub-nav .nav-box li {
   border-top: 1px #838383 solid;
