@@ -358,6 +358,23 @@ $(function() {
 		//start trailer desktop
 		if(mobileSite == false){
 			$('#vidFrame').attr('src', '//www.youtube.com/embed/kk1M_HwmFMM?list=PLmGmHG5_e8rLz01goWr7J5c-UrOSczdW3?rel=0&amp;autoplay=1');
+
+			 
+			 var siteAudio = document.getElementById("siteAudio"); 
+			 var soundOn = true;
+
+				$("#soundToggle").click(function(event) {
+					if(soundOn == true){
+				    	siteAudio.pause(); 
+				    	soundOn = false;	
+				    	$("#soundToggle img").attr('src', 'img/btn-soundoff.png');
+				    } else if(soundOn == false){
+				    	siteAudio.play();
+				    	soundOn = true;
+				    	$("#soundToggle img").attr('src', 'img/btn-soundon.png');
+				    }			
+				});
+
 		}
 		function addHoverVideo(){
 	    	if(mobileSite==false){

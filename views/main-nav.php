@@ -8,7 +8,16 @@
 		</div>
 
 		<div class="audio-ctrl">
-			<a href="#"><img src="img/btn-soundon.png" alt="sound off"/>
+			<a id="soundToggle" href="#"><img src="img/btn-soundon.png" alt="sound"/></a>
+			<!-- <audio src="audio/unb_epk_main_loop.mp3" preload="auto" /> -->
+			<!-- <audio controls> -->
+			  <!-- <source src="horse.ogg" type="audio/ogg"> -->
+			  <!-- <source src="audio/unb_epk_main_loop.mp3" type="audio/mpeg" autoplay> -->
+			<!-- Your browser does not support the audio element. -->
+			<!-- </audio> -->
+
+			<audio id="siteAudio" src="audio/unb_epk_main_loop.mp3" autoplay loop></audio>
+
 		</div>
 	</div>
 
