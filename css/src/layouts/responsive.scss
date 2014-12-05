@@ -31,7 +31,7 @@
 
 	.nav-pillar{
 		// min-height: 2250px;
-		height: 2427px;
+		height: 2520px;
 
 		.logo-lockup{
 			margin-bottom: 10px;
@@ -186,7 +186,7 @@
 		.social-all{
 			background-color: rgba(0,0,0,0.2);
 			position: absolute;
-			bottom: 100px;
+			bottom: 125px;
 		}
 
 		.nav-pillar .social-all span{
@@ -199,7 +199,7 @@
 			background-color: black;
 			min-height: 100px;
 			height: 100px;
-			bottom: 0;
+			bottom: 25px;
 
 			.legal-logos{
 				width: 99%;
@@ -452,7 +452,18 @@
 
 	.birdman{ margin-top: -50px; }
 
+	.m-legal .terms{
+				display: block;
+				// margin-top: 8px;
+				background-color: black;
+				color: #666;
+			}
 
+			.terms a{
+				color: #ccc;
+				font-size: 14px;
+				font-family: arial, sans-serif;
+			}
 
 
 

@@ -210,6 +210,17 @@
 			</span>
 		</p>
 		
-		<img class="legal-logos mobile" src="img/mobile/legal-logos.jpg"/>
+		<div class="mobile m-legal">
+			<img class="legal-logos mobile" src="img/mobile/legal-logos.jpg"/>
+			<span class="terms mobile">
+				<a href="http://www.universalpictures.com/legal/land.html" target="_blank">POLICIES</a> | 
+				<a href="http://www.universalpictures.com/legal/index.html" target="_blank">TERMS &amp; CONDITIONS</a> | 
+				<a href="http://www.universalpictures.com/legal/privacy.html" target="_blank">PRIVACY POLICY</a> |
+				<a href="http://mpaa.org/" target="_blank">MPAA.ORG</a> | 
+				<a href="http://filmratings.com/" target="_blank">FILMRATINGS.COM</a>
+			</span>
+		</div>
+
+
 	</div>
 </div>
