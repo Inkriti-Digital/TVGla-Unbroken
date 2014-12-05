@@ -118,7 +118,7 @@
 		<div class="slide">
 			<p>Share Your STORY <br/>OF RESILIENCE &amp; STRENGTH on <br/><span class="sans-bold">IAmUnbroken.com</span></p>
 			<div class="mobile">
-				<img src="img/mobile/share-story-cta.jpg"/>
+				<a href="http://www.iamunbroken.com/" target="_blank"><img src="img/mobile/share-story-cta.jpg"/></a>
 			</div>
 			<ul id="rotator-cta" class="rotator loading">
 			  <li class="slide">		  
@@ -144,7 +144,7 @@
 			  </li>
 			</ul>
 			<a class="sans-bold hashtag desktop" href="#">#IAmUnbroken</a>
-			<a href="#" class="mobile visit-site">VISIT SITE</a>
+			<a href="http://www.iamunbroken.com/" target="_blank" class="mobile visit-site">VISIT SITE</a>
 		</div>
 	</div>
 

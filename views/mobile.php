@@ -5,7 +5,7 @@
 			<a href="#" class="nav-link nav-close"><img src="img/mobile/close-nav.png"/></a>	
 		</li>
 		<li>								
-			<a class="nav-link nav-videos" href="#">
+			<a class="nav-link nav-videos" href="m-videos.php">
 				<span class="nav-highlight"></span>
 				VIDEOS
 			</a>

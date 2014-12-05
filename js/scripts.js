@@ -271,22 +271,24 @@ $(function() {
 			//open page section
 			$(".column").click(function(event) {
 				event.preventDefault();
-				var thisColumn = event.target.id;
-				$('.column').fadeToggle();
-				$(".page-"+thisColumn).delay(500).fadeIn("fast", function() {
-				   resizeNav();
-				});
+				if(mobileSite == false){
+					var thisColumn = event.target.id;
+					$('.column').fadeToggle();
+					$(".page-"+thisColumn).delay(500).fadeIn("fast", function() {
+					   resizeNav();
+					});
 
-				if(thisColumn == 'resilience'){
-					$("#siteAudio").attr('src', 'audio/unb_epk_resilience_loop.mp3');
-				} else if(thisColumn == 'survival'){
-					$("#siteAudio").attr('src', 'audio/unb_epk_survival_loop.mp3');
-				} else if(thisColumn == 'redemption'){
-					$("#siteAudio").attr('src', 'audio/unb_epk_redemption_loop.mp3');
-				}
+					if(thisColumn == 'resilience'){
+						$("#siteAudio").attr('src', 'audio/unb_epk_resilience_loop.mp3');
+					} else if(thisColumn == 'survival'){
+						$("#siteAudio").attr('src', 'audio/unb_epk_survival_loop.mp3');
+					} else if(thisColumn == 'redemption'){
+						$("#siteAudio").attr('src', 'audio/unb_epk_redemption_loop.mp3');
+					}
 
-				if(soundOn == true){
-					siteAudio.play();
+					if(soundOn == true){
+						siteAudio.play();
+					}
 				}
 			});
 
@@ -449,6 +451,24 @@ $(function() {
 			$('.nav-slider').hide();
 			$('.nav-pillar').css('height', 1862);
 			$('.nav-pillar .nav-slider').hide();
+		}
+	});
+
+	$('#resilience').click(function(event){	
+		if(mobileSite == true){	
+			window.location.href = "m-resilience.php";
+		}
+	});
+
+	$('#redemption').click(function(event){	
+		if(mobileSite == true){	
+			window.location.href = "m-redemption.php";
+		}
+	});
+
+	$('#survival').click(function(event){	
+		if(mobileSite == true){	
+			window.location.href = "m-survival.php";
 		}
 	});
 
