@@ -2356,6 +2356,7 @@ audio, canvas, progress {
   left: 320px;
   width: 68%;
   margin-top: 50px;
+  max-width: 1300px;
 }
 .section-page .thumb-quad .thumb {
   width: 45%;

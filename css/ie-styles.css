@@ -1,0 +1,31 @@
+/**IE STYLE SHEET**/
+
+html[data-useragent*='MSIE 10.0'] .trailer .close-vid {
+	position: relative;
+	top: 0px;
+	text-align:right;
+}
+
+html[data-useragent*='MSIE 10.0'] .trailer {
+	text-align: right;
+
+}
+
+
+html[data-useragent*='MSIE 10.0'] #rotator-award .award{
+	display: block;
+	font-size: 32px;
+	color: #a1854b;
+	background: linear-gradient(#bda672,#8d6e30);
+	-webkit-background-clip: none;
+	-webkit-text-fill-color: transparent;
+	letter-spacing: .03em;
+	line-height: 32px;
+	background: transparent;
+}
+
+
+
+
+
+

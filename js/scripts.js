@@ -2,6 +2,10 @@
 
 $(function() {
 
+	//IE 10 specific style trick
+	var doc = document.documentElement;
+	doc.setAttribute('data-useragent', navigator.userAgent);
+
 	//Global Vars
 	var locksubNav = false;
 	var subSectionOut = false;
@@ -45,7 +49,7 @@ $(function() {
 			} else{
 				mobileSite = false;
 			}
-			console.log(mobileSite);
+	
 
 			if(mobileSite == false){
 		    	var contentWidth = $('.container').width()-330;
@@ -317,7 +321,7 @@ $(function() {
 			});
 
 			$("#lb-fb-btn").click(function(event) {
-				console.log('click lb-fb-btn');
+			
 				var width  = 575,
 			    height = 400,
 			    left   = ($(window).width()  - width)  / 2,
@@ -335,7 +339,7 @@ $(function() {
 			});
 
 			$("#lb-tw-btn").click(function(event) {
-				console.log('click lb-tw-btn');
+				
 				var width  = 575,
 		        height = 400,
 		        left   = ($(window).width()  - width)  / 2,

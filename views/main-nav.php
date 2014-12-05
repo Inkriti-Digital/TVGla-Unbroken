@@ -164,7 +164,7 @@
 
 	<div class="social-all">
 		<span>
-			<a href="https://www.facebook.com/UnbrokenFilm">
+			<a href="https://www.facebook.com/UnbrokenFilm" target="_blank">
 				<img class="desktop" src="img/ico-fb.png" onMouseOver="this.src='img/ico-fb-on.png'" onMouseOut="this.src='img/ico-fb.png'" />
 				<img class="mobile" src="img/mobile/m-social-fb.png"/>
 			</a>

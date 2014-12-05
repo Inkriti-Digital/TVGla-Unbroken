@@ -20,6 +20,12 @@
 		<link rel="stylesheet" href="css/styles.min.css">
 		<!-- LIGHTBOX -->
 		<link rel="stylesheet" href="css/lightbox.css">
+
+		<link rel="stylesheet" type="text/css" href="css/ie-styles.css" />
+
+		<!--[if IE]>
+			<link rel="stylesheet" type="text/css" href="css/ie9-styles.css" />
+		<![endif]-->
 	</head>
 	<body>
 		<!--FACEBOOK MASTER SHARE SCRIPT-->
