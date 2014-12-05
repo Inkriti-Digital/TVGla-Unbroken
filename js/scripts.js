@@ -217,7 +217,7 @@ $(function() {
 			$(".btn-trailer").click(function(event) {
 				event.preventDefault();
 				if(soundOn == true){
-					siteAudio.pause();
+					soundToggle();
 				}
 				$('#vidFrame').attr('src', '//www.youtube.com/embed/kk1M_HwmFMM?list=PLmGmHG5_e8rLz01goWr7J5c-UrOSczdW3?rel=0&amp;autoplay=1');
 			 	$('.trailer').show();
@@ -227,7 +227,7 @@ $(function() {
 			$(".btn-trailer2").click(function(event) {
 				event.preventDefault();
 				if(soundOn == true){
-					siteAudio.pause();
+					soundToggle();
 				}
 				$('#vidFrame').attr('src', '//www.youtube.com/embed/rGlsxVfCSyQ?list=PLmGmHG5_e8rLz01goWr7J5c-UrOSczdW3?rel=0&amp;autoplay=1');
 			 	$('.trailer').show();
@@ -236,7 +236,7 @@ $(function() {
 			$(".btn-spot").click(function(event) {
 				event.preventDefault();
 				if(soundOn == true){
-					siteAudio.pause();
+					soundToggle();
 				}
 				$('#vidFrame').attr('src', '//www.youtube.com/embed/psmjfo_pKUk?rel=0&amp;autoplay=1');
 			 	$('.trailer').show();
@@ -244,7 +244,7 @@ $(function() {
 			$(".btn-cbs").click(function(event) {
 				event.preventDefault();
 				if(soundOn == true){
-					siteAudio.pause();
+					soundToggle();
 				}
 				$('#vidFrame').attr('src', '//www.youtube.com/embed/M48tvsfpIew?rel=0&amp;autoplay=1');
 			 	$('.trailer').show();
