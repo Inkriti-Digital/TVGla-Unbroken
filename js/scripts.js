@@ -60,6 +60,7 @@ $(function() {
 
 				var contentHeight = $(window).height();
 				$('.content-pillar .column').css( "height", contentHeight );
+				$('.trailer').css( "height", contentHeight );
 
 				resizeNav();
 			}
@@ -197,7 +198,6 @@ $(function() {
 
 
 		//Section Close / Open Ctrls
-
 			//close vid
 			$(".close-vid").click(function(event) {
 				event.preventDefault();
@@ -215,39 +215,47 @@ $(function() {
 
 			//open vidS
 			$(".btn-trailer").click(function(event) {
-				event.preventDefault();
-				if(soundOn == true){
-					soundToggle();
-				}
+				event.preventDefault();				
 				$('#vidFrame').attr('src', '//www.youtube.com/embed/kk1M_HwmFMM?list=PLmGmHG5_e8rLz01goWr7J5c-UrOSczdW3?rel=0&amp;autoplay=1');
 			 	$('.trailer').show();
+			 	if(soundOn == true){
+					siteAudio.pause(); 
+			    	soundOn = false;	
+			    	$("#soundToggle img").attr('src', 'img/btn-soundoff.png');
+				}
 
 			});
 
 			$(".btn-trailer2").click(function(event) {
-				event.preventDefault();
-				if(soundOn == true){
-					soundToggle();
-				}
+				event.preventDefault();				
 				$('#vidFrame').attr('src', '//www.youtube.com/embed/rGlsxVfCSyQ?list=PLmGmHG5_e8rLz01goWr7J5c-UrOSczdW3?rel=0&amp;autoplay=1');
 			 	$('.trailer').show();
+			 	if(soundOn == true){
+					siteAudio.pause(); 
+			    	soundOn = false;	
+			    	$("#soundToggle img").attr('src', 'img/btn-soundoff.png');
+				}
 			});
 
 			$(".btn-spot").click(function(event) {
-				event.preventDefault();
-				if(soundOn == true){
-					soundToggle();
-				}
+				event.preventDefault();				
 				$('#vidFrame').attr('src', '//www.youtube.com/embed/psmjfo_pKUk?rel=0&amp;autoplay=1');
 			 	$('.trailer').show();
+			 	if(soundOn == true){
+					siteAudio.pause(); 
+			    	soundOn = false;	
+			    	$("#soundToggle img").attr('src', 'img/btn-soundoff.png');
+				}
 			});
 			$(".btn-cbs").click(function(event) {
-				event.preventDefault();
-				if(soundOn == true){
-					soundToggle();
-				}
+				event.preventDefault();				
 				$('#vidFrame').attr('src', '//www.youtube.com/embed/M48tvsfpIew?rel=0&amp;autoplay=1');
 			 	$('.trailer').show();
+			 	if(soundOn == true){
+					siteAudio.pause(); 
+			    	soundOn = false;	
+			    	$("#soundToggle img").attr('src', 'img/btn-soundoff.png');
+				}
 			});
 
 			//open about
