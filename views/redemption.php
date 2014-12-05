@@ -19,7 +19,7 @@
 				  </li>
 			</ul>
 		</div>
-		<div class="headquote">
+		<div class="headquote" style="margin-top: -5px;">
 			<img src="img/redemption/redemption-headquote.png"/>
 		</div>
 	</div>

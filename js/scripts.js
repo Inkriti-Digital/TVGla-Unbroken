@@ -7,6 +7,31 @@ $(function() {
 	var subSectionOut = false;
 	var mobileSite = false;
 	var vidHoverFX;
+	var siteAudio = document.getElementById("siteAudio"); 
+	var soundOn = false;
+	var firstTrailer = true;
+
+
+	
+
+	//audio toggle controls
+	$("#soundToggle").click(function(event) {
+		toggleSound();		
+	});
+
+	// toggleSound();
+
+	function toggleSound(){
+		if(soundOn == true){
+	    	siteAudio.pause(); 
+	    	soundOn = false;	
+	    	$("#soundToggle img").attr('src', 'img/btn-soundoff.png');
+	    } else if(soundOn == false){
+	    	siteAudio.play();
+	    	soundOn = true;
+	    	$("#soundToggle img").attr('src', 'img/btn-soundon.png');
+	    }	
+	}
 
 	
 		//dynamic events to call on browser resize
@@ -179,8 +204,15 @@ $(function() {
 			//close vid
 			$(".close-vid").click(function(event) {
 				event.preventDefault();
+				if(firstTrailer == true){
+					toggleSound();
+				}
 				$('#vidFrame').attr('src', '');
 				$('.trailer').hide();
+
+				if(firstTrailer == true){
+					firstTrailer = false;
+				}
 			});
 
 
@@ -234,6 +266,18 @@ $(function() {
 				$(".page-"+thisColumn).delay(500).fadeIn("fast", function() {
 				   resizeNav();
 				});
+
+				if(thisColumn == 'resilience'){
+					$("#siteAudio").attr('src', 'audio/unb_epk_resilience_loop.mp3');
+				} else if(thisColumn == 'survival'){
+					$("#siteAudio").attr('src', 'audio/unb_epk_survival_loop.mp3');
+				} else if(thisColumn == 'redemption'){
+					$("#siteAudio").attr('src', 'audio/unb_epk_redemption_loop.mp3');
+				}
+
+				if(soundOn == true){
+					siteAudio.play();
+				}
 			});
 
 			//close page section
@@ -243,6 +287,13 @@ $(function() {
 				$(".column").delay(500).fadeToggle("fast", function() {
 				   resizeNav();
 				});
+
+				$("#siteAudio").attr('src', 'audio/unb_epk_main_loop.mp3');
+				
+
+				if(soundOn == true){
+					siteAudio.play();
+				}
 			});
 
 			$("#lb-fb-btn").click(function(event) {
@@ -293,13 +344,6 @@ $(function() {
 		    
 		    window.open(url, 'lb-tumblr-btn', opts);
 			});
-
-
-
-
-
-			
-		
 
 	    resizeElements();
 	    addHoverVideo();
@@ -358,22 +402,6 @@ $(function() {
 		//start trailer desktop
 		if(mobileSite == false){
 			$('#vidFrame').attr('src', '//www.youtube.com/embed/kk1M_HwmFMM?list=PLmGmHG5_e8rLz01goWr7J5c-UrOSczdW3?rel=0&amp;autoplay=1');
-
-			 
-			 var siteAudio = document.getElementById("siteAudio"); 
-			 var soundOn = true;
-
-				$("#soundToggle").click(function(event) {
-					if(soundOn == true){
-				    	siteAudio.pause(); 
-				    	soundOn = false;	
-				    	$("#soundToggle img").attr('src', 'img/btn-soundoff.png');
-				    } else if(soundOn == false){
-				    	siteAudio.play();
-				    	soundOn = true;
-				    	$("#soundToggle img").attr('src', 'img/btn-soundon.png');
-				    }			
-				});
 
 		}
 		function addHoverVideo(){
