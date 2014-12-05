@@ -2,10 +2,11 @@
 	<div class="close-section"><a href="#"><img src="img/page-closex.png"/></a></div>
 	<div class="page-head">
 		<div><img src="img/resilience/label-resilience.png"/></div>
-		<h1>A lifetime of glory is worth a moment of pain.</h1>
+		<h1>I WAS RAISED TO FACE ANY CHALLENGE.</h1>
 	</div>
 	<div class="page-row slide-row">
 		<div class="vid-box">
+				<img class="size-slide-img" src="img/resilience/slide-01.jpg"/>
 			<ul id="rotator-resilience" class="rotator loading page-rotator">
 				  <li class="slide">		  
 				  	<img src="img/resilience/slide-01.jpg"/>
@@ -28,13 +29,13 @@
 		</div>
 		<div class="thumb-quad">
 			<div class="thumb">
-				<a href="img/resilience/resilience-lg1.jpg" data-lightbox="resilience-set" data-title="">
+				<a href="img/resilience/resilience-lg4.jpg" data-lightbox="resilience-set" data-title="">
 					<div class="hover-fx"><div class="expand-cta">EXPAND</div></div>
 					<img src="img/resilience/resilience-tn1.png" alt=""/>
 				</a>
 			</div>
 			<div class="thumb thumb-end">
-				<a href="img/resilience/resilience-lg2.jpg" data-lightbox="resilience-set" data-title="">
+				<a href="img/resilience/resilience-lg5.jpg" data-lightbox="resilience-set" data-title="">
 					<div class="hover-fx"><div class="expand-cta">EXPAND</div></div>
 					<img src="img/resilience/resilience-tn2.png" alt=""/>
 				</a>
@@ -43,7 +44,7 @@
 				<img src="img/resilience/resilience-quote2.png" alt=""/>
 			</div>
 			<div class="thumb thumb-end">
-				<a href="img/resilience/resilience-lg3.jpg" data-lightbox="resilience-set" data-title="">
+				<a href="img/resilience/resilience-lg6.jpg" data-lightbox="resilience-set" data-title="">
 					<div class="hover-fx"><div class="expand-cta">EXPAND</div></div>
 					<img src="img/resilience/resilience-tn3.png" alt=""/>
 				</a>
@@ -54,12 +55,12 @@
 	<div class="page-row">
 		<div class="thumb-duo">
 			<div class="thumb">
-				<a class="uncover" href="img/resilience/resilience-lg4.jpg" data-lightbox="resilience-set" data-title=""></a>			
+				<a class="uncover" href="img/resilience/resilience-lg7.jpg" data-lightbox="resilience-set" data-title=""></a>			
 				<div class="hover-fx"><div class="expand-cta">EXPAND</div></div>
 				<img src="img/resilience/resilience-tn4.png" alt=""/>
 			</div>
 			<div class="thumb thumb-end">
-				<a class="uncover" href="img/resilience/resilience-lg5.jpg" data-lightbox="resilience-set" data-title=""></a>
+				<a class="uncover" href="img/resilience/resilience-lg8.jpg" data-lightbox="resilience-set" data-title=""></a>
 				<div class="hover-fx"><div class="expand-cta">EXPAND</div></div>
 				<img src="img/resilience/resilience-tn5.png" alt=""/>
 			</div>

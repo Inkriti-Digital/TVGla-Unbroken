@@ -27,7 +27,7 @@
 	</div>
 </div>
 <div id="redemption" class="column redemption">
-	<img id="survival" class="vid-hover" style="display: none;" src=" "/>
+	<img id="redemption" class="vid-hover" style="display: none;" src=" "/>
 	<div id="redemption" class="overlay">
 		<div id="redemption" class="badge">
 			<img id="redemption" src="img/badge-redemption.png"/>

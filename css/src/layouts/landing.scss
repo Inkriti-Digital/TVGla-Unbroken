@@ -32,7 +32,7 @@
 	.vid-hover{
 		height: 100%;
 		width: auto;
-		margin-left: -30%;
+		margin-left: -20%;
 		max-width: none;
 	}
 
@@ -84,5 +84,9 @@
 .redemption{
 	background: url('../img/col-bg-redemption.jpg') no-repeat center top;
 	background-size: auto 100%;
+}
+
+.mass-image-holder{
+	display: none !important; height: 0; width: 0;
 }
 
