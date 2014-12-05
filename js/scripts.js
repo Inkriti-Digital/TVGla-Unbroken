@@ -12,8 +12,6 @@ $(function() {
 	var firstTrailer = true;
 
 
-	
-
 	//audio toggle controls
 	$("#soundToggle").click(function(event) {
 		toggleSound();		
@@ -418,7 +416,7 @@ $(function() {
 		$('.nav-box .m-nav').toggle();
 
 		if(mobileNavClick == false){
-			$('.content-pillar').css('top', '400px');
+			// $('.content-pillar').css('top', '400px');
 			mobileNavClick = true;
 		} else if(mobileNavClick == true){
 			$('.content-pillar').css('top', '190px');

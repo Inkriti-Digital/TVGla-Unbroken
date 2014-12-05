@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<title>Unbroken – Trailers, Cast & Photos</title>
-		<meta name="description" content="Angelina Jolie directs and produces Unbroken, an epic drama that follows the life of an Olympian and war hero Louis Zamperini. Learn more about the movie Unbroken from the official movie site." />
+		<meta name="description" content="Angelina Jolie directs and produces Unbroken, an epic drama that follows the life of an Olympian and war hero Louis Zamperini." />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<!-- Favicon -->
@@ -12,7 +12,7 @@
 
     	<!-- Facebook OpenGraph description -->
 	    <meta property="og:title" content="Unbroken" />
-	    <meta property="og:description" content="Angelina Jolie directs and produces Unbroken, an epic drama that follows the life of an Olympian and war hero Louis Zamperini. Learn more about the movie Unbroken from the official movie site." />
+	    <meta property="og:description" content="Angelina Jolie directs and produces Unbroken, an epic drama that follows the life of an Olympian and war hero Louis Zamperini." />
 	    <meta property="og:image" content="http://www.unbrokenfilm.com/img/misc/facebookShare.jpg">
 		
 		
