@@ -21,6 +21,8 @@
 		</div>
 	</div>
 
+
+
 <div class="main-nav">
 	<div class="logo-lockup">
 		<a href="javascript:history.go(0)">
@@ -33,7 +35,7 @@
 		<a href="#">VIEW TRAILER</a>
 	</div>
 	<div class="nav-box">
-		<ul class="m-nav">
+		<ul class="m-nav desktop">
 			<li>								
 				<a class="nav-link nav-videos" href="#">
 					<span class="nav-highlight"></span>

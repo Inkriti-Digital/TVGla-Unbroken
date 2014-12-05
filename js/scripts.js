@@ -413,15 +413,17 @@ $(function() {
 	//MOBILE FUNCTIONS
 	var mobileNavClick = false;
 	$('.hamburger').click(function(event){		
-		$('.nav-box .m-nav').toggle();
+		$('.m-nav-box').show();
 
-		if(mobileNavClick == false){
-			// $('.content-pillar').css('top', '400px');
-			mobileNavClick = true;
-		} else if(mobileNavClick == true){
-			$('.content-pillar').css('top', '190px');
-			mobileNavClick = false;
-		}
+		// if(mobileNavClick == false){
+		// 	mobileNavClick = true;
+		// } else if(mobileNavClick == true){
+		// 	mobileNavClick = false;
+		// }
 
+	});
+
+	$('.nav-close').click(function(event){		
+		$('.m-nav-box').hide();
 	});
 });
