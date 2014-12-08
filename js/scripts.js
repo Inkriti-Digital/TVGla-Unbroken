@@ -143,11 +143,29 @@ $(function() {
 		    //legal hover over
 		    $(".nav-pillar .legal").hover(
 			  function() {
-			    $(this).css( "bottom", "0px" );
+			    $(this).css( "bottom", "-75px" );
 			  }, function() {
 			    $(this).css( "bottom", "-410px" );
 			  }
 			);
+
+
+			$(".nav-pillar .back-top a").click(function(event) {
+				$(window).scrollTop(0);
+			});
+
+			$(window).scroll(function() {
+				var myScroll = $('body').scrollTop();
+				if(myScroll >=920){
+					$('.back-top').show();
+					$('.back-top').css('position', 'fixed');
+
+				} else if(myScroll < 920){
+					$('.back-top').hide();
+					$('.back-top').css('position', 'relative');
+				}
+
+			});
 
 			//sub nav hover control
 			 $(".nav-about").hover(function() {

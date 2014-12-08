@@ -1,8 +1,9 @@
 <div class="section-page page-resilience">
 	<div class="close-section"><a href="#"><img src="img/page-closex.png"/></a></div>
 	<div class="page-head">
-		<div><img src="img/resilience/label-resilience.png"/></div>
-		<h1>I WAS RAISED TO FACE ANY CHALLENGE.</h1>
+		<div class="inner-page-head"><img src="img/resilience/label-resilience.png"/>
+			<h1>I WAS RAISED TO FACE ANY CHALLENGE.</h1>
+		</div>
 	</div>
 	<div class="page-row slide-row">
 		<div class="vid-box">

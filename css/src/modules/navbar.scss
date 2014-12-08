@@ -7,6 +7,14 @@
  	z-index: 50;
  	height: 900px;
 
+ 	.back-top{
+ 		display: none;
+		position: relative;
+		top: 20px;
+		margin-left: 65px;
+		width: auto;
+	}
+
  	a, a:hover{
  		transition: all 0.3s ease;
  	}
@@ -180,17 +188,19 @@
 		z-index: 9999;
 
 		.legal-copy{
-			font-size: 10px;
+			font-size: 12px;
 			background-color: $legal-bgcolor;
-			font-family: Arial, sans-serif;
+			font-family: 'G-Med', Arial, sans-serif;
 			width: 100%;
 			padding: 10px;
 			text-align: center;
 			height: 100%;
+			letter-spacing: -0.02em;
 			border-top: 1px $border-dark solid;
+			line-height: 14px;
 
 			img{
-				margin: 20px 0;
+				margin: 10px 0;
 			}
 
 			.terms{
@@ -387,6 +397,7 @@
 		padding: 5px;
 		text-align: center;
 	}
+
 
 
 

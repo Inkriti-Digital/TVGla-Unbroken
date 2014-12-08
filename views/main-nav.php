@@ -195,6 +195,10 @@
 		</span>
 	</div>
 
+	<div class="back-top desktop">
+		<a href="#"><img src="img/back-top.png"/></a>
+	</div>
+
 	<div class="legal">
 		<p class="desktop">HOVER FOR LEGAL</p>
 		<p class="legal-copy desktop">
