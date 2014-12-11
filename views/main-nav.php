@@ -63,6 +63,16 @@
 		</ul>
 	</div>
 
+	<div id="get-tickets" class="logo-lockup desktop remove-tix">
+			<div class="background"></div>
+			<div class="title">GET TICKETS &amp; SHOWTIMES</div>
+			<div class="zip-input">
+				<input type="text" id="zipInput" maxlength="5" />
+				<button id="fandangoButton" class="fandango-btn"></button>
+				<button id="movieTicketsButton" class="movietix-btn"></button>
+			</div>				
+	</div>
+
 	<div class="logo-lockup nav-slider">
 		<ul id="rotator-award" class="rotator loading">
 			<li class="slide">
@@ -186,7 +196,7 @@
 	</div>
 
 
-	<div id="get-tickets" class="logo-lockup desktop">
+	<div id="get-tickets" class="logo-lockup desktop m-get-tix" style="display:none;">
 			<div class="background"></div>
 			<div class="title">GET TICKETS &amp; SHOWTIMES</div>
 			<div class="zip-input">

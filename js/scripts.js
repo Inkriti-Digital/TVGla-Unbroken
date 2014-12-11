@@ -64,7 +64,7 @@ $(function() {
 
 				var contentHeight = $(window).height();
 				$('.content-pillar .column').css( "height", contentHeight );
-				$('.trailer').css( "height", contentHeight );
+				$('.trailer-inner').css( "height", contentHeight );
 				// $('.section-about').css( "height", contentHeight );
 
 				resizeNav();

@@ -2088,7 +2088,7 @@ td {
   background-color: #dac684;
   width: 100%;
   text-align: center;
-  margin: 10px auto;
+  margin: 5px auto;
   padding: 10px 0 20px 0;
 }
 #get-tickets div, #get-tickets button, #get-tickets input {
@@ -3159,6 +3159,15 @@ audio, canvas, progress {
   .m-app-callout .btm-title {
     font-family: 'G-Bold', Arial, sans-serif;
     font-size: 26px;
+  }
+
+  .m-get-tix {
+    display: block !important;
+    margin: 10px 0 !important;
+  }
+
+  .remove-tix {
+    display: none !important;
   }
 }
 
