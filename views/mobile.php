@@ -19,7 +19,7 @@
 		<li>
 			<a class="nav-link nav-about" href="uni_unb_production_info_CAST.pdf" target="_blank">
 				<span class="nav-highlight"></span>
-				CREW &amp; CREW
+				CAST &amp; CREW
 			</a>
 		</li>
 		<li>

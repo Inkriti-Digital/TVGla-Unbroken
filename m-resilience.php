@@ -16,7 +16,12 @@
 		
 		
 		<!-- STYLES -->
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/bootstrap-theme.css">
+		
 		<link rel="stylesheet" href="css/styles.min.css">
+		<link rel="stylesheet" href="css/styles2.css">
+
 		<!-- LIGHTBOX -->
 		<link rel="stylesheet" href="css/lightbox.css">
 	</head>
@@ -37,26 +42,38 @@
 			</div>	
 
 		<div class="m-section m-about mobile-off">
-			<div class="page-row slide-row">
-				<div class="vid-box">
-					<ul id="rotator-resilience" class="rotator loading page-rotator">
-						  <li class="slide">		  
-						  	<img src="img/resilience/slide-01.jpg"/>
-						  </li>
-						  <li class="slide">		  
-						  	<img src="img/resilience/slide-02.jpg"/>
-						  </li>
-						  <li class="slide">		  
-						  	<img src="img/resilience/slide-03.jpg"/>
-						  </li>
-					</ul>
+			<div class="page-row slide-row mobile-row">
+
+
+				<!-- Carousel -->
+				<div id="image-carousel" class="carousel slide" data-ride="carousel" data-interval="false">
+					
+					<ol class="carousel-indicators">
+						<li data-target="#image-carousel" data-slide-to="0" class="active"></li>
+						<li data-target="#image-carousel" data-slide-to="1"></li>
+						<li data-target="#image-carousel" data-slide-to="2"></li>
+					</ol>
+
+					<div class="carousel-inner" role="listbox">
+						<div class="item active">
+							<img src="img/resilience/slide-01.jpg" alt="">
+						</div>
+						<div class="item">
+							<img src="img/resilience/slide-02.jpg" alt="">
+						</div>
+						<div class="item">
+							<img src="img/resilience/slide-03.jpg" alt="">
+						</div>
+					</div>
 				</div>
+				<!-- /Carousel -->
+
 				<div class="headquote">
 					<img src="img/mobile/m-resilience-quote.png"/>
 				</div>
 			</div>
 
-			<div class="page-row">
+			<div class="page-row mobile-row">
 				<!-- <div class="upperbg">
 					<img src="img/resilience/resilience-runnerbg.png"/>
 				</div> -->
@@ -77,7 +94,7 @@
 				
 			</div>
 
-			<div class="page-row">
+			<div class="page-row mobile-row">
 				<div class="thumb thumb-end m-thumb-res1">
 					<a href="img/resilience/resilience-lg6.jpg" data-lightbox="resilience-set" data-title="">
 						<img src="img/mobile/res-tn3.jpg" alt=""/>
@@ -137,11 +154,14 @@
 
 		<!-- Load Scripts -->
 		<script src="js/jquery-1.11.1.min.js"></script>
+		<script src="js/lib/bootstrap/bootstrap.min.js"></script>
+		<script src="js/lib/hammer.min.js"></script>
 		<script src="js/lightbox.js"></script>
 		<script src="js/rotator.js"></script>
 		<script src="js/tickets.js"></script>
 		<!--script src="js/audio.min.js"></script-->
 		<!--script src="js/vendors.js"></script-->
 		<script src="js/scripts.js"></script>
+		<script src="js/mobile-carousel.js"></script>
 	</body>
 </html>

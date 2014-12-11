@@ -31,7 +31,7 @@
 
 	.nav-pillar{
 		// min-height: 2250px;
-		height: 2520px;
+		height: 2433px;
 
 		.logo-lockup{
 			margin-bottom: 10px;
@@ -48,7 +48,7 @@
 	.content-pillar{
 		vertical-align: top;
 		position: absolute;
-		top: 230px;
+		top: 436px;
 		height: auto;
 		z-index: 50;
 	}
@@ -68,7 +68,7 @@
 	}
 
 	.nav-pillar .nav-box{
-		margin-bottom: 1080px;
+		margin-bottom: 1270px;
 		margin-top: 0px;
 	}
 
@@ -475,6 +475,41 @@
 		margin-top: 180px;
 	}
 
+
+.app-callout{
+	display: none !important;
+}
+
+.m-app-callout{
+	display: block;
+	width: 100%;
+	color: #3a3a3a;
+	background-color: #dac684;
+	border-top: 2px #e3e1d5 solid;
+	border-bottom: 1px #e3e1d5 solid;
+	position: absolute;
+	top: 246px;
+	text-align: center;
+	padding: 10px 0;
+
+	span{
+		display: block;
+	}
+
+	a{
+		display: inline-block !important;
+		margin: 5px;
+	}
+
+	.top-title{
+		font-size: 22px;
+	}
+
+	.btm-title{
+		font-family: 'G-Bold', Arial, sans-serif;
+		font-size: 26px;
+	}
+}
 
 
 }

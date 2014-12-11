@@ -1,0 +1,158 @@
+.slide-row {
+  margin-top: 200px;
+}
+
+.mobile-row {
+  width: 600px; 
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0px;
+}
+
+@media only screen and (max-width: 768px) {
+  
+  .thumb {
+    margin: 0px 0px 6px 0px;
+  }
+
+  .m-thumb-res1 {
+    margin-right: 6px;
+  }
+  
+}
+
+.default-lightbox {
+  display: none;
+}
+
+
+.lb-outerContainer {
+  min-width: 400px;
+}
+
+.nav-pillar .logo-lockup img.mobile {
+  margin: -13px auto 13px auto;
+}
+
+
+
+.nav-pillar .nav-slider .slide p {
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 768px) {
+  .back-top .desktop {
+    display: none;
+  }
+}
+
+/* App Callout */
+
+.app-callout {
+  width: 300px; height: 150px;
+  margin: 0px auto 4px auto;
+  border-top: solid 1px #c4c4c4;  
+}
+
+.app-callout .app-title {
+  display: block;
+  margin: 15px 0px 10px 3px;
+  width: 287px; height: 77px;
+  background-repeat: no-repeat;
+  background-image: url('../img/app_title.png');
+}
+
+.app-callout .app-button1 {
+  display: block;
+  float: left;
+  width: 132px; height: 45px;
+  background-repeat: no-repeat;
+  background-image: url('../img/app_button1.png');
+}
+
+.app-callout .app-button2 {
+  display: block;
+  float: left;
+  margin-left: 18px;
+  width: 148px; height: 45px;
+  background-repeat: no-repeat;
+  background-image: url('../img/app_button2.png');
+}
+
+@media only screen and (max-width: 768px) {
+  .app-callout {
+    border: thin red solid;
+    width: 595px; height: 320px;
+    margin: 30px auto;
+    border-top: solid 5px #c4c4c4;  
+    position: absolute;
+    top: 200px;
+  }
+
+  .app-callout .app-title {
+    display: block;
+    margin: 30px 0px 20px 15px;
+    width: 563px; height: 175px;
+    background-repeat: no-repeat;
+    background-image: url('../img/mobile/app_title.png');
+  }
+
+  .app-callout .app-button1 {
+    display: block;
+    float: left;
+    margin-left: 15px;
+    width: 273px; height: 86px;
+    background-repeat: no-repeat;
+    background-image: url('../img/mobile/app_button1.png');
+  }
+
+  .app-callout .app-button2 {
+    display: block;
+    float: left;
+    margin-left: 18px;
+    width: 273px; height: 86px;
+    background-repeat: no-repeat;
+    background-image: url('../img/mobile/app_button2.png');
+  }
+
+
+  /* Extend nav to accomodate this */
+  .nav-pillar {
+    /*height: 2640px;*/
+  }
+
+}
+
+
+
+/* Carousel */
+#image-carousel {
+  width: 100%;
+  height: 365px;
+  margin-top: -20px;
+}
+
+.carousel-indicators li, .carousel-indicators .active {
+  width: 18px; height: 18px;
+  border-radius: 18px;
+  margin: 0px 6px;
+  position: relative;
+  top: 75px;
+  border: none;
+}
+
+.carousel-indicators li {
+  background-color: #30271c;  
+}
+
+.carousel-indicators .active {
+  background-color: #c5a948;
+}
+
+@media only screen and (max-width: 768px) {
+  .headquote {
+    margin-top: 70px;
+    border-top: solid 3px #acacac;
+  }  
+}
+

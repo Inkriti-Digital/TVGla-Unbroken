@@ -63,7 +63,7 @@
 		</ul>
 	</div>
 
-	<div class="logo-lockup nav-slider">
+	<div class="logo-lockup nav-slider" style="display:none;">
 		<ul id="rotator-award" class="rotator loading">
 		  <li class="slide">
 		  	<a href="http://www.universalpicturesawards.com/main/title/unbroken" target="_blank">
@@ -112,7 +112,12 @@
 		</ul>
 	</div>
 
-	<hr/>
+	<!-- 
+	Hidden along with awards slider
+	<hr/> -->
+
+
+	
 
 	<div class="logo-lockup nav-slider">
 		<div class="slide">
@@ -148,7 +153,47 @@
 		</div>
 	</div>
 
-	
+
+
+	<div class="app-callout">
+
+		<div class="app-title"></div>
+		<!-- <img class="app-title"  src="img/app_title.png" /> -->
+
+
+		<a href="https://itunes.apple.com/us/app/unbroken/id940591408?ls=1&mt=8" target="_blank">
+			<!-- <img class="app-button1" src="img/app_button1.png" /> -->
+			<div class="app-button1"></div>
+		</a>
+
+		<a href="https://play.google.com/store/apps/details?id=com.nbcuni.universalpictures.unbroken" target="_blank">
+			<!-- <img class="app-button2" src="img/app_button2.png" /> -->
+			<div class="app-button2"></div>
+		</a>
+
+		<div class="clear"></div>
+	</div>
+
+	<div class="m-app-callout">
+
+		<div class="app-title mobile">
+			<span class="top-title mobile">DOWNLOAD THE OFFICIAL</span>
+			<span class="btm-title mobile">UNBROKEN MOVIE APP</span>
+		</div>
+		<!-- <img class="app-title"  src="img/app_title.png" /> -->
+
+
+		<a class="mobile" href="https://itunes.apple.com/us/app/unbroken/id940591408?ls=1&mt=8" target="_blank">
+			<img src="img/mobile/itunes-app.jpg"/>
+		</a>
+
+		<a class="mobile" href="https://play.google.com/store/apps/details?id=com.nbcuni.universalpictures.unbroken" target="_blank">
+			<img src="img/mobile/googleplay-app.jpg"/>
+		</a>
+
+		<div class="clear"></div>
+	</div>
+
 
 	<div id="get-tickets" class="logo-lockup desktop">
 			<div class="background"></div>
@@ -200,7 +245,7 @@
 	</div>
 
 	<div class="legal">
-		<p class="desktop">HOVER FOR LEGAL</p>
+		<p class="desktop">LEGAL</p>
 		<p class="legal-copy desktop">
 			<img src="img/legal-universal.png" alt="universal studios"/>	
 			<img src="img/legal-legendary.png" alt="legendary"/>	

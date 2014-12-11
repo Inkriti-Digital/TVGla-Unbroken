@@ -26,7 +26,7 @@
 	</div>
 	<div class="page-row">
 		<div class="thumb thumb1">
-			<a href="img/redemption/redemption-lg4.jpg" data-lightbox="redemption-set" data-title="">
+			<a href="img/redemption/redemption-lg4.jpg" data-lightbox="redemption-set" data-title="" class="lightbox-link" data-shareid="redemption4" data-shareimg="img/redemption/redemption-lg4.jpg">
 				<div class="hover-fx"><div class="expand-cta">EXPAND</div></div>
 				<img src="img/redemption/redemption-tn1.jpg" alt=""/>
 			</a>
@@ -35,7 +35,7 @@
 				<img src="img/redemption/brothers.png" alt=""/>
 		</div>
 		<div class="thumb thumb2">
-			<a href="img/redemption/redemption-lg5.jpg" data-lightbox="redemption-set" data-title="">
+			<a href="img/redemption/redemption-lg5.jpg" data-lightbox="redemption-set" data-title="" class="lightbox-link" data-shareid="redemption5" data-shareimg="img/redemption/redemption-lg5.jpg">
 				<div class="hover-fx"><div class="expand-cta">EXPAND</div></div>
 				<img src="img/redemption/redemption-tn2.jpg" alt=""/>
 			</a>
@@ -44,13 +44,13 @@
 	<div class="page-row">
 		<div class="thumb thumb3">
 			
-			<a class="uncover" href="img/redemption/redemption-lg6.jpg" data-lightbox="redemption-set" data-title=""></a>
+			<a class="uncover" href="img/redemption/redemption-lg6.jpg" data-lightbox="redemption-set" data-title="" class="lightbox-link" data-shareid="redemption6" data-shareimg="img/redemption/redemption-lg6.jpg"></a>
 			<div class="hover-fx"><div class="expand-cta">EXPAND</div></div>
 			<img src="img/redemption/redemption-tn3.jpg"/>
 		</div>
 		<div class="thumb thumb4">
 			
-			<a class="uncover" href="img/redemption/redemption-lg7.jpg" data-lightbox="redemption-set" data-title=""></a>
+			<a class="uncover" href="img/redemption/redemption-lg7.jpg" data-lightbox="redemption-set" data-title="" class="lightbox-link" data-shareid="redemption7" data-shareimg="img/redemption/redemption-lg7.jpg"></a>
 			<div class="hover-fx"><div class="expand-cta">EXPAND</div></div>
 				<img src="img/redemption/redemption-tn4.jpg" alt=""/>
 		</div>		
@@ -62,13 +62,13 @@
 		</div>		
 		<div class="thumb thumb5">
 			
-			<a class="uncover" href="img/redemption/redemption-lg8.jpg" data-lightbox="redemption-set" data-title=""></a>	
+			<a class="uncover" href="img/redemption/redemption-lg8.jpg" data-lightbox="redemption-set" data-title="" class="lightbox-link" data-shareid="redemption8" data-shareimg="img/redemption/redemption-lg8.jpg"></a>	
 			<div class="hover-fx"><div class="expand-cta">EXPAND</div></div>
 			<img src="img/redemption/redemption-tn5.jpg" alt=""/>		
 		</div>
 		<div class="thumb thumb6">
 			
-			<a class="uncover" href="img/redemption/redemption-lg9.jpg" data-lightbox="redemption-set" data-title=""></a>
+			<a class="uncover" href="img/redemption/redemption-lg9.jpg" data-lightbox="redemption-set" data-title="" class="lightbox-link" data-shareid="redemption9" data-shareimg="img/redemption/redemption-lg9.jpg"></a>
 			<div class="hover-fx"><div class="expand-cta">EXPAND</div></div>
 			<img src="img/redemption/redemption-tn6.jpg" alt=""/>
 		</div>

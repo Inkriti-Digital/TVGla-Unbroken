@@ -26,7 +26,7 @@
 	</div>
 	<div class="page-row">
 		<div class="thumb">
-			<a href="img/survival/survival-lg4.jpg" data-lightbox="survival-set" data-title="">
+			<a href="img/survival/survival-lg4.jpg" data-lightbox="survival-set" data-title="" class="lightbox-link" data-shareid="survival4" data-shareimg="img/redemption/survival-lg4.jpg">
 				<div class="hover-fx"><div class="expand-cta">EXPAND</div></div>
 				<img src="img/survival/survival-tn1.png" alt=""/>
 			</a>
@@ -40,7 +40,7 @@
 			<img src="img/survival/fight-bg.png"/>
 		</div>
 		<div class="thumb first-thumb">
-			<a href="img/survival/survival-lg5.jpg" data-lightbox="survival-set" data-title="">
+			<a href="img/survival/survival-lg5.jpg" data-lightbox="survival-set" data-title="" class="lightbox-link" data-shareid="survival5" data-shareimg="img/redemption/survival-lg5.jpg">
 				<div class="hover-fx"><div class="expand-cta">EXPAND</div></div>
 				<img src="img/survival/survival-tn2.png" alt=""/>
 			</a>
@@ -49,17 +49,17 @@
 
 	<div class="page-row">
 		<div class="thumb thumb-sm">
-			<a class="uncover" href="img/survival/survival-lg6.jpg" data-lightbox="survival-set" data-title=""></a>
+			<a class="uncover" href="img/survival/survival-lg6.jpg" data-lightbox="survival-set" data-title="" class="lightbox-link" data-shareid="survival6" data-shareimg="img/redemption/survival-lg6.jpg"></a>
 			<div class="hover-fx"><div class="expand-cta">EXPAND</div></div>
 			<img src="img/survival/survival-tn3.png" alt=""/>
 		</div>		
 		<div class="thumb thumb-sm">
-			<a class="uncover" href="img/survival/survival-lg7.jpg" data-lightbox="survival-set" data-title=""></a>			
+			<a class="uncover" href="img/survival/survival-lg7.jpg" data-lightbox="survival-set" data-title="" class="lightbox-link" data-shareid="survival7" data-shareimg="img/redemption/survival-lg7.jpg"></a>			
 			<div class="hover-fx"><div class="expand-cta">EXPAND</div></div>
 			<img src="img/survival/survival-tn4.png" alt=""/>
 		</div>
 		<div class="thumb thumb-lg">
-			<a class="uncover" href="img/survival/survival-lg8.jpg" data-lightbox="survival-set" data-title=""></a>
+			<a class="uncover" href="img/survival/survival-lg8.jpg" data-lightbox="survival-set" data-title="" class="lightbox-link" data-shareid="survival8" data-shareimg="img/redemption/survival-lg8.jpg"></a>
 			<div class="hover-fx"><div class="expand-cta">EXPAND</div></div>
 			<img src="img/survival/survival-tn5.png" alt=""/>
 		</div>

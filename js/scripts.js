@@ -156,7 +156,7 @@ $(function() {
 
 			$(window).scroll(function() {
 				var myScroll = $('body').scrollTop();
-				if(myScroll >=920){
+				if(myScroll >=920 && $(window).width() > 768){
 					$('.back-top').show();
 					$('.back-top').css('position', 'fixed');
 
@@ -346,12 +346,15 @@ $(function() {
 			});
 
 			$("#lb-fb-btn").click(function(event) {
-			
+				fbShareImage(_LIGHTBOX_SHARE_IMG);
+
+			/*
 				var width  = 575,
 			    height = 400,
 			    left   = ($(window).width()  - width)  / 2,
 			    top    = ($(window).height() - height) / 2,
-			    url    = 'http://www.facebook.com/sharer.php?s=100&p[url]=http://www.unbrokenfilm.com&p[images][0]=http://unbroken.dev/img/logo-unbroken-sm.png&p[title]=Unbroken&p[summary]=Trailers, Cast, Media',
+			    shareURL = 'http://www.unbrokenfilm.com', //'http://www.unbrokenfilm.com/?img=' + _LIGHTBOX_SHARE_ID,
+			    url    = 'http://www.facebook.com/sharer.php?s=100&p[url]=' + shareURL + '&p[images][0]=http://unbroken.dev/img/logo-unbroken-sm.png&p[title]=Unbroken&p[summary]=Trailers, Cast, Media',
 			    opts   = 'status=1' +
 			             ',width='  + width  +
 			             ',height=' + height +
@@ -359,7 +362,7 @@ $(function() {
 			             ',left='   + left;
 
 			window.open(url, 'lb-fb-btn', opts);
-
+*/
 			return false;
 			});
 
@@ -369,7 +372,8 @@ $(function() {
 		        height = 400,
 		        left   = ($(window).width()  - width)  / 2,
 		        top    = ($(window).height() - height) / 2,
-		        url    = this.href,
+		        shareURL = 'http://www.unbrokenfilm.com', // 'http://www.unbrokenfilm.com/?img=' + _LIGHTBOX_SHARE_ID,
+		        url    = 'https://twitter.com/intent/tweet?text=' + shareURL,
 		        opts   = 'status=1' +
 		                 ',width='  + width  +
 		                 ',height=' + height +
@@ -384,7 +388,8 @@ $(function() {
 		        height = 400,
 		        left   = ($(window).width()  - width)  / 2,
 		        top    = ($(window).height() - height) / 2,
-		        url    = 'http://www.tumblr.com/share/link?url=<?php echo urlencode('+this.url+') ?>&name=<?php echo urlencode(UNBROKEN) ?>&description=<?php echo urlencode(Angelina Jolie directs and produces Unbroken, an epic drama that follows the life of an Olympian and war hero Louis Zamperini. Learn more about the movie Unbroken from the official movie site.) ?>',
+		        shareURL = 'http://www.unbrokenfilm.com', // 'http://www.unbrokenfilm.com/?img=' + _LIGHTBOX_SHARE_ID,
+		        url    = 'http://www.tumblr.com/share/link?url=' + escape(shareURL) + '&name=UNBROKEN&description=' + escape('Angelina Jolie directs and produces Unbroken, an epic drama that follows the life of an Olympian and war hero Louis Zamperini. Learn more about the movie Unbroken from the official movie site.'),
 		        opts   = 'status=1' +
 		                 ',width='  + width  +
 		                 ',height=' + height +
@@ -450,7 +455,7 @@ $(function() {
 
 		//start trailer desktop
 		if(mobileSite == false){
-			$('#vidFrame').attr('src', '//www.youtube.com/embed/kk1M_HwmFMM?list=PLmGmHG5_e8rLz01goWr7J5c-UrOSczdW3?rel=0&amp;autoplay=1');
+			// $('#vidFrame').attr('src', '//www.youtube.com/embed/kk1M_HwmFMM?list=PLmGmHG5_e8rLz01goWr7J5c-UrOSczdW3?rel=0&amp;autoplay=1');
 
 		}
 		function addHoverVideo(){
@@ -467,6 +472,7 @@ $(function() {
 			// $('.nav-pillar').css('height', 1862);
 		});
 	}
+
 
 	var mobileNavClick = false;
 	$('.hamburger').click(function(event){
@@ -510,4 +516,66 @@ $(function() {
 	});
 
 
+
+
+	/****  New Scripts (12/8/2014) ****/
+
+	function getParameterByName(name) {
+	    name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+	    var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+	        results = regex.exec(location.search);
+	    return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+	}
+
+	var urlParam_img = getParameterByName('img');
+
+	if (urlParam_img != '') {
+		// Show the lightbox
+		$("#lightbox-" + urlParam_img).click();
+		_LIGHTBOX_SHARE_ID = urlParam_img;
+
+		// Hide the trailer elements
+		if (firstTrailer == true){
+			toggleSound();
+			firstTrailer = false;
+		}
+
+		$('#vidFrame').attr('src', '');
+		$('.trailer').hide();
+	} else if (mobileSite == false) {
+		// If no lightbox and is desktop site, show the video
+		$('#vidFrame').attr('src', '//www.youtube.com/embed/kk1M_HwmFMM?list=PLmGmHG5_e8rLz01goWr7J5c-UrOSczdW3?rel=0&amp;autoplay=1');
+	}
+
+	// Share the site on facebook with a specific image
+	//  reference: https://developers.facebook.com/docs/sharing/reference/feed-dialog/v2.2
+	function fbShareImage(imageURL) {
+		FB.ui({
+		  method: 'feed',
+		  link: 'http://www.unbrokenfilm.com',
+		  // description: 'Angelina Jolie directs and produces Unbroken, an epic drama that follows the life of an Olympian and war hero Louis Zamperini. Learn more about the movie Unbroken from the official movie site.',
+		  picture: imageURL
+		}, function(response){});
+	}
+
+
 });
+
+
+$(document).ready(function() {
+	/* Lighbox share event listeners */
+	$(".lightbox-link").click(function() {
+		_LIGHTBOX_SHARE_ID = $(this).attr('data-shareid');
+		_LIGHTBOX_SHARE_IMG = $(this).attr('data-shareimg');
+	});
+
+});
+
+
+// Used to keep track of lighbox share id
+var _LIGHTBOX_SHARE_ID;	
+var _LIGHTBOX_SHARE_IMG;
+
+
+
+
