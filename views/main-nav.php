@@ -65,11 +65,14 @@
 
 	<div class="logo-lockup nav-slider">
 		<ul id="rotator-award" class="rotator loading">
-		  <li class="slide">
+			<li class="slide">
 		  	<img src="img/awards/award-01.png"/>
 		  </li>
 		  <li class="slide">
 		  	<img src="img/awards/award-02.png"/>
+		  </li>
+		  <li class="slide">
+		  	<img src="img/awards/award-03.png"/>
 		  </li>
 		  <li class="slide">
 		  	<img src="img/awards/award-03.png"/>
@@ -82,6 +85,9 @@
 		  </li>
 		  <li class="slide">
 		  	<img src="img/awards/award-06.png"/>
+		  </li>
+		  <li class="slide">
+		  	<img src="img/awards/award-07.png"/>
 		  </li>
 		  <!--li class="slide">
 		  	<a href="http://www.universalpicturesawards.com/main/title/unbroken" target="_blank">
