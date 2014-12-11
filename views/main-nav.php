@@ -48,12 +48,12 @@
 					ABOUT
 				</a>
 			</li>
-			<li>
+			<!--li>
 				<a class="nav-link" href="uni_unb_production_info_PROD.pdf" target="_blank">
 					<span class="nav-highlight"></span>
 					PRODUCTION
 				</a>
-			</li>
+			</li-->
 			<li>
 				<a class="nav-link" href="http://unbrokenmovie.tumblr.com/tagged/the-inspiration" target="_blank">
 					<span class="nav-highlight"></span>
@@ -63,42 +63,27 @@
 		</ul>
 	</div>
 
-	<div class="logo-lockup nav-slider" style="display:none;">
+	<div class="logo-lockup nav-slider">
 		<ul id="rotator-award" class="rotator loading">
 		  <li class="slide">
-		  	<a href="http://www.universalpicturesawards.com/main/title/unbroken" target="_blank">
-			  	<p class="consideration">FOR YOUR CONSIDERATION</p>
-			  	<p class="award">BEST ACTOR</p>
-			  	<p class="name">JACK O&#8217;CONNELL</p>
-			  	<p>
-			  		<img class="desktop" src="img/logo-unbroken-sm.png" alt="Unbroken"/>
-			  		<img class="mobile" src="img/mobile/m-logo-sm.png" alt="Unbroken"/>
-			  	</p>
-			  </a>
+		  	<img src="img/awards/award-01.png"/>
 		  </li>
 		  <li class="slide">
-		  	<a href="http://www.universalpicturesawards.com/main/title/unbroken" target="_blank">
-			  	<p class="consideration">FOR YOUR CONSIDERATION</p>
-			  	<p class="award">BEST DIRECTOR</p>
-			  	<p class="name">ANGELINA JOLIE</p>
-			  	<p>
-			  		<img class="desktop" src="img/logo-unbroken-sm.png" alt="Unbroken"/>
-			  		<img class="mobile" src="img/mobile/m-logo-sm.png" alt="Unbroken"/>
-			  	</p>
-		  </a>
+		  	<img src="img/awards/award-02.png"/>
 		  </li>
 		  <li class="slide">
-		  	<a href="http://www.universalpicturesawards.com/main/title/unbroken" target="_blank">
-			  	<p class="consideration">FOR YOUR CONSIDERATION</p>
-			  	<p class="award">BEST PICTURE</p>
-			  	<p class="name"><br/> </p>
-			  	<p>
-			  		<img class="desktop" src="img/logo-unbroken-sm.png" alt="Unbroken"/>
-			  		<img class="mobile" src="img/mobile/m-logo-sm.png" alt="Unbroken"/>
-			  	</p>
-			 </a>
+		  	<img src="img/awards/award-03.png"/>
 		  </li>
 		  <li class="slide">
+		  	<img src="img/awards/award-04.png"/>
+		  </li>
+		  <li class="slide">
+		  	<img src="img/awards/award-05.png"/>
+		  </li>
+		  <li class="slide">
+		  	<img src="img/awards/award-06.png"/>
+		  </li>
+		  <!--li class="slide">
 		  	<a href="http://www.universalpicturesawards.com/main/title/unbroken" target="_blank">
 			  	<p class="consideration">FOR YOUR CONSIDERATION</p>
 			  	<p class="award">BEST ADAPTED</p>
@@ -108,13 +93,13 @@
 			  		<img class="mobile" src="img/mobile/m-logo-sm.png" alt="Unbroken"/>
 			  	</p>
 			</a>
-		  </li>
+		  </li-->
 		</ul>
 	</div>
 
 	<!-- 
-	Hidden along with awards slider
-	<hr/> -->
+	Hidden along with awards slider-->
+	<hr/>
 
 
 	

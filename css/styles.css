@@ -1981,7 +1981,6 @@ td {
 .rotator {
   position: relative;
   width: 240px;
-  height: 96px;
   overflow: hidden;
   margin: auto;
   padding: 0px;
@@ -2038,8 +2037,13 @@ td {
   display: none !important;
 }
 
+#rotator-cta {
+  height: 96px;
+}
+
 #rotator-award {
   width: 320px;
+  height: 180px;
 }
 #rotator-award p {
   font-family: 'G-Book', Arial, sans-serif;
@@ -2715,7 +2719,7 @@ audio, canvas, progress {
   }
 
   .nav-pillar {
-    height: 2433px;
+    height: 2820px;
   }
   .nav-pillar .logo-lockup {
     margin-bottom: 10px;
@@ -2811,7 +2815,7 @@ audio, canvas, progress {
 
   #rotator-award {
     width: 85%;
-    height: 165px;
+    height: 320px;
     margin-top: 5px;
   }
   #rotator-award p {

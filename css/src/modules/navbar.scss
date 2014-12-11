@@ -274,7 +274,7 @@
 .rotator { 
 	position: relative; 
 	width: 240px; 
-	height: 96px; 
+	// height: 180px; 
 	overflow: hidden; 
 	margin: auto; 
 	padding: 0px;
@@ -312,8 +312,13 @@
 .rotator-nav .next, .rotator-nav .prev{ display: none !important; }
 
 
+#rotator-cta{
+	height: 96px;
+}
+
 #rotator-award{
 	width: 320px;
+	height: 180px;
 
 	p{
 		font-family: 'G-Book', Arial, sans-serif;
