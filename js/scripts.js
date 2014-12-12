@@ -346,9 +346,9 @@ $(function() {
 			});
 
 			$("#lb-fb-btn").click(function(event) {
-				fbShareImage(_LIGHTBOX_SHARE_IMG);
+				// fbShareImage(_LIGHTBOX_SHARE_IMG);
 
-			/*
+			
 				var width  = 575,
 			    height = 400,
 			    left   = ($(window).width()  - width)  / 2,
@@ -362,7 +362,7 @@ $(function() {
 			             ',left='   + left;
 
 			window.open(url, 'lb-fb-btn', opts);
-*/
+
 			return false;
 			});
 

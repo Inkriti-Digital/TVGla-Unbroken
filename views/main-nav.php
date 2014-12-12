@@ -85,9 +85,6 @@
 		  	<img src="img/awards/award-03.png"/>
 		  </li>
 		  <li class="slide">
-		  	<img src="img/awards/award-03.png"/>
-		  </li>
-		  <li class="slide">
 		  	<img src="img/awards/award-04.png"/>
 		  </li>
 		  <li class="slide">
